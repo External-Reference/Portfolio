@@ -160,7 +160,8 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/05_villa-chiaramonte/01.webp?v=f5261b6c",
 "foto/02_urban/05_villa-chiaramonte/02.webp?v=222e50cd",
-"foto/02_urban/05_villa-chiaramonte/03.webp?v=b38ce547"
+"foto/02_urban/05_villa-chiaramonte/03.webp?v=b38ce547",
+"foto/02_urban/05_villa-chiaramonte/Generated Image April 07, 2026 - 4_54PM.webp?v=5d61354f"
 ],
 "x": {
 "title": "Villa Chiaramonte",
