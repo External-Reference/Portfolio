@@ -344,7 +344,9 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/11_confidential-three/01.webp?v=7dc586d2",
 "foto/02_urban/11_confidential-three/02.webp?v=6cff3a81",
-"foto/02_urban/11_confidential-three/03.webp?v=5ae24f87"
+"foto/02_urban/11_confidential-three/03.webp?v=5ae24f87",
+"foto/02_urban/11_confidential-three/Neom_CONFIDENCIAL 3_Página_2_Imagen_0001.webp?v=ba2d2255",
+"foto/02_urban/11_confidential-three/Neom_CONFIDENCIAL 3_Página_3_Imagen_0001.webp?v=87fd5793"
 ],
 "x": {
 "title": "Confidential Three",
