@@ -940,7 +940,9 @@ window.ERFOTO = {
 "urban/cementerio-vespella": {
 "f": [
 "foto/02_urban/29_cementerio-vespella/01.webp?v=b770d411",
-"foto/02_urban/29_cementerio-vespella/02.webp?v=9c3dee2a"
+"foto/02_urban/29_cementerio-vespella/02.webp?v=9c3dee2a",
+"foto/02_urban/29_cementerio-vespella/iglesia copiar.webp?v=7281a1c3",
+"foto/02_urban/29_cementerio-vespella/sfgnh.webp?v=2618bd46"
 ],
 "x": {
 "title": "Cementerio Vespella de Gaià",
