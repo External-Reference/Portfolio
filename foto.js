@@ -1048,6 +1048,7 @@ window.ERFOTO = {
 "foto/03_interior/01_restaurant-confidential/02.webp?v=48dcbf23",
 "foto/03_interior/01_restaurant-confidential/03.webp?v=8123a9c1",
 "foto/03_interior/01_restaurant-confidential/04.webp?v=a62ac80e",
+"foto/03_interior/01_restaurant-confidential/DSC_6557_1.webp?v=ec0a9ab3",
 "foto/03_interior/01_restaurant-confidential/DSC_6639.webp?v=9fb67df2"
 ],
 "x": {
