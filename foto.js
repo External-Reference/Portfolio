@@ -1770,7 +1770,8 @@ window.ERFOTO = {
 "foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
 "foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
-"foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93"
+"foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93",
+"foto/03_interior/22_presentedby-x-doha-design-district/10.webp?v=9c6dd30c"
 ],
 "x": {
 "title": "PresentedBy X Doha Design District",
