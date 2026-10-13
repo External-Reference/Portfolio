@@ -758,7 +758,8 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/24_aerospace-campus/01.webp?v=154a2265",
 "foto/02_urban/24_aerospace-campus/02.webp?v=a8d0a737",
-"foto/02_urban/24_aerospace-campus/03.webp?v=9c1ea704"
+"foto/02_urban/24_aerospace-campus/03.webp?v=9c1ea704",
+"foto/02_urban/24_aerospace-campus/DIA3-02.webp?v=22389ac5"
 ],
 "x": {
 "title": "Aerospace Campus",
