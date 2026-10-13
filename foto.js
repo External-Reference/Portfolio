@@ -222,7 +222,8 @@ window.ERFOTO = {
 "foto/02_urban/07_punta-del-chileno/01.webp?v=64a0775e",
 "foto/02_urban/07_punta-del-chileno/02.webp?v=b7ea1636",
 "foto/02_urban/07_punta-del-chileno/03.webp?v=f2dff2a5",
-"foto/02_urban/07_punta-del-chileno/04.webp?v=4d7e872f"
+"foto/02_urban/07_punta-del-chileno/04.webp?v=4d7e872f",
+"foto/02_urban/07_punta-del-chileno/xref3142_yoga_room_with_wooden_floors_and_tall_windows_in_the_g_2163212e-42b5-460f-86e7-5886fb98004b.webp?v=b3551e93"
 ],
 "x": {
 "title": "Punta del Chileno",
