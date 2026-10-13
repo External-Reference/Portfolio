@@ -1902,7 +1902,9 @@ window.ERFOTO = {
 "f": [
 "foto/03_interior/26_24-kilates-the-vault/01.webp?v=4dd6d97b",
 "foto/03_interior/26_24-kilates-the-vault/02.webp?v=61edf49d",
-"foto/03_interior/26_24-kilates-the-vault/03.webp?v=f1d186ea"
+"foto/03_interior/26_24-kilates-the-vault/03.webp?v=f1d186ea",
+"foto/03_interior/26_24-kilates-the-vault/IMG_0858-min.webp?v=828e6038",
+"foto/03_interior/26_24-kilates-the-vault/IMG_0860-min.webp?v=590a1ae6"
 ],
 "x": {
 "title": "24 Kilates - The Vault",
