@@ -1330,7 +1330,9 @@ window.ERFOTO = {
 "f": [
 "foto/03_interior/09_moritz-rambla-de-catalunya/01.webp?v=3605ce7e",
 "foto/03_interior/09_moritz-rambla-de-catalunya/02.webp?v=1781f2ef",
-"foto/03_interior/09_moritz-rambla-de-catalunya/03.webp?v=b0194c42"
+"foto/03_interior/09_moritz-rambla-de-catalunya/03.webp?v=b0194c42",
+"foto/03_interior/09_moritz-rambla-de-catalunya/AGP1587_1194.webp?v=95f96d81",
+"foto/03_interior/09_moritz-rambla-de-catalunya/AGP1587_1219.webp?v=7db61fdd"
 ],
 "x": {
 "title": "Moritz Rambla De Catalunya",
