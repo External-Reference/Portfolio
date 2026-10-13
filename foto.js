@@ -191,7 +191,8 @@ window.ERFOTO = {
 "foto/02_urban/06_costa-do-vizir/01.webp?v=73191549",
 "foto/02_urban/06_costa-do-vizir/02.webp?v=22d1f1fa",
 "foto/02_urban/06_costa-do-vizir/03.webp?v=5b0e53e3",
-"foto/02_urban/06_costa-do-vizir/04.webp?v=bbdc0802"
+"foto/02_urban/06_costa-do-vizir/04.webp?v=bbdc0802",
+"foto/02_urban/06_costa-do-vizir/Generated Image April 07, 2026 - 3_15PM.webp?v=734f6e98"
 ],
 "x": {
 "title": "Costa do Vizir Wellness Complex",
