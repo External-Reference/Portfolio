@@ -1303,7 +1303,8 @@ window.ERFOTO = {
 "foto/03_interior/06_vicio-almagro/01.webp?v=9f485e9e",
 "foto/03_interior/06_vicio-almagro/02.webp?v=3649f5c6",
 "foto/03_interior/06_vicio-almagro/03.webp?v=704c6504",
-"foto/03_interior/06_vicio-almagro/04.webp?v=2be5228b"
+"foto/03_interior/06_vicio-almagro/04.webp?v=2be5228b",
+"foto/03_interior/06_vicio-almagro/mappa VICIO e PresentedBy_Página_1.webp?v=45f7b460"
 ],
 "x": {
 "title": "Vicio Almagro",
