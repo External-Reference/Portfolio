@@ -223,6 +223,8 @@ window.ERFOTO = {
 "foto/02_urban/07_punta-del-chileno/02.webp?v=b7ea1636",
 "foto/02_urban/07_punta-del-chileno/03.webp?v=f2dff2a5",
 "foto/02_urban/07_punta-del-chileno/04.webp?v=4d7e872f",
+"foto/02_urban/07_punta-del-chileno/xref3142_A_luxurious_retreat_club_house_interior_with_a_modern__bca6cf8d-377d-4ffb-a940-1d5d949cc3da.webp?v=18c3d0b9",
+"foto/02_urban/07_punta-del-chileno/xref3142_the_gym_is_located_in_a_wooden_structure_near_windows__0ca16267-3354-4fa0-afba-a62e33993cc9.webp?v=24b76953",
 "foto/02_urban/07_punta-del-chileno/xref3142_yoga_room_with_wooden_floors_and_tall_windows_in_the_g_2163212e-42b5-460f-86e7-5886fb98004b.webp?v=b3551e93"
 ],
 "x": {
