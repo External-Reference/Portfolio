@@ -1735,6 +1735,8 @@ window.ERFOTO = {
 "foto/03_interior/21_wow-concept-store/03.webp?v=85ecc6cb",
 "foto/03_interior/21_wow-concept-store/04.webp?v=4be9fd00",
 "foto/03_interior/21_wow-concept-store/05.webp?v=c1a72637",
+"foto/03_interior/21_wow-concept-store/220404 External Reference WOW Madrid 040.webp?v=cfc666a9",
+"foto/03_interior/21_wow-concept-store/220404 External Reference WOW Madrid 050.webp?v=c0da46b6",
 "foto/03_interior/21_wow-concept-store/220404 External Reference WOW Madrid 080.webp?v=a757ce95",
 "foto/03_interior/21_wow-concept-store/220404 External Reference WOW Madrid 085.webp?v=7a4b98d7"
 ],
