@@ -1718,7 +1718,6 @@ window.ERFOTO = {
 "foto/03_interior/18_the-corner-shopping/_DSF3462 copy LINKEDIN.webp?v=d8955cb4",
 "foto/03_interior/18_the-corner-shopping/_HERO IMAGE.webp?v=b6b1ea04",
 "foto/03_interior/18_the-corner-shopping/Resize Square.webp?v=12892387",
-"foto/03_interior/18_the-corner-shopping/RESIZED DETAIL 3.webp?v=c7d971a5",
 "foto/03_interior/18_the-corner-shopping/RESIZED IG DETAIL.webp?v=ccd70e79",
 "foto/03_interior/18_the-corner-shopping/Social story Teel Cover.webp?v=2395e773"
 ],
