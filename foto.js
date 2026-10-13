@@ -648,7 +648,9 @@ window.ERFOTO = {
 "foto/02_urban/21_malinska/03.webp?v=9969782e",
 "foto/02_urban/21_malinska/04.webp?v=10c7a650",
 "foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_08_Imagen_0001.webp?v=747637c0",
-"foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_11_Imagen_0001.webp?v=db3620ee"
+"foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_11_Imagen_0001.webp?v=db3620ee",
+"foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_14_Imagen_0001.webp?v=6e61f50f",
+"foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_16_Imagen_0001.webp?v=70ad802b"
 ],
 "x": {
 "title": "Malinska",
@@ -682,7 +684,12 @@ window.ERFOTO = {
 "foto/02_urban/22_amar-porto-covo/01.webp?v=c19afccb",
 "foto/02_urban/22_amar-porto-covo/02.webp?v=2f3dd67e",
 "foto/02_urban/22_amar-porto-covo/03.webp?v=a75df24a",
-"foto/02_urban/22_amar-porto-covo/04.webp?v=79e70eae"
+"foto/02_urban/22_amar-porto-covo/04.webp?v=79e70eae",
+"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_03_Imagen_0001.webp?v=504ce901",
+"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_05_Imagen_0001.webp?v=ea4227c9",
+"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_06_Imagen_0001.webp?v=e0c7d362",
+"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_08_Imagen_0001.webp?v=5f3c0c2d",
+"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_09_Imagen_0001.webp?v=886a9968"
 ],
 "x": {
 "title": "Amar Porto Covo",
