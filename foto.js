@@ -2262,7 +2262,8 @@ window.ERFOTO = {
 "foto/03_interior/37_spanish-pavilion-dubai-expo/02.webp?v=281e233c",
 "foto/03_interior/37_spanish-pavilion-dubai-expo/03.webp?v=1feccd19",
 "foto/03_interior/37_spanish-pavilion-dubai-expo/04.webp?v=160e78db",
-"foto/03_interior/37_spanish-pavilion-dubai-expo/05.webp?v=794fe9f5"
+"foto/03_interior/37_spanish-pavilion-dubai-expo/05.webp?v=794fe9f5",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/7.webp?v=313d42a4"
 ],
 "x": {
 "title": "Spanish Pavilion, Dubai Expo",
