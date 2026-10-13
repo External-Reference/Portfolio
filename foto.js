@@ -500,7 +500,12 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/16_the-dna/01.webp?v=3aedc048",
 "foto/02_urban/16_the-dna/02.webp?v=dedfefc4",
-"foto/02_urban/16_the-dna/03.webp?v=98ec9d9b"
+"foto/02_urban/16_the-dna/03.webp?v=98ec9d9b",
+"foto/02_urban/16_the-dna/Generated Image October 23, 2025 - 1_01PM.webp?v=384e516b",
+"foto/02_urban/16_the-dna/Generated Image October 23, 2025 - 3_19PM.webp?v=908f3384",
+"foto/02_urban/16_the-dna/Generated Image October 23, 2025 - 4_59PM.webp?v=82035471",
+"foto/02_urban/16_the-dna/Generated Image October 23, 2025 - 5_08PM.webp?v=fe5fc532",
+"foto/02_urban/16_the-dna/Generated Image October 23, 2025 - 12_54PM.webp?v=1e059f71"
 ],
 "x": {
 "title": "The DNA",
