@@ -925,7 +925,10 @@ window.ERFOTO = {
 "foto/02_urban/31_escalera-mirador-vela/01.webp?v=c436347f",
 "foto/02_urban/31_escalera-mirador-vela/02.webp?v=49d08d4e",
 "foto/02_urban/31_escalera-mirador-vela/03.webp?v=c783ad05",
-"foto/02_urban/31_escalera-mirador-vela/04.webp?v=b86711e7"
+"foto/02_urban/31_escalera-mirador-vela/04.webp?v=b86711e7",
+"foto/02_urban/31_escalera-mirador-vela/4.webp?v=0464a882",
+"foto/02_urban/31_escalera-mirador-vela/5.webp?v=26f4d0bf",
+"foto/02_urban/31_escalera-mirador-vela/6.webp?v=e1257b0b"
 ],
 "x": {
 "title": "Escalera y Mirador Vela",
