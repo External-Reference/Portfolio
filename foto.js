@@ -689,7 +689,8 @@ window.ERFOTO = {
 "foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_05_Imagen_0001.webp?v=ea4227c9",
 "foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_06_Imagen_0001.webp?v=e0c7d362",
 "foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_08_Imagen_0001.webp?v=5f3c0c2d",
-"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_09_Imagen_0001.webp?v=886a9968"
+"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_09_Imagen_0001.webp?v=886a9968",
+"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_12_Imagen_0001.webp?v=eb30feb4"
 ],
 "x": {
 "title": "Amar Porto Covo",
@@ -721,6 +722,7 @@ window.ERFOTO = {
 "urban/karakum-hotel": {
 "f": [
 "foto/02_urban/23_karakum-hotel/01.webp?v=ca7b8803",
+"foto/02_urban/23_karakum-hotel/02 corten steel.webp?v=29573501",
 "foto/02_urban/23_karakum-hotel/02.webp?v=3527cf21"
 ],
 "x": {
