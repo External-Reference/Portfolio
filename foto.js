@@ -124,7 +124,14 @@ window.ERFOTO = {
 "foto/02_urban/04_al-jouri-villa/01.webp?v=8d1765f7",
 "foto/02_urban/04_al-jouri-villa/02.webp?v=145aad01",
 "foto/02_urban/04_al-jouri-villa/03.webp?v=06bd34df",
-"foto/02_urban/04_al-jouri-villa/04.webp?v=d0569b71"
+"foto/02_urban/04_al-jouri-villa/04.webp?v=d0569b71",
+"foto/02_urban/04_al-jouri-villa/image71.webp?v=c78c615c",
+"foto/02_urban/04_al-jouri-villa/image72.webp?v=146e12e8",
+"foto/02_urban/04_al-jouri-villa/image73.webp?v=3ccbb170",
+"foto/02_urban/04_al-jouri-villa/image74.webp?v=d3f48cb1",
+"foto/02_urban/04_al-jouri-villa/image76.webp?v=a0dd7c7a",
+"foto/02_urban/04_al-jouri-villa/image78.webp?v=1fa4d6d4",
+"foto/02_urban/04_al-jouri-villa/image81.webp?v=90e23521"
 ],
 "x": {
 "title": "Al Jouri Villa",
