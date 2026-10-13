@@ -117,8 +117,7 @@ window.ERFOTO = {
 "foto/02_urban/04_al-jouri-villa/image57.webp?v=2753f4f7",
 "foto/02_urban/04_al-jouri-villa/image59.webp?v=d8aa6d7c",
 "foto/02_urban/04_al-jouri-villa/image63.webp?v=0f1c272d",
-"foto/02_urban/04_al-jouri-villa/image64.webp?v=a68a97b4",
-"foto/02_urban/04_al-jouri-villa/image67.webp?v=b0bdf70d"
+"foto/02_urban/04_al-jouri-villa/image64.webp?v=a68a97b4"
 ],
 "x": {
 "title": "Al Jouri Villa",
