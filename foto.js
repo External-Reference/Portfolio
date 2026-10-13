@@ -2157,7 +2157,11 @@ window.ERFOTO = {
 "foto/03_interior/34_corporate-office-spaces-confidential/04.webp?v=9c1653df",
 "foto/03_interior/34_corporate-office-spaces-confidential/05.webp?v=0a3fb1d9",
 "foto/03_interior/34_corporate-office-spaces-confidential/DSC_0074.webp?v=f1962596",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_0111.webp?v=49f7e3ae"
+"foto/03_interior/34_corporate-office-spaces-confidential/DSC_0111.webp?v=49f7e3ae",
+"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4284.webp?v=2041e0ef",
+"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4466.webp?v=1960a74e",
+"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4761.webp?v=ad5ebcec",
+"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4864.webp?v=8348e693"
 ],
 "x": {
 "title": "Corporate Office Spaces - Confidential",
