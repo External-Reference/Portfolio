@@ -832,7 +832,11 @@ window.ERFOTO = {
 "foto/02_urban/26_jeddah-formula-1/01.webp?v=3ea69b2f",
 "foto/02_urban/26_jeddah-formula-1/02.webp?v=b4657eff",
 "foto/02_urban/26_jeddah-formula-1/03.webp?v=23083b38",
-"foto/02_urban/26_jeddah-formula-1/04.webp?v=757f6f7d"
+"foto/02_urban/26_jeddah-formula-1/04.webp?v=757f6f7d",
+"foto/02_urban/26_jeddah-formula-1/2022_Saudi Arabian GrandPrix 2023DOC_Página_4_Imagen_0001.webp?v=9e8e8eb6",
+"foto/02_urban/26_jeddah-formula-1/2022_Saudi Arabian GrandPrix 2023DOC_Página_5_Imagen_0001.webp?v=3de7da91",
+"foto/02_urban/26_jeddah-formula-1/2022_Saudi Arabian GrandPrix 2023DOC_Página_7_Imagen_0001.webp?v=f5bcc1aa",
+"foto/02_urban/26_jeddah-formula-1/2022_Saudi Arabian GrandPrix 2023DOC_Página_8_Imagen_0001.webp?v=0a74bdd2"
 ],
 "x": {
 "title": "Jeddah Formula 1",
