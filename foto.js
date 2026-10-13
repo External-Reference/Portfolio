@@ -611,7 +611,8 @@ window.ERFOTO = {
 "urban/libertador": {
 "f": [
 "foto/02_urban/20_libertador/01.webp?v=ecb7ffbd",
-"foto/02_urban/20_libertador/02.webp?v=94f4045c"
+"foto/02_urban/20_libertador/02.webp?v=94f4045c",
+"foto/02_urban/20_libertador/Libertador_Página_2_Imagen_0001.webp?v=a3c091a4"
 ],
 "x": {
 "title": "Libertador",
