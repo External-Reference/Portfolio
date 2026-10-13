@@ -81,7 +81,13 @@ window.ERFOTO = {
 "foto/02_urban/03_al-layali-villa/01.webp?v=2a610cc0",
 "foto/02_urban/03_al-layali-villa/02.webp?v=cb353a17",
 "foto/02_urban/03_al-layali-villa/03.webp?v=5d75e682",
-"foto/02_urban/03_al-layali-villa/04.webp?v=2148a425"
+"foto/02_urban/03_al-layali-villa/04.webp?v=2148a425",
+"foto/02_urban/03_al-layali-villa/image50.webp?v=6fb5a360",
+"foto/02_urban/03_al-layali-villa/image52.webp?v=52335528",
+"foto/02_urban/03_al-layali-villa/image56.webp?v=3dd3faa1",
+"foto/02_urban/03_al-layali-villa/image57.webp?v=2753f4f7",
+"foto/02_urban/03_al-layali-villa/image59.webp?v=d8aa6d7c",
+"foto/02_urban/03_al-layali-villa/image64.webp?v=a68a97b4"
 ],
 "x": {
 "title": "Al Layali Villa",
