@@ -1705,7 +1705,6 @@ window.ERFOTO = {
 },
 "interior/the-corner-shopping": {
 "f": [
-"foto/03_interior/18_the-corner-shopping/02.webp?v=96dfa929",
 "foto/03_interior/18_the-corner-shopping/_DSF3462 copy LINKEDIN.webp?v=d8955cb4",
 "foto/03_interior/18_the-corner-shopping/_HERO IMAGE.webp?v=b6b1ea04",
 "foto/03_interior/18_the-corner-shopping/Resize Square.webp?v=12892387",
@@ -1738,14 +1737,16 @@ window.ERFOTO = {
 ],
 "body": "<p>The Corner Shopping is the transformation of an ageing Shopping Mall in one of the most frequented corners of the Island of Tenerife. Getting inspiration form the unique local landscape and elements we sought to craft a unique retail space that engages the customer and creates a unique shopping experience. The store incorporates unique local elements, as the incredible tones of blue of the ever present Atlantic sea and the peculiar rock formations that line the cost of the island. All of these elements were re interprested through design and technology to create an engaging and memorable customer journey that is able to cater to all their needs during their holidays.</p>"
 },
-"t": "miniature/03_interior/18_the-corner-shopping.webp?v=75b51ce3"
+"t": "miniature/03_interior/18_the-corner-shopping.webp?v=42adc207"
 },
 "interior/pinko-at-roma-fiumicino": {
 "f": [
 "foto/03_interior/19_pinko-at-roma-fiumicino/01.webp?v=6dfc0296",
 "foto/03_interior/19_pinko-at-roma-fiumicino/02.webp?v=efcda743",
 "foto/03_interior/19_pinko-at-roma-fiumicino/03.webp?v=a588cfe4",
-"foto/03_interior/19_pinko-at-roma-fiumicino/04.webp?v=825e1db8"
+"foto/03_interior/19_pinko-at-roma-fiumicino/04.webp?v=825e1db8",
+"foto/03_interior/19_pinko-at-roma-fiumicino/thumbnail_10_BJ6A6188.webp?v=8f505a85",
+"foto/03_interior/19_pinko-at-roma-fiumicino/thumbnail_19_BJ6A6267.webp?v=9e628273"
 ],
 "x": {
 "title": "Pinko at Roma Fiumicino",
