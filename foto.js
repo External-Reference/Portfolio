@@ -112,7 +112,6 @@ window.ERFOTO = {
 "foto/02_urban/04_al-jouri-villa/02.webp?v=145aad01",
 "foto/02_urban/04_al-jouri-villa/03.webp?v=06bd34df",
 "foto/02_urban/04_al-jouri-villa/04.webp?v=d0569b71",
-"foto/02_urban/04_al-jouri-villa/image50.webp?v=6fb5a360",
 "foto/02_urban/04_al-jouri-villa/image56.webp?v=3dd3faa1",
 "foto/02_urban/04_al-jouri-villa/image57.webp?v=2753f4f7",
 "foto/02_urban/04_al-jouri-villa/image59.webp?v=d8aa6d7c",
