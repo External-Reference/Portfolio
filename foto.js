@@ -910,7 +910,9 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/28_magok-lake-park/01.webp?v=1ad5a079",
 "foto/02_urban/28_magok-lake-park/02.webp?v=4c62c25e",
-"foto/02_urban/28_magok-lake-park/03.webp?v=b8d1f03d"
+"foto/02_urban/28_magok-lake-park/03.webp?v=b8d1f03d",
+"foto/02_urban/28_magok-lake-park/2009_Magok Lake Park_Página_3_Imagen_0001.webp?v=c4d79112",
+"foto/02_urban/28_magok-lake-park/2009_Magok Lake Park_Página_4_Imagen_0001.webp?v=50500b03"
 ],
 "x": {
 "title": "Magok Lake Park",
