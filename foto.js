@@ -1705,7 +1705,6 @@ window.ERFOTO = {
 },
 "interior/the-corner-shopping": {
 "f": [
-"foto/03_interior/18_the-corner-shopping/01.webp?v=6c893253",
 "foto/03_interior/18_the-corner-shopping/02.webp?v=96dfa929",
 "foto/03_interior/18_the-corner-shopping/_DSF3462 copy LINKEDIN.webp?v=d8955cb4",
 "foto/03_interior/18_the-corner-shopping/_HERO IMAGE.webp?v=b6b1ea04",
@@ -1739,7 +1738,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The Corner Shopping is the transformation of an ageing Shopping Mall in one of the most frequented corners of the Island of Tenerife. Getting inspiration form the unique local landscape and elements we sought to craft a unique retail space that engages the customer and creates a unique shopping experience. The store incorporates unique local elements, as the incredible tones of blue of the ever present Atlantic sea and the peculiar rock formations that line the cost of the island. All of these elements were re interprested through design and technology to create an engaging and memorable customer journey that is able to cater to all their needs during their holidays.</p>"
 },
-"t": "miniature/03_interior/18_the-corner-shopping.webp?v=d22c087a"
+"t": "miniature/03_interior/18_the-corner-shopping.webp?v=75b51ce3"
 },
 "interior/pinko-at-roma-fiumicino": {
 "f": [
