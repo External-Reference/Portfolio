@@ -583,7 +583,11 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/19_residences-babylon/01.webp?v=698ac337",
 "foto/02_urban/19_residences-babylon/02.webp?v=411fd8e7",
-"foto/02_urban/19_residences-babylon/03.webp?v=12acf635"
+"foto/02_urban/19_residences-babylon/03.webp?v=12acf635",
+"foto/02_urban/19_residences-babylon/Generated Image October 29, 2025 - 11_20AM.webp?v=34f51dcc",
+"foto/02_urban/19_residences-babylon/Generated Image October 29, 2025 - 11_23AM (1).webp?v=46dac701",
+"foto/02_urban/19_residences-babylon/Generated Image October 30, 2025 - 4_24PM.webp?v=d9e7846c",
+"foto/02_urban/19_residences-babylon/Generated Image October 31, 2025 - 10_48AM.webp?v=71dac2e9"
 ],
 "x": {
 "title": "Residences Babylon",
