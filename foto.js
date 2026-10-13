@@ -1765,7 +1765,9 @@ window.ERFOTO = {
 },
 "interior/presentedby-x-doha-design-district": {
 "f": [
+"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
+"foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
 "foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
 "foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93"
@@ -1795,7 +1797,7 @@ window.ERFOTO = {
 ],
 "body": "<p>Presentedby Doha redefines sneaker retail through an immersive environment inspired by Qatar’s dunes and urban streetwear culture. Dynamic LED screens, algorithmic metal forms, interactive lighting, and holographic displays create a constantly evolving experience. The flagship blends technology, digital art, and customization, transforming shopping into a personalized journey for sneaker and streetwear enthusiasts.</p><p>The experience starts before entering, as the façade becomes a digital landscape that captures attention and supports content creation. Inspired by Qatar’s shifting sand dunes, the interior works like an exhibition space showcasing rare trainers, collaborations, and collector pieces. Algorithmically cut metal blades wrap the space, forming a fluid tech landscape where products appear embedded in motion. Light, mapping, and responsive surfaces create a changing atmosphere, while a dedicated immersive room uses holographic fans to present selected sneakers as coveted icons.</p>"
 },
-"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
+"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=d59984ba"
 },
 "interior/presentedby-x-riyadh": {
 "f": [
