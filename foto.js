@@ -1297,7 +1297,11 @@ window.ERFOTO = {
 "foto/03_interior/08_moritz-m-store/02.webp?v=1346d3ff",
 "foto/03_interior/08_moritz-m-store/03.webp?v=76b36cbd",
 "foto/03_interior/08_moritz-m-store/04.webp?v=00719ed1",
-"foto/03_interior/08_moritz-m-store/05.webp?v=9c5b8a51"
+"foto/03_interior/08_moritz-m-store/05.webp?v=9c5b8a51",
+"foto/03_interior/08_moritz-m-store/_AG_9107-Pano.webp?v=1b1880f4",
+"foto/03_interior/08_moritz-m-store/_AG_9123-Pano.webp?v=4256416b",
+"foto/03_interior/08_moritz-m-store/_AG_9136-Pano.webp?v=23ceb3da",
+"foto/03_interior/08_moritz-m-store/_AG_9145-Pano.webp?v=26360d07"
 ],
 "x": {
 "title": "Moritz M-Store",
