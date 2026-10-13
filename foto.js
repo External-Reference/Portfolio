@@ -406,7 +406,9 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/13_confidential-five/01.webp?v=546d48f6",
 "foto/02_urban/13_confidential-five/02.webp?v=cbef61af",
-"foto/02_urban/13_confidential-five/03.webp?v=bd06d31d"
+"foto/02_urban/13_confidential-five/03.webp?v=bd06d31d",
+"foto/02_urban/13_confidential-five/Neom_CONFIDENCIAL 5_Página_3_Imagen_0001.webp?v=0d4d8594",
+"foto/02_urban/13_confidential-five/Neom_CONFIDENCIAL 5_Página_4_Imagen_0001.webp?v=9a6bc48f"
 ],
 "x": {
 "title": "Confidential Five",
