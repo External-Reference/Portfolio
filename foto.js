@@ -797,7 +797,8 @@ window.ERFOTO = {
 "foto/02_urban/25_jeddah-fashion-island/01.webp?v=d89e01cf",
 "foto/02_urban/25_jeddah-fashion-island/02.webp?v=aa51e41d",
 "foto/02_urban/25_jeddah-fashion-island/03.webp?v=b6210128",
-"foto/02_urban/25_jeddah-fashion-island/04.webp?v=7159fc30"
+"foto/02_urban/25_jeddah-fashion-island/04.webp?v=7159fc30",
+"foto/02_urban/25_jeddah-fashion-island/2019_Jeddah Fashion Island_Página_2_Imagen_0001.webp?v=1c109a48"
 ],
 "x": {
 "title": "Jeddah Fashion Island",
