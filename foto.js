@@ -555,7 +555,10 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/18_residences-embrace/01.webp?v=39ea5b71",
 "foto/02_urban/18_residences-embrace/02.webp?v=f8b42d4b",
-"foto/02_urban/18_residences-embrace/03.webp?v=3e5a7820"
+"foto/02_urban/18_residences-embrace/03.webp?v=3e5a7820",
+"foto/02_urban/18_residences-embrace/Generated Image October 29, 2025 - 12_33PM.webp?v=e0194626",
+"foto/02_urban/18_residences-embrace/image (36).webp?v=4600d28f",
+"foto/02_urban/18_residences-embrace/image (40).webp?v=7743d54c"
 ],
 "x": {
 "title": "Residences Embrace",
