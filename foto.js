@@ -1333,6 +1333,7 @@ window.ERFOTO = {
 "foto/03_interior/09_moritz-rambla-de-catalunya/03.webp?v=b0194c42",
 "foto/03_interior/09_moritz-rambla-de-catalunya/AGP1587_1194.webp?v=95f96d81",
 "foto/03_interior/09_moritz-rambla-de-catalunya/AGP1587_1219.webp?v=7db61fdd",
+"foto/03_interior/09_moritz-rambla-de-catalunya/AGP1587_1606-Pano.webp?v=78783df3",
 "foto/03_interior/09_moritz-rambla-de-catalunya/AGP1587_1679.webp?v=d002cc7a"
 ],
 "x": {
@@ -1366,7 +1367,10 @@ window.ERFOTO = {
 "f": [
 "foto/03_interior/10_va-de-cuina/01.webp?v=3bb7a7ea",
 "foto/03_interior/10_va-de-cuina/02.webp?v=c71ffdd4",
-"foto/03_interior/10_va-de-cuina/03.webp?v=46da34fd"
+"foto/03_interior/10_va-de-cuina/03.webp?v=46da34fd",
+"foto/03_interior/10_va-de-cuina/AGP1451_1481-PanoWEB.webp?v=429d3053",
+"foto/03_interior/10_va-de-cuina/AGP1451_1495-PanoWEB.webp?v=74d591e6",
+"foto/03_interior/10_va-de-cuina/AGP1451_1503WEB.webp?v=cfb24a4c"
 ],
 "x": {
 "title": "Va De Cuina",
