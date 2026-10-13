@@ -1547,9 +1547,19 @@ window.ERFOTO = {
 "f": [
 "foto/03_interior/13_onada-terrace-suites/01.webp?v=ab8f6b3d",
 "foto/03_interior/13_onada-terrace-suites/02.webp?v=703248bc",
+"foto/03_interior/13_onada-terrace-suites/02_XR_HotelW_BCN.webp?v=e8702592",
 "foto/03_interior/13_onada-terrace-suites/03.webp?v=be626a39",
+"foto/03_interior/13_onada-terrace-suites/03_XR_HotelW_BCN.webp?v=8ea49485",
 "foto/03_interior/13_onada-terrace-suites/04.webp?v=53a326b4",
-"foto/03_interior/13_onada-terrace-suites/05.webp?v=6b16220f"
+"foto/03_interior/13_onada-terrace-suites/04_XR_HotelW_BCN.webp?v=c0022e45",
+"foto/03_interior/13_onada-terrace-suites/05.webp?v=6b16220f",
+"foto/03_interior/13_onada-terrace-suites/09_XR_HotelW_BCN.webp?v=ff569a63",
+"foto/03_interior/13_onada-terrace-suites/10_XR_HotelW_BCN.webp?v=1e140977",
+"foto/03_interior/13_onada-terrace-suites/13_XR_HotelW_BCN.webp?v=c77c7110",
+"foto/03_interior/13_onada-terrace-suites/35_XR_HotelW_BCN.webp?v=7e920c39",
+"foto/03_interior/13_onada-terrace-suites/43_XR_HotelW_BCN.webp?v=6270897e",
+"foto/03_interior/13_onada-terrace-suites/63_XR_HotelW_BCN.webp?v=88af6aa9",
+"foto/03_interior/13_onada-terrace-suites/65_XR_HotelW_BCN.webp?v=2fa8028e"
 ],
 "x": {
 "title": "Onada Terrace Suites",
