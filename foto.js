@@ -311,7 +311,11 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/10_confidential-two/01.webp?v=65962c1f",
 "foto/02_urban/10_confidential-two/02.webp?v=1ce8bb23",
-"foto/02_urban/10_confidential-two/03.webp?v=7e2a4869"
+"foto/02_urban/10_confidential-two/03.webp?v=7e2a4869",
+"foto/02_urban/10_confidential-two/Neom_CONFIDENCIAL 2_Página_4_Imagen_0001.webp?v=a27626fb",
+"foto/02_urban/10_confidential-two/Neom_CONFIDENCIAL 2_Página_6_Imagen_0001.webp?v=15ed9c4a",
+"foto/02_urban/10_confidential-two/Neom_CONFIDENCIAL 2_Página_7_Imagen_0001.webp?v=80bafe18",
+"foto/02_urban/10_confidential-two/Neom_CONFIDENCIAL 2_Página_8_Imagen_0001.webp?v=15678306"
 ],
 "x": {
 "title": "Confidential Two",
