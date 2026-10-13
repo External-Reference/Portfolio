@@ -51,7 +51,14 @@ window.ERFOTO = {
 "foto/02_urban/02_al-khawaneej-villa/01.webp?v=b479a893",
 "foto/02_urban/02_al-khawaneej-villa/02.webp?v=7bb7e62e",
 "foto/02_urban/02_al-khawaneej-villa/03.webp?v=a68b3271",
-"foto/02_urban/02_al-khawaneej-villa/04.webp?v=52a2fc25"
+"foto/02_urban/02_al-khawaneej-villa/04.webp?v=52a2fc25",
+"foto/02_urban/02_al-khawaneej-villa/image29.webp?v=0efa83ba",
+"foto/02_urban/02_al-khawaneej-villa/image30.webp?v=f00906a7",
+"foto/02_urban/02_al-khawaneej-villa/image31.webp?v=76d07a29",
+"foto/02_urban/02_al-khawaneej-villa/image32.webp?v=ed1297c0",
+"foto/02_urban/02_al-khawaneej-villa/image33.webp?v=1036419e",
+"foto/02_urban/02_al-khawaneej-villa/image37.webp?v=b2dd1813",
+"foto/02_urban/02_al-khawaneej-villa/image38.webp?v=f2e1c011"
 ],
 "x": {
 "title": "Al Khawaneej Villa",
