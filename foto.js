@@ -437,7 +437,10 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/14_confidential-six/01.webp?v=570724b8",
 "foto/02_urban/14_confidential-six/02.webp?v=947a84bc",
-"foto/02_urban/14_confidential-six/03.webp?v=b408d65f"
+"foto/02_urban/14_confidential-six/03.webp?v=b408d65f",
+"foto/02_urban/14_confidential-six/Neom_CONFIDENCIAL 6_Página_1_Imagen_0001.webp?v=12c22a4d",
+"foto/02_urban/14_confidential-six/Neom_CONFIDENCIAL 6_Página_3_Imagen_0001.webp?v=4532c112",
+"foto/02_urban/14_confidential-six/Neom_CONFIDENCIAL 6_Página_6_Imagen_0001.webp?v=2a4eabcf"
 ],
 "x": {
 "title": "Confidential Six",
