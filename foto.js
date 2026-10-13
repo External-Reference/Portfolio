@@ -969,7 +969,9 @@ window.ERFOTO = {
 },
 "urban/juzgados-penal": {
 "f": [
-"foto/02_urban/30_juzgados-penal/01.webp?v=877e2eeb"
+"foto/02_urban/30_juzgados-penal/01.webp?v=877e2eeb",
+"foto/02_urban/30_juzgados-penal/2007_juzgados Penal_Página_2_Imagen_0001.webp?v=007cfdaa",
+"foto/02_urban/30_juzgados-penal/2007_juzgados Penal_Página_4_Imagen_0001.webp?v=4b0af43f"
 ],
 "x": {
 "title": "Juzgados Penal",
