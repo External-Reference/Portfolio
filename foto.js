@@ -646,7 +646,9 @@ window.ERFOTO = {
 "foto/02_urban/21_malinska/01.webp?v=516bf07b",
 "foto/02_urban/21_malinska/02.webp?v=b340f5f6",
 "foto/02_urban/21_malinska/03.webp?v=9969782e",
-"foto/02_urban/21_malinska/04.webp?v=10c7a650"
+"foto/02_urban/21_malinska/04.webp?v=10c7a650",
+"foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_08_Imagen_0001.webp?v=747637c0",
+"foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_11_Imagen_0001.webp?v=db3620ee"
 ],
 "x": {
 "title": "Malinska",
