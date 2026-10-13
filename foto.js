@@ -723,7 +723,9 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/23_karakum-hotel/01.webp?v=ca7b8803",
 "foto/02_urban/23_karakum-hotel/02 corten steel.webp?v=29573501",
-"foto/02_urban/23_karakum-hotel/02.webp?v=3527cf21"
+"foto/02_urban/23_karakum-hotel/02.webp?v=3527cf21",
+"foto/02_urban/23_karakum-hotel/2018_Karakum Hotel1202_Página_5_Imagen_0001.webp?v=cc3df383",
+"foto/02_urban/23_karakum-hotel/2018_Karakum Hotel1202_Página_6_Imagen_0001.webp?v=03c2482d"
 ],
 "x": {
 "title": "Karakum Hotel",
