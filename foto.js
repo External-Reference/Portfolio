@@ -1255,8 +1255,10 @@ window.ERFOTO = {
 "interior/ham-on-wheels": {
 "f": [
 "foto/03_interior/07_ham-on-wheels/01.webp?v=ee4e7d49",
+"foto/03_interior/07_ham-on-wheels/002.webp?v=8e9bd001",
 "foto/03_interior/07_ham-on-wheels/02.webp?v=eef5d0a7",
-"foto/03_interior/07_ham-on-wheels/03.webp?v=ceb742d6"
+"foto/03_interior/07_ham-on-wheels/03.webp?v=ceb742d6",
+"foto/03_interior/07_ham-on-wheels/046i.webp?v=d06676d6"
 ],
 "x": {
 "title": "Ham On Wheels",
