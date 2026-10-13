@@ -1805,7 +1805,11 @@ window.ERFOTO = {
 "foto/03_interior/23_presentedby-x-riyadh/01.webp?v=0b57420e",
 "foto/03_interior/23_presentedby-x-riyadh/02.webp?v=e011c928",
 "foto/03_interior/23_presentedby-x-riyadh/03.webp?v=dd5dc878",
-"foto/03_interior/23_presentedby-x-riyadh/04.webp?v=ec3fd7ca"
+"foto/03_interior/23_presentedby-x-riyadh/04.webp?v=ec3fd7ca",
+"foto/03_interior/23_presentedby-x-riyadh/DSC00221.webp?v=fda97d84",
+"foto/03_interior/23_presentedby-x-riyadh/DSC00227-2.webp?v=001445cd",
+"foto/03_interior/23_presentedby-x-riyadh/DSC00293.webp?v=334558eb",
+"foto/03_interior/23_presentedby-x-riyadh/DSC00296.webp?v=21702835"
 ],
 "x": {
 "title": "PresentedBy X Riyadh",
