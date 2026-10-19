@@ -1001,8 +1001,8 @@ window.ERFOTO = {
 "foto/02_urban/31_escalera-mirador-vela/01.webp?v=c436347f",
 "foto/02_urban/31_escalera-mirador-vela/02.webp?v=49d08d4e",
 "foto/02_urban/31_escalera-mirador-vela/03.webp?v=c783ad05",
-"foto/02_urban/31_escalera-mirador-vela/4.webp?v=0464a882",
 "foto/02_urban/31_escalera-mirador-vela/04.webp?v=b86711e7",
+"foto/02_urban/31_escalera-mirador-vela/4.webp?v=0464a882",
 "foto/02_urban/31_escalera-mirador-vela/5.webp?v=26f4d0bf",
 "foto/02_urban/31_escalera-mirador-vela/6.webp?v=e1257b0b",
 "foto/02_urban/31_escalera-mirador-vela/12.webp?v=1ea32de6",
@@ -1157,8 +1157,8 @@ window.ERFOTO = {
 "interior/alkimia": {
 "f": [
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
-"foto/03_interior/02_alkimia/02.webp?v=d253546f",
 "foto/03_interior/02_alkimia/2.webp?v=a1983d74",
+"foto/03_interior/02_alkimia/02.webp?v=d253546f",
 "foto/03_interior/02_alkimia/03.webp?v=a00ae0ea",
 "foto/03_interior/02_alkimia/04.webp?v=76707a7a",
 "foto/03_interior/02_alkimia/5.webp?v=e6098661",
@@ -1335,8 +1335,8 @@ window.ERFOTO = {
 "interior/ham-on-wheels": {
 "f": [
 "foto/03_interior/07_ham-on-wheels/01.webp?v=ee4e7d49",
-"foto/03_interior/07_ham-on-wheels/02.webp?v=eef5d0a7",
 "foto/03_interior/07_ham-on-wheels/002.webp?v=8e9bd001",
+"foto/03_interior/07_ham-on-wheels/02.webp?v=eef5d0a7",
 "foto/03_interior/07_ham-on-wheels/03.webp?v=ceb742d6",
 "foto/03_interior/07_ham-on-wheels/046i.webp?v=d06676d6"
 ],
@@ -1860,10 +1860,10 @@ window.ERFOTO = {
 },
 "interior/presentedby-x-doha-design-district": {
 "f": [
-"foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
 "foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
-"foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
+"foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
 "foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
+"foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
 "foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93",
 "foto/03_interior/22_presentedby-x-doha-design-district/10.webp?v=9c6dd30c"
@@ -1893,7 +1893,7 @@ window.ERFOTO = {
 ],
 "body": "<p>Presentedby Doha redefines sneaker retail through an immersive environment inspired by Qatar’s dunes and urban streetwear culture. Dynamic LED screens, algorithmic metal forms, interactive lighting, and holographic displays create a constantly evolving experience. The flagship blends technology, digital art, and customization, transforming shopping into a personalized journey for sneaker and streetwear enthusiasts.</p><p>The experience starts before entering, as the façade becomes a digital landscape that captures attention and supports content creation. Inspired by Qatar’s shifting sand dunes, the interior works like an exhibition space showcasing rare trainers, collaborations, and collector pieces. Algorithmically cut metal blades wrap the space, forming a fluid tech landscape where products appear embedded in motion. Light, mapping, and responsive surfaces create a changing atmosphere, while a dedicated immersive room uses holographic fans to present selected sneakers as coveted icons.</p>"
 },
-"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
+"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=d59984ba"
 },
 "interior/presentedby-x-riyadh": {
 "f": [
@@ -2271,49 +2271,21 @@ window.ERFOTO = {
 "t": "miniature/03_interior/33_casa-sayrach-principal-office.webp?v=e2777c82"
 },
 "interior/corporate-office-spaces-confidential": {
-"f": [
-"foto/03_interior/34_corporate-office-spaces-confidential/01.webp?v=266c5a78",
-"foto/03_interior/34_corporate-office-spaces-confidential/02.webp?v=5cfbaf2c",
-"foto/03_interior/34_corporate-office-spaces-confidential/03.webp?v=cff88629",
-"foto/03_interior/34_corporate-office-spaces-confidential/04.webp?v=9c1653df",
-"foto/03_interior/34_corporate-office-spaces-confidential/05.webp?v=0a3fb1d9",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_0074.webp?v=f1962596",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_0111.webp?v=49f7e3ae",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4284.webp?v=2041e0ef",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4466.webp?v=1960a74e",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4761.webp?v=ad5ebcec",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_4864.webp?v=8348e693",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_6658.webp?v=daec2f56",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_6745.webp?v=fddf7a4c",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_7586.webp?v=7e75e3ef",
-"foto/03_interior/34_corporate-office-spaces-confidential/DSC_7618.webp?v=aae728b2"
-],
+"f": [],
 "x": {
 "title": "Corporate Office Spaces - Confidential",
-"place": "Undisclosed, 2022",
 "sub": "Corporate",
 "tags": [],
-"meta": [
-[
-"Location",
-"Undisclosed"
-],
-[
-"Typology",
-"Office Spaces"
-],
-[
-"Area",
-"10,000 m2"
-],
-[
-"Status",
-"Built"
-]
-],
-"body": "<p>Headquarters occupy the top five floors of a 47-storey skyscraper, spanning over 10,000 m². The design combines technology, sustainability and comfort,creating open, transparent and inspiring workspaces. High-quality materials, greenery and smart solutions enhance focus, creativity and productivity.</p>"
+"meta": [],
+"place": "",
+"body": ""
 },
-"t": "miniature/03_interior/34_corporate-office-spaces-confidential.webp?v=5514be98"
+"lock": {
+"s": "ZCaHnih31SOtW0J9dHp7dw==",
+"i": "FtDl0qao0CKkXsX9",
+"d": "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"
+},
+"t": "miniature/03_interior/34_corporate-office-spaces-confidential__locked.webp?v=7e4a2a20"
 },
 "interior/vicio-office": {
 "f": [
