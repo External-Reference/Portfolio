@@ -56,3 +56,20 @@ Per togliere un progetto: cancella la sua cartella (tutte le foto e testo.txt).
 
 Le pagine Studio (Our Story, Approach, Awards...) hanno impaginazioni speciali e restano in index.html:
 per modificarle chiedi a Claude.
+
+NASCONDERE UN PROGETTO
+Nel testo.txt del progetto aggiungi, sotto la riga Tags:, la riga
+  Visible: no
+Il progetto sparisce dal sito (indice, elenco, frecce). Per farlo riapparire: Visible: yes (o cancella la riga).
+
+PROTEGGERE UN PROGETTO CON PIN
+1. Una volta sola: GitHub > Settings > Secrets and variables > Actions > New repository secret
+   Name: PORTFOLIO_PIN   Secret: il codice (es. 4827). Vale per tutti i progetti protetti.
+2. Nel testo.txt del progetto aggiungi, sotto la riga Tags:, la riga
+  PIN: yes
+Il progetto resta nell'elenco con la copertina sfocata e la scritta Confidential;
+per aprirlo serve il PIN (il browser lo ricorda finché la finestra resta aperta).
+Per togliere la protezione cancella la riga PIN: yes.
+Se il segreto PORTFOLIO_PIN non c'è, il progetto con PIN viene nascosto per sicurezza.
+Per cambiare il PIN: modifica il segreto, poi Actions > Aggiorna foto del portfolio > Run workflow.
+Nota: il PIN protegge il sito; le foto restano comunque nel repository pubblico.

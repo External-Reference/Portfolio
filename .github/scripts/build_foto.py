@@ -6,7 +6,7 @@
 3. Legge testo.txt di ogni progetto (titolo, scheda, categoria, tag, testo).
 4. Scrive foto.js con foto e testi di ogni progetto, nell'ordine delle cartelle.
 """
-import hashlib, html, json, os, re, sys
+import base64, hashlib, html, json, os, re, sys
 from PIL import Image, ImageOps
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -79,6 +79,10 @@ def read_text(folder, fallback):
             x['sub'] = v
         elif kl == 'tags':
             x['tags'] = [t.strip() for t in v.split(',') if t.strip()]
+        elif kl in ('visible', 'visibile'):
+            x['_visible'] = v.lower() not in ('no', 'false', '0', 'off')
+        elif kl == 'pin':
+            x['_pin'] = v.lower() in ('yes', 'si', 'sì', 'true', '1', 'on')
         elif v:
             x['meta'].append([k, v])
     paras = [re.sub(r'\s*\n\s*', ' ', p).strip() for p in re.split(r'\n\s*\n', body.strip())]
@@ -88,6 +92,21 @@ def read_text(folder, fallback):
     x['body'] = ''.join(f'<p>{fmt(p)}</p>' for p in paras if p)
     return x
 
+PIN = os.environ.get('PORTFOLIO_PIN', '').strip()
+
+def lock(entity, payload):
+    """Cifra i dati del progetto con il PIN (PBKDF2 + AES-GCM), decifrabili dal browser solo con il PIN giusto."""
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+    from cryptography.hazmat.primitives import hashes
+    raw = json.dumps(payload, ensure_ascii=False).encode()
+    salt = hashlib.sha256(b'er-salt|portfolio').digest()[:16]
+    iv = hashlib.sha256(b'er-iv|' + raw + PIN.encode()).digest()[:12]
+    key = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=salt, iterations=250000).derive(PIN.encode())
+    b64 = lambda b: base64.b64encode(b).decode()
+    return {'s': b64(salt), 'i': b64(iv), 'd': b64(AESGCM(key).encrypt(iv, raw, None))}
+
+written = set()
 data = {'home': [], 'p': {}, 's': {}, 'sec': {}}
 for secdir in sorted(os.listdir(FOTO), key=natkey):
     sec = SEC.get(secdir)
@@ -107,7 +126,15 @@ for secdir in sorted(os.listdir(FOTO), key=natkey):
             data['s'][entity] = lst
             continue
         title_guess = re.sub(r'^\d+[_-]', '', pdir).replace('-', ' ').title()
-        entry = {'f': lst, 'x': read_text(folder, title_guess)}
+        x = read_text(folder, title_guess)
+        visible, locked = x.pop('_visible', True), x.pop('_pin', False)
+        if not visible:
+            print('nascosto:', entity)
+            continue
+        if locked and not PIN:
+            print('ATTENZIONE: PIN richiesto ma il segreto PORTFOLIO_PIN non c\'è: progetto nascosto:', entity)
+            continue
+        entry = {'f': lst, 'x': x}
         data['sec'].setdefault(sec, []).append(entity)
         if lst:  # 2. miniatura
             first = os.path.join(folder, photos(folder)[0])
@@ -120,17 +147,28 @@ for secdir in sorted(os.listdir(FOTO), key=natkey):
                 if w > THUMB_W:
                     im = im.resize((THUMB_W, round(h * THUMB_W / w)), Image.LANCZOS)
                 im.save(tpath, 'WEBP', quality=85, method=6)
+                written.add(tpath)
+                if locked:
+                    from PIL import ImageFilter
+                    bpath = os.path.join(tdir, pdir + '__locked.webp')
+                    small = im.resize((max(1, im.width // 8), max(1, im.height // 8)), Image.LANCZOS)
+                    small.resize(im.size, Image.LANCZOS).filter(ImageFilter.GaussianBlur(14)).save(bpath, 'WEBP', quality=70)
+                    written.add(bpath)
             entry['t'] = url(tpath)
+        if locked:
+            entry = {'f': [], 'x': {'title': x['title'], 'sub': x['sub'], 'tags': [], 'meta': [], 'place': '', 'body': ''},
+                     'lock': lock(entity, entry)}
+            if lst:
+                entry['t'] = url(os.path.join(MINI, secdir, pdir + '__locked.webp'))
+            print('protetto con PIN:', entity)
         data['p'][entity] = entry
 
 # miniature di progetti che non esistono più
 if os.path.isdir(MINI):
-    keep = {os.path.join(MINI, sd, pd + '.webp') for sd in os.listdir(FOTO) if os.path.isdir(os.path.join(FOTO, sd))
-            for pd in os.listdir(os.path.join(FOTO, sd)) if os.path.isdir(os.path.join(FOTO, sd, pd))}
     for dp, _, files in os.walk(MINI):
         for f in files:
             p = os.path.join(dp, f)
-            if p not in keep:
+            if p not in written:
                 os.remove(p)
 
 # 3. elenco per il sito
