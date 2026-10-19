@@ -498,14 +498,14 @@ window.ERFOTO = {
 },
 "urban/the-dna": {
 "f": [
-"foto/02_urban/16_the-dna/01.webp?v=1e059f71",
+"foto/02_urban/16_the-dna/01.webp?v=fe5fc532",
 "foto/02_urban/16_the-dna/02.webp?v=3aedc048",
 "foto/02_urban/16_the-dna/03.webp?v=dedfefc4",
 "foto/02_urban/16_the-dna/04.webp?v=98ec9d9b",
 "foto/02_urban/16_the-dna/05.webp?v=384e516b",
 "foto/02_urban/16_the-dna/06.webp?v=908f3384",
 "foto/02_urban/16_the-dna/07.webp?v=82035471",
-"foto/02_urban/16_the-dna/08.webp?v=fe5fc532"
+"foto/02_urban/16_the-dna/08.webp?v=1e059f71"
 ],
 "x": {
 "title": "The DNA",
@@ -524,7 +524,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The DNA towers symbolize continuity and legacy in Dubai. Two forms intertwined like strands of DNA, representing the transmission of values, vision, and identity from one generation to the next. Rooted in the strength of the past and rising toward the future, the towers embody the evolution of heritage into innovation.</p><p>Each façade reads as a living archive, materials and light tracing the passage from origin to horizon. An architectural expression of family, unity, and progress, standing as an enduring landmark of intergenerational identity.</p>"
 },
-"t": "miniature/02_urban/16_the-dna.webp?v=4a44b8b9"
+"t": "miniature/02_urban/16_the-dna.webp?v=aeadf549"
 },
 "urban/residences-vishab": {
 "f": [
@@ -1001,8 +1001,8 @@ window.ERFOTO = {
 "foto/02_urban/31_escalera-mirador-vela/01.webp?v=c436347f",
 "foto/02_urban/31_escalera-mirador-vela/02.webp?v=49d08d4e",
 "foto/02_urban/31_escalera-mirador-vela/03.webp?v=c783ad05",
-"foto/02_urban/31_escalera-mirador-vela/04.webp?v=b86711e7",
 "foto/02_urban/31_escalera-mirador-vela/4.webp?v=0464a882",
+"foto/02_urban/31_escalera-mirador-vela/04.webp?v=b86711e7",
 "foto/02_urban/31_escalera-mirador-vela/5.webp?v=26f4d0bf",
 "foto/02_urban/31_escalera-mirador-vela/6.webp?v=e1257b0b",
 "foto/02_urban/31_escalera-mirador-vela/12.webp?v=1ea32de6",
@@ -1157,8 +1157,8 @@ window.ERFOTO = {
 "interior/alkimia": {
 "f": [
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
-"foto/03_interior/02_alkimia/2.webp?v=a1983d74",
 "foto/03_interior/02_alkimia/02.webp?v=d253546f",
+"foto/03_interior/02_alkimia/2.webp?v=a1983d74",
 "foto/03_interior/02_alkimia/03.webp?v=a00ae0ea",
 "foto/03_interior/02_alkimia/04.webp?v=76707a7a",
 "foto/03_interior/02_alkimia/5.webp?v=e6098661",
@@ -1335,8 +1335,8 @@ window.ERFOTO = {
 "interior/ham-on-wheels": {
 "f": [
 "foto/03_interior/07_ham-on-wheels/01.webp?v=ee4e7d49",
-"foto/03_interior/07_ham-on-wheels/002.webp?v=8e9bd001",
 "foto/03_interior/07_ham-on-wheels/02.webp?v=eef5d0a7",
+"foto/03_interior/07_ham-on-wheels/002.webp?v=8e9bd001",
 "foto/03_interior/07_ham-on-wheels/03.webp?v=ceb742d6",
 "foto/03_interior/07_ham-on-wheels/046i.webp?v=d06676d6"
 ],
@@ -1860,10 +1860,10 @@ window.ERFOTO = {
 },
 "interior/presentedby-x-doha-design-district": {
 "f": [
-"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
-"foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
+"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
+"foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
 "foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93",
 "foto/03_interior/22_presentedby-x-doha-design-district/10.webp?v=9c6dd30c"
@@ -1893,7 +1893,7 @@ window.ERFOTO = {
 ],
 "body": "<p>Presentedby Doha redefines sneaker retail through an immersive environment inspired by Qatar’s dunes and urban streetwear culture. Dynamic LED screens, algorithmic metal forms, interactive lighting, and holographic displays create a constantly evolving experience. The flagship blends technology, digital art, and customization, transforming shopping into a personalized journey for sneaker and streetwear enthusiasts.</p><p>The experience starts before entering, as the façade becomes a digital landscape that captures attention and supports content creation. Inspired by Qatar’s shifting sand dunes, the interior works like an exhibition space showcasing rare trainers, collaborations, and collector pieces. Algorithmically cut metal blades wrap the space, forming a fluid tech landscape where products appear embedded in motion. Light, mapping, and responsive surfaces create a changing atmosphere, while a dedicated immersive room uses holographic fans to present selected sneakers as coveted icons.</p>"
 },
-"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=d59984ba"
+"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
 },
 "interior/presentedby-x-riyadh": {
 "f": [
