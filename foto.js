@@ -1001,8 +1001,8 @@ window.ERFOTO = {
 "foto/02_urban/31_escalera-mirador-vela/01.webp?v=c436347f",
 "foto/02_urban/31_escalera-mirador-vela/02.webp?v=49d08d4e",
 "foto/02_urban/31_escalera-mirador-vela/03.webp?v=c783ad05",
-"foto/02_urban/31_escalera-mirador-vela/04.webp?v=b86711e7",
 "foto/02_urban/31_escalera-mirador-vela/4.webp?v=0464a882",
+"foto/02_urban/31_escalera-mirador-vela/04.webp?v=b86711e7",
 "foto/02_urban/31_escalera-mirador-vela/5.webp?v=26f4d0bf",
 "foto/02_urban/31_escalera-mirador-vela/6.webp?v=e1257b0b",
 "foto/02_urban/31_escalera-mirador-vela/12.webp?v=1ea32de6",
@@ -1157,8 +1157,8 @@ window.ERFOTO = {
 "interior/alkimia": {
 "f": [
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
-"foto/03_interior/02_alkimia/2.webp?v=a1983d74",
 "foto/03_interior/02_alkimia/02.webp?v=d253546f",
+"foto/03_interior/02_alkimia/2.webp?v=a1983d74",
 "foto/03_interior/02_alkimia/03.webp?v=a00ae0ea",
 "foto/03_interior/02_alkimia/04.webp?v=76707a7a",
 "foto/03_interior/02_alkimia/5.webp?v=e6098661",
@@ -1335,8 +1335,8 @@ window.ERFOTO = {
 "interior/ham-on-wheels": {
 "f": [
 "foto/03_interior/07_ham-on-wheels/01.webp?v=ee4e7d49",
-"foto/03_interior/07_ham-on-wheels/002.webp?v=8e9bd001",
 "foto/03_interior/07_ham-on-wheels/02.webp?v=eef5d0a7",
+"foto/03_interior/07_ham-on-wheels/002.webp?v=8e9bd001",
 "foto/03_interior/07_ham-on-wheels/03.webp?v=ceb742d6",
 "foto/03_interior/07_ham-on-wheels/046i.webp?v=d06676d6"
 ],
@@ -1860,10 +1860,10 @@ window.ERFOTO = {
 },
 "interior/presentedby-x-doha-design-district": {
 "f": [
-"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
-"foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
+"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
+"foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
 "foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93",
 "foto/03_interior/22_presentedby-x-doha-design-district/10.webp?v=9c6dd30c"
@@ -1893,7 +1893,7 @@ window.ERFOTO = {
 ],
 "body": "<p>Presentedby Doha redefines sneaker retail through an immersive environment inspired by Qatar’s dunes and urban streetwear culture. Dynamic LED screens, algorithmic metal forms, interactive lighting, and holographic displays create a constantly evolving experience. The flagship blends technology, digital art, and customization, transforming shopping into a personalized journey for sneaker and streetwear enthusiasts.</p><p>The experience starts before entering, as the façade becomes a digital landscape that captures attention and supports content creation. Inspired by Qatar’s shifting sand dunes, the interior works like an exhibition space showcasing rare trainers, collaborations, and collector pieces. Algorithmically cut metal blades wrap the space, forming a fluid tech landscape where products appear embedded in motion. Light, mapping, and responsive surfaces create a changing atmosphere, while a dedicated immersive room uses holographic fans to present selected sneakers as coveted icons.</p>"
 },
-"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=d59984ba"
+"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
 },
 "interior/presentedby-x-riyadh": {
 "f": [
@@ -2780,19 +2780,14 @@ window.ERFOTO = {
 },
 "t": "miniature/04_art/12_sensefi.webp?v=98206773"
 },
-"art/modular-furniture": {
+"art/modular-furniture-one": {
 "f": [
-"foto/04_art/13_modular-furniture/01.webp?v=71f131f7",
-"foto/04_art/13_modular-furniture/02.webp?v=151d75f5",
-"foto/04_art/13_modular-furniture/03.webp?v=13ff6dfd",
-"foto/04_art/13_modular-furniture/04.webp?v=944f24b5",
-"foto/04_art/13_modular-furniture/05.webp?v=c66c44ea",
-"foto/04_art/13_modular-furniture/06.webp?v=5c19735a",
-"foto/04_art/13_modular-furniture/07.webp?v=3fcaa38d",
-"foto/04_art/13_modular-furniture/08.webp?v=f485d9ad"
+"foto/04_art/13_modular-furniture-one/01.webp?v=803710c3",
+"foto/04_art/13_modular-furniture-one/02.webp?v=628e6cc6",
+"foto/04_art/13_modular-furniture-one/03.webp?v=3607c759"
 ],
 "x": {
-"title": "Modular Furniture",
+"title": "Modular Furniture One",
 "place": "Barcelona, Spain, 2024",
 "sub": "",
 "tags": [],
@@ -2808,7 +2803,59 @@ window.ERFOTO = {
 ],
 "body": "<p>system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
 },
-"t": "miniature/04_art/13_modular-furniture.webp?v=4a568f84"
+"t": "miniature/04_art/13_modular-furniture-one.webp?v=aed7dd48"
+},
+"art/modular-furniture-two": {
+"f": [
+"foto/04_art/14_modular-furniture-two/01.webp?v=0d06f85c",
+"foto/04_art/14_modular-furniture-two/02.webp?v=98dd10cb",
+"foto/04_art/14_modular-furniture-two/03.webp?v=d2ef5f97",
+"foto/04_art/14_modular-furniture-two/04.webp?v=7557aaba"
+],
+"x": {
+"title": "Modular Furniture Two",
+"place": "Barcelona, Spain, 2024",
+"sub": "",
+"tags": [],
+"meta": [
+[
+"Location",
+"Barcelona, Spain"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
+},
+"t": "miniature/04_art/14_modular-furniture-two.webp?v=fea383ad"
+},
+"art/modular-furniture-three": {
+"f": [
+"foto/04_art/15_modular-furniture-three/01.webp?v=1bc2591e",
+"foto/04_art/15_modular-furniture-three/02.webp?v=1104bf97",
+"foto/04_art/15_modular-furniture-three/03.webp?v=af15e428",
+"foto/04_art/15_modular-furniture-three/04.webp?v=408d0353"
+],
+"x": {
+"title": "Modular Furniture Three",
+"place": "Barcelona, Spain, 2024",
+"sub": "",
+"tags": [],
+"meta": [
+[
+"Location",
+"Barcelona, Spain"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
+},
+"t": "miniature/04_art/15_modular-furniture-three.webp?v=671933fb"
 }
 },
 "s": {
@@ -2937,7 +2984,9 @@ window.ERFOTO = {
 "art/mangrove-table",
 "art/spine-table",
 "art/sensefi",
-"art/modular-furniture"
+"art/modular-furniture-one",
+"art/modular-furniture-two",
+"art/modular-furniture-three"
 ]
 }
 };
