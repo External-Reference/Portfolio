@@ -11,7 +11,7 @@ from PIL import Image, ImageOps
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 FOTO, MINI = 'foto', 'miniature'
-MAX_SIDE, THUMB_W = 2400, 800
+MAX_SIDE, THUMB_W = 3000, 800
 EXT = {'.jpg', '.jpeg', '.png', '.tif', '.tiff', '.webp', '.bmp', '.gif'}
 SEC = {'00_home': 'home', '01_studio': 'studio', '02_urban': 'urban', '03_interior': 'interior', '04_art': 'art'}
 os.chdir(ROOT)
