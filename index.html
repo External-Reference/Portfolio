@@ -244,6 +244,9 @@ img { display: block; }
 .side-foot .office { list-style: none; }
 .side-foot .office + .office { margin-top: 1.2rem; }
 .side-foot a { transition: color .2s ease; }
+.side-foot .web-link { color: var(--black); }
+.side-foot .web-link span { display: inline-block; transition: transform .2s ease; }
+@media (hover: hover) { .side-foot .web-link:hover { color: var(--grey); } .side-foot .web-link:hover span { transform: translate(.2rem, -.2rem); } }
 
 .lg { flex: 1; min-height: 0; overflow-y: auto; padding-right: .8rem; }
 .lg-grid { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 1.2rem 2rem; }
@@ -352,6 +355,9 @@ img { display: block; }
         <li><a href="https://www.google.com/maps/place/The+Bayswater+by+Omniyat/@25.1842958,55.2611554,17z/data=!3m2!4b1!5s0x3e5f428092e57b95:0x5a93cf7eccebf0a5!4m6!3m5!1s0x3e5f69d1f120e711:0xf19c0504f3cb24ec!8m2!3d25.184291!4d55.2637303!16s%2Fg%2F11b7q4h0t6?entry=ttu&amp;g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Bayswater Tower 707, Business Bay, Dubai</a></li>
         <li><a href="tel:+9710585245426">T. +971 058 524 5426</a></li>
         <li><a href="mailto:studiodubai@externalreference.com">studiodubai@externalreference.com</a></li>
+      </ul>
+      <ul class="office">
+        <li><a class="web-link" href="https://www.externalreference.com" target="_blank" rel="noopener">www.externalreference.com <span aria-hidden="true">↗</span></a></li>
       </ul>
     </div>
   </aside>
