@@ -2564,7 +2564,7 @@ window.ERFOTO = {
 },
 "art/fluens": {
 "f": [
-"foto/04_art/03_fluens/01.webp?v=2dd3393c",
+"foto/04_art/03_fluens/01.webp?v=8ee61e2f",
 "foto/04_art/03_fluens/02.webp?v=a886456f",
 "foto/04_art/03_fluens/03.webp?v=9f5db6fc",
 "foto/04_art/03_fluens/04.webp?v=2da9ffba",
@@ -2584,7 +2584,7 @@ window.ERFOTO = {
 ],
 "body": "<p>Fluens is a chaise longue that engages in dialogue with the body, suspended between design and engineering. Its aluminium shell conceals a hidden mechanism that enables fluid, continuous postures, transforming rocking into an experience of suspended gravity. Wrapped in soft, customizable fabrics, it follows gestures and breaths: an invitation to find balance and create your own pause.</p><p>Its form is shaped as a continuous line, balancing technical precision with a soft, domestic presence. The structure supports a gentle motion that adapts to different ways of resting, reading, or reclining, making comfort feel active rather than fixed. Every detail is designed to reduce visual weight, from the smooth aluminium body to the textile surface that can shift in colour and texture. Fluens becomes more than a seat: it is a calm device for slowing down, where movement, ergonomics, and material refinement create a personal moment of stillness.</p>"
 },
-"t": "miniature/04_art/03_fluens.webp?v=0008697d"
+"t": "miniature/04_art/03_fluens.webp?v=31abc115"
 },
 "art/clx-01": {
 "f": [
