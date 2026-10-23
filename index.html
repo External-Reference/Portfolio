@@ -34,6 +34,7 @@ img { display: block; }
 .now { padding: 0 2.4rem 2rem; border-bottom: 1px solid var(--light); min-height: 7.6rem; }
 .now-label { color: var(--grey); margin-bottom: .6rem; }
 .now-section { color: var(--grey); }
+.now-section:empty { display: none; }
 .now-item { font-size: 1.6rem; line-height: 1.2; margin-top: .2rem; }
 .now-count { color: var(--grey); margin-top: .4rem; font-variant-numeric: tabular-nums; }
 
@@ -587,7 +588,7 @@ function __erMain() {
     hydrate(el);
     requestAnimationFrame(() => { el.classList.add('is-in'); if (old) old.remove(); });
     // cosa stiamo guardando
-    const sec = s.kind === 'cover' ? 'External Reference' : (s.section || '') + (s.sub && s.sub !== s.section ? ' — ' + s.sub : '');
+    const sec = s.kind === 'cover' ? '' : (s.section || '') + (s.sub && s.sub !== s.section ? ' — ' + s.sub : '');
     const item = s.kind === 'cover' ? 'Practice & Selected Works' : (s.item || '');
     document.getElementById('nowSection').textContent = sec;
     document.getElementById('nowItem').textContent = item;
