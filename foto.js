@@ -2521,8 +2521,14 @@ window.ERFOTO = {
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
-"foto/04_art/01_pure-plants/02.webp?v=13222aa6",
-"foto/04_art/01_pure-plants/03.webp?v=f3d9971d"
+"foto/04_art/01_pure-plants/02.webp?v=978f169f",
+"foto/04_art/01_pure-plants/03.webp?v=f3d9971d",
+"foto/04_art/01_pure-plants/04.webp?v=a65016ed",
+"foto/04_art/01_pure-plants/05.webp?v=6c0b6143",
+"foto/04_art/01_pure-plants/06.webp?v=71a330f0",
+"foto/04_art/01_pure-plants/07.webp?v=859c0154",
+"foto/04_art/01_pure-plants/08.webp?v=cae0cac8",
+"foto/04_art/01_pure-plants/09.webp?v=2d56a5c8"
 ],
 "x": {
 "title": "Pure Plants",
