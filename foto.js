@@ -502,9 +502,8 @@ window.ERFOTO = {
 "foto/02_urban/16_the-dna/02.webp?v=3aedc048",
 "foto/02_urban/16_the-dna/03.webp?v=98ec9d9b",
 "foto/02_urban/16_the-dna/04.webp?v=384e516b",
-"foto/02_urban/16_the-dna/05.webp?v=908f3384",
-"foto/02_urban/16_the-dna/06.webp?v=82035471",
-"foto/02_urban/16_the-dna/07.webp?v=1e059f71"
+"foto/02_urban/16_the-dna/05.webp?v=82035471",
+"foto/02_urban/16_the-dna/06.webp?v=1e059f71"
 ],
 "x": {
 "title": "The DNA",
