@@ -996,6 +996,10 @@ window.ERFOTO = {
 },
 "urban/escalera-mirador-vela": {
 "f": [
+{
+"v": "foto/02_urban/31_escalera-mirador-vela/00_video.mp4?v=d75b2c52",
+"p": "foto/02_urban/31_escalera-mirador-vela/00_video.poster.webp?v=8afb6ffa"
+},
 "foto/02_urban/31_escalera-mirador-vela/01.webp?v=c436347f",
 "foto/02_urban/31_escalera-mirador-vela/02.webp?v=49d08d4e",
 "foto/02_urban/31_escalera-mirador-vela/03.webp?v=c783ad05",
@@ -1154,6 +1158,10 @@ window.ERFOTO = {
 },
 "interior/alkimia": {
 "f": [
+{
+"v": "foto/03_interior/02_alkimia/00_video.mp4?v=9a91c232",
+"p": "foto/03_interior/02_alkimia/00_video.poster.webp?v=cbdc8ac5"
+},
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
 "foto/03_interior/02_alkimia/2.webp?v=a1983d74",
 "foto/03_interior/02_alkimia/02.webp?v=d253546f",
