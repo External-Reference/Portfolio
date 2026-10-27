@@ -19,8 +19,8 @@ aggiorna la miniatura e ripubblica il sito. Poi ricarica la pagina con Ctrl+F5 (
 
 AGGIUNGERE UN VIDEO
 Carica nella cartella del progetto un file .mp4 (max 25 MB dal sito GitHub; per file più grandi chiedi a Claude).
-Il nome decide la posizione, come per le foto: 01_video.mp4 compare subito dopo la foto 01.
-GitHub crea da solo l'anteprima (01_video.poster.webp); per sceglierne un'altra, sostituisci quel file.
+Il nome decide la posizione, come per le foto: 00_video.mp4 compare prima di tutte le foto, 01_video.mp4 subito dopo la foto 01.
+GitHub crea da solo l'anteprima (es. 00_video.poster.webp); per sceglierne un'altra, sostituisci quel file.
 Nella griglia il video ha l'icona play; al clic si apre a schermo pieno con audio. La copertina resta sempre la foto 01.
 
 TOGLIERE UNA FOTO
