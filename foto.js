@@ -2085,7 +2085,14 @@ window.ERFOTO = {
 },
 "foto/03_interior/28_24-kilates-the-mine/01.webp?v=f152d4f2",
 "foto/03_interior/28_24-kilates-the-mine/02.webp?v=36a0a8dd",
-"foto/03_interior/28_24-kilates-the-mine/03.webp?v=a907bea4"
+"foto/03_interior/28_24-kilates-the-mine/03.webp?v=a907bea4",
+"foto/03_interior/28_24-kilates-the-mine/04.webp?v=6a60af57",
+"foto/03_interior/28_24-kilates-the-mine/05.webp?v=437a103c",
+"foto/03_interior/28_24-kilates-the-mine/06.webp?v=82b29b4b",
+"foto/03_interior/28_24-kilates-the-mine/07.webp?v=f791aff7",
+"foto/03_interior/28_24-kilates-the-mine/08.webp?v=ef8f1362",
+"foto/03_interior/28_24-kilates-the-mine/09.webp?v=e56f3d4f",
+"foto/03_interior/28_24-kilates-the-mine/10.webp?v=fdd76294"
 ],
 "x": {
 "title": "24 Kilates - The Mine",
