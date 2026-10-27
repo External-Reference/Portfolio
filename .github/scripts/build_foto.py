@@ -6,13 +6,15 @@
 3. Legge testo.txt di ogni progetto (titolo, scheda, categoria, tag, testo).
 4. Scrive foto.js con foto e testi di ogni progetto, nell'ordine delle cartelle.
 """
-import base64, hashlib, html, json, os, re, sys
+import base64, hashlib, html, json, os, re, shutil, subprocess, sys
 from PIL import Image, ImageOps
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 FOTO, MINI = 'foto', 'miniature'
 MAX_SIDE, THUMB_W = 3000, 800
 EXT = {'.jpg', '.jpeg', '.png', '.tif', '.tiff', '.webp', '.bmp', '.gif'}
+VID = {'.mp4', '.webm'}            # video pronti per il web
+VID_RAW = {'.mov', '.m4v', '.avi'}  # convertiti in .mp4 se ffmpeg è disponibile
 SEC = {'00_home': 'home', '01_studio': 'studio', '02_urban': 'urban', '03_interior': 'interior', '04_art': 'art'}
 os.chdir(ROOT)
 
@@ -49,8 +51,47 @@ for dp, _, files in os.walk(FOTO):
             os.remove(src)
         print('foto pronta:', dst)
 
+# 1b. video: .mov -> .mp4 (H.264, 1080p) e immagine di anteprima <nome>.poster.webp
+FF = shutil.which('ffmpeg')
+for dp, _, files in os.walk(FOTO):
+    for f in sorted(files):
+        stem, ext = os.path.splitext(f)
+        ext = ext.lower()
+        src = os.path.join(dp, f)
+        if ext in VID_RAW and FF:
+            dst = os.path.join(dp, stem + '.mp4')
+            subprocess.run([FF, '-v', 'error', '-y', '-i', src, '-map', '0:v:0', '-map', '0:a:0?',
+                            '-vf', "scale='min(1920,iw)':-2", '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22',
+                            '-maxrate', '3.5M', '-bufsize', '7M', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
+                            '-movflags', '+faststart', dst + '.tmp.mp4'], check=True)
+            os.replace(dst + '.tmp.mp4', dst)
+            os.remove(src)
+            print('video pronto:', dst)
+            ext, src = '.mp4', dst
+        if ext in VID and FF:
+            poster = os.path.join(dp, stem + '.poster.webp')
+            if not os.path.exists(poster):
+                subprocess.run([FF, '-v', 'error', '-y', '-ss', '2', '-i', src, '-frames:v', '1',
+                                '-c:v', 'libwebp', '-quality', '88', poster], check=True)
+                print('anteprima video:', poster)
+
 def photos(folder):
-    return sorted([f for f in os.listdir(folder) if f.lower().endswith('.webp')], key=natkey)
+    return sorted([f for f in os.listdir(folder) if f.lower().endswith('.webp') and not f.lower().endswith('.poster.webp')], key=natkey)
+
+def media(folder):
+    """Foto e video del progetto, in ordine di nome. Un video è {'v': url, 'p': anteprima}."""
+    out = []
+    for f in sorted(os.listdir(folder), key=natkey):
+        fl = f.lower()
+        if fl.endswith('.poster.webp'):
+            continue
+        if fl.endswith('.webp'):
+            out.append(url(os.path.join(folder, f)))
+        elif os.path.splitext(fl)[1] in VID:
+            stem = os.path.splitext(f)[0]
+            poster = os.path.join(folder, stem + '.poster.webp')
+            out.append({'v': url(os.path.join(folder, f)), 'p': url(poster) if os.path.exists(poster) else ''})
+    return out
 
 def url(path):
     h = hashlib.md5(open(path, 'rb').read()).hexdigest()[:8]
@@ -121,10 +162,11 @@ for secdir in sorted(os.listdir(FOTO), key=natkey):
         if not os.path.isdir(folder):
             continue
         entity = sec + '/' + re.sub(r'^\d+[_-]', '', pdir)
-        lst = [url(os.path.join(folder, f)) for f in photos(folder)]
         if sec == 'studio':
+            lst = [url(os.path.join(folder, f)) for f in photos(folder)]
             data['s'][entity] = lst
             continue
+        lst = media(folder)
         title_guess = re.sub(r'^\d+[_-]', '', pdir).replace('-', ' ').title()
         x = read_text(folder, title_guess)
         visible, locked = x.pop('_visible', True), x.pop('_pin', False)
@@ -136,7 +178,7 @@ for secdir in sorted(os.listdir(FOTO), key=natkey):
             continue
         entry = {'f': lst, 'x': x}
         data['sec'].setdefault(sec, []).append(entity)
-        if lst:  # 2. miniatura
+        if photos(folder):  # 2. miniatura
             first = os.path.join(folder, photos(folder)[0])
             tdir = os.path.join(MINI, secdir)
             os.makedirs(tdir, exist_ok=True)
@@ -158,7 +200,7 @@ for secdir in sorted(os.listdir(FOTO), key=natkey):
         if locked:
             entry = {'f': [], 'x': {'title': x['title'], 'sub': x['sub'], 'tags': [], 'meta': [], 'place': '', 'body': ''},
                      'lock': lock(entity, entry)}
-            if lst:
+            if photos(folder):
                 entry['t'] = url(os.path.join(MINI, secdir, pdir + '__locked.webp'))
             print('protetto con PIN:', entity)
         data['p'][entity] = entry

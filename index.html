@@ -193,6 +193,12 @@ img { display: block; }
 .gal-item { display: block; cursor: zoom-in; aspect-ratio: 3 / 2; overflow: hidden; background: var(--light); }
 .gal-item img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity .4s ease; }
 .gal-item img.is-ready { opacity: 1; }
+.gal-item { position: relative; }
+.gal-item video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.gal-item .play { position: absolute; left: 50%; top: 50%; width: 3.4rem; height: 3.4rem; margin: -1.7rem 0 0 -1.7rem; border-radius: 50%; background: rgba(255,255,255,.88); color: #151515; display: flex; align-items: center; justify-content: center; transition: transform .3s ease; pointer-events: none; }
+.gal-item .play svg { width: 1.3rem; height: 1.3rem; margin-left: .15rem; }
+@media (hover: hover) { .gal-item.is-video:hover .play { transform: scale(1.08); } }
+.single .fig.is-video .ph video { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; background: #000; outline: none; }
 @media (hover: hover) { .gal-item:hover img.is-ready { opacity: .9; } }
 .info-hint { flex: none; color: var(--grey); margin-top: 1.2rem; }
 /* pulsante per chiudere la foto a schermo pieno */
@@ -438,7 +444,8 @@ function __erTransform() {
         res.push({ id: o.ent + '/1', kind: 'locked', n: 1, of: 1, num: String(i + 1).padStart(3, '0'), section: g.title, sub: o.sub, item: o.x.title, entity: o.ent, title: o.x.title, img: k });
         return;
       }
-      const keys = o.p.f.map((u, j) => { const k = o.ent + '#' + (j + 1); E[k] = u; return k; });
+      const V = window.ERVID = window.ERVID || {};
+      const keys = o.p.f.map((u, j) => { const k = o.ent + '#' + (j + 1); if (u && typeof u === 'object') { V[k] = u.v; if (u.p) E[k] = u.p; } else E[k] = u; return k; });
       const of = keys.length + 1, base = { section: g.title, sub: o.sub, item: o.x.title, entity: o.ent, of, title: o.x.title };
       res.push(Object.assign({ id: o.ent + '/1', kind: 'intro', n: 1, num: String(i + 1).padStart(3, '0'), place: o.x.place || '', meta: o.x.meta || [], body: o.x.body || '', tags: o.x.tags || [], img: keys[0] || null, imgs: keys }, base));
       keys.forEach((k, j) => res.push(Object.assign({ id: o.ent + '/' + (j + 2), kind: 'image', n: j + 2, img: k }, base)));
@@ -554,13 +561,13 @@ function __erMain() {
         // tutte le foto del progetto: la prima grande, le altre in griglia; un clic apre la foto a schermo pieno
         const ent = s.id.replace(/\/\d+$/, '');
         const all = (s.imgs && s.imgs.length ? s.imgs : [s.img]).filter(Boolean);
-        const gal = `<div class="gal">${all.map((k, j) => `<button type="button" class="gal-item${j === 0 ? ' is-first' : ''}" data-go="${ent}/${j + 2}" data-n="${j + 1}" aria-label="Photo ${j + 1}">${im(k, s.title)}</button>`).join('')}</div>`;
+        const gal = `<div class="gal">${all.map((k, j) => { const v = window.ERVID && window.ERVID[k]; return `<button type="button" class="gal-item${j === 0 ? ' is-first' : ''}${v ? ' is-video' : ''}" data-go="${ent}/${j + 2}" data-n="${j + 1}" aria-label="${v ? 'Video' : 'Photo'} ${j + 1}">${window.ERIMG[k] ? im(k, s.title) : (v ? `<video src="${v}#t=2" muted playsinline preload="metadata"></video>` : '')}${v ? '<span class="play" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M7 5 L15 10 L7 15 Z" fill="currentColor"/></svg></span>' : ''}</button>`; }).join('')}</div>`;
         const sec = ent.split('/')[0];
-        return `<div class="slide"><button class="close-x is-back" type="button" data-go="${sec}" aria-label="Back to all projects" title="All projects (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="intro">${gal}<div class="info"><div class="info-num">${s.num}</div><h2>${esc(s.title)}</h2><div class="info-place">${esc(s.place)}</div><dl>${s.meta.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl><div class="txt">${s.body}</div><p class="info-hint">${all.length > 1 ? all.length + ' photos — click a photo to view it full screen' : ''}</p></div></div></div>`;
+        return `<div class="slide"><button class="close-x is-back" type="button" data-go="${sec}" aria-label="Back to all projects" title="All projects (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="intro">${gal}<div class="info"><div class="info-num">${s.num}</div><h2>${esc(s.title)}</h2><div class="info-place">${esc(s.place)}</div><dl>${s.meta.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl><div class="txt">${s.body}</div><p class="info-hint">${(() => { const nv = all.filter(k => window.ERVID && window.ERVID[k]).length, np = all.length - nv; if (all.length < 2) return ''; return (np ? np + (np > 1 ? ' photos' : ' photo') : '') + (np && nv ? ' + ' : '') + (nv ? nv + (nv > 1 ? ' videos' : ' video') : '') + ' — click to view full screen'; })()}</p></div></div></div>`;
       }
       case 'image': {
         const ent = s.id.replace(/\/\d+$/, '');
-        return `<div class="slide"><button class="close-x" type="button" data-go="${ent}/1" aria-label="Close and return to all photos" title="Close (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="single">${fig(s.img, '', s.title)}</div></div>`;
+        return `<div class="slide"><button class="close-x" type="button" data-go="${ent}/1" aria-label="Close and return to all photos" title="Close (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="single">${window.ERVID && window.ERVID[s.img] ? `<figure class="fig is-video"><div class="ph"><video src="${window.ERVID[s.img]}" ${window.ERIMG[s.img] ? `poster="${window.ERIMG[s.img]}"` : ''} controls autoplay playsinline preload="auto"></video></div></figure>` : fig(s.img, '', s.title)}</div></div>`;
       }
     }
     return '<div class="slide"></div>';
@@ -606,7 +613,7 @@ function __erMain() {
     if (push !== false) history.replaceState(null, '', '#' + s.id);
     document.title = (s.kind === 'cover' ? '' : item + ' — ') + 'External Reference';
     // anticipo la foto della schermata successiva
-    const nx = S[i + 1]; if (nx && nx.img && window.ERIMG[nx.img]) new Image().src = window.ERIMG[nx.img];
+    const nx = S[i + 1]; if (nx && nx.img && window.ERIMG[nx.img] && !(nx.kind === 'image' && window.ERVID && window.ERVID[nx.img])) new Image().src = window.ERIMG[nx.img];
   }
   function go(id) { if (!(id in byId) && (id + '/1') in byId) id += '/1'; if (id in byId) show(byId[id]); document.body.classList.remove('nav-open'); }
 
@@ -628,6 +635,8 @@ function __erMain() {
   document.getElementById('next').addEventListener('click', () => show(idx + 1));
   document.addEventListener('keydown', e => {
     if (e.target.closest('input, textarea')) return;
+    const vid = stage.querySelector('.slide:last-child .single video');
+    if (vid && e.key === ' ') { e.preventDefault(); vid.paused ? vid.play() : vid.pause(); return; }
     if (['ArrowRight', 'PageDown'].includes(e.key) || (e.key === ' ' && !e.shiftKey)) { e.preventDefault(); show(idx + 1); }
     if (['ArrowLeft', 'PageUp'].includes(e.key) || (e.key === ' ' && e.shiftKey)) { e.preventDefault(); show(idx - 1); }
     if (e.key === 'Home') show(0);
