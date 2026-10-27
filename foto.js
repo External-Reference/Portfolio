@@ -2040,6 +2040,10 @@ window.ERFOTO = {
 "interior/24-kilates-the-clockwork": {
 "f": [
 "foto/03_interior/27_24-kilates-the-clockwork/01.webp?v=474a9637",
+{
+"v": "foto/03_interior/27_24-kilates-the-clockwork/01_video.mp4?v=60a17db2",
+"p": "foto/03_interior/27_24-kilates-the-clockwork/01_video.poster.webp?v=9abffd3e"
+},
 "foto/03_interior/27_24-kilates-the-clockwork/02.webp?v=b8046c3e",
 "foto/03_interior/27_24-kilates-the-clockwork/03.webp?v=767e1b0a",
 "foto/03_interior/27_24-kilates-the-clockwork/04.webp?v=f0064662",
