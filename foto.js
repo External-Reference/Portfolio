@@ -2079,6 +2079,10 @@ window.ERFOTO = {
 },
 "interior/24-kilates-the-mine": {
 "f": [
+{
+"v": "foto/03_interior/28_24-kilates-the-mine/00_video.mp4?v=df5d7ec9",
+"p": "foto/03_interior/28_24-kilates-the-mine/00_video.poster.webp?v=5e45023f"
+},
 "foto/03_interior/28_24-kilates-the-mine/01.webp?v=f152d4f2",
 "foto/03_interior/28_24-kilates-the-mine/02.webp?v=36a0a8dd",
 "foto/03_interior/28_24-kilates-the-mine/03.webp?v=a907bea4"
