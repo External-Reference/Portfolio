@@ -2004,6 +2004,10 @@ window.ERFOTO = {
 },
 "interior/24-kilates-the-vault": {
 "f": [
+{
+"v": "foto/03_interior/26_24-kilates-the-vault/00_video.mp4?v=2115bd0b",
+"p": "foto/03_interior/26_24-kilates-the-vault/00_video.poster.webp?v=8fb1a1dd"
+},
 "foto/03_interior/26_24-kilates-the-vault/01.webp?v=4dd6d97b",
 "foto/03_interior/26_24-kilates-the-vault/02.webp?v=61edf49d",
 "foto/03_interior/26_24-kilates-the-vault/03.webp?v=f1d186ea",
