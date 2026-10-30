@@ -1045,6 +1045,28 @@ window.ERFOTO = {
 ],
 "body": "<p>Located along Barcelona’s waterfront near the W Hotel, the project introduces a sculptural staircase and elevated walkway that connect two levels of the promenade. Inspired by Mediterranean salt crystal formations, the intervention creates a new façade and public balcony that extends the promenade toward the sea while framing views of the coastline and city.</p><p>The intervention uses the existing seawall as both support and context, turning a former dead end into an urban connection. Its prefabricated reinforced concrete structure includes a 48-step stairway and an elevated walkway, clad with triangular bio-receptive panels developed through parametric design. The panels embed native plants such as Lobularia maritima, Lampranthus spectabilis, and Drosanthemum floribundum. A fiber optic lighting system activates the façade at sunset.</p>"
 },
+"c": [
+"foto/02_urban/31_escalera-mirador-vela/construction/01.webp?v=2b6e549c",
+"foto/02_urban/31_escalera-mirador-vela/construction/02.webp?v=b09df909",
+"foto/02_urban/31_escalera-mirador-vela/construction/03.webp?v=684ed598",
+"foto/02_urban/31_escalera-mirador-vela/construction/04.webp?v=cd9339ac",
+"foto/02_urban/31_escalera-mirador-vela/construction/05.webp?v=40d9c820",
+"foto/02_urban/31_escalera-mirador-vela/construction/06.webp?v=1dcaaf58",
+"foto/02_urban/31_escalera-mirador-vela/construction/07.webp?v=fe49aa84",
+"foto/02_urban/31_escalera-mirador-vela/construction/08.webp?v=2f371762",
+"foto/02_urban/31_escalera-mirador-vela/construction/09.webp?v=dd023fa7",
+"foto/02_urban/31_escalera-mirador-vela/construction/10.webp?v=2b880ca3",
+"foto/02_urban/31_escalera-mirador-vela/construction/11.webp?v=29d69b6f",
+"foto/02_urban/31_escalera-mirador-vela/construction/12.webp?v=744909c2",
+"foto/02_urban/31_escalera-mirador-vela/construction/13.webp?v=198baba9",
+"foto/02_urban/31_escalera-mirador-vela/construction/14.webp?v=74a85c3b",
+"foto/02_urban/31_escalera-mirador-vela/construction/15.webp?v=b93f0918",
+"foto/02_urban/31_escalera-mirador-vela/construction/16.webp?v=3fa98525",
+"foto/02_urban/31_escalera-mirador-vela/construction/17.webp?v=6aa64230",
+"foto/02_urban/31_escalera-mirador-vela/construction/18.webp?v=ab020ddc",
+"foto/02_urban/31_escalera-mirador-vela/construction/19.webp?v=9e490d14",
+"foto/02_urban/31_escalera-mirador-vela/construction/20.webp?v=73911067"
+],
 "t": "miniature/02_urban/31_escalera-mirador-vela.webp?v=1d521299"
 },
 "urban/whispers-of-the-sea": {
