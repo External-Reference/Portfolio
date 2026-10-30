@@ -1332,7 +1332,20 @@ window.ERFOTO = {
 "foto/03_interior/05_caaa-by-pietro-catalano/01.webp?v=583aa3d1",
 "foto/03_interior/05_caaa-by-pietro-catalano/02.webp?v=903e9c3f",
 "foto/03_interior/05_caaa-by-pietro-catalano/03.webp?v=894d65be",
-"foto/03_interior/05_caaa-by-pietro-catalano/04.webp?v=acf4934d"
+"foto/03_interior/05_caaa-by-pietro-catalano/04.webp?v=acf4934d",
+"foto/03_interior/05_caaa-by-pietro-catalano/05.webp?v=e7576cac",
+"foto/03_interior/05_caaa-by-pietro-catalano/06.webp?v=fcd760ca",
+"foto/03_interior/05_caaa-by-pietro-catalano/07.webp?v=d8977ed5",
+"foto/03_interior/05_caaa-by-pietro-catalano/08.webp?v=77498490",
+"foto/03_interior/05_caaa-by-pietro-catalano/09.webp?v=d85bdb03",
+"foto/03_interior/05_caaa-by-pietro-catalano/10.webp?v=7bdf7f05",
+"foto/03_interior/05_caaa-by-pietro-catalano/11.webp?v=8d6c674b",
+"foto/03_interior/05_caaa-by-pietro-catalano/12.webp?v=ebebbff7",
+"foto/03_interior/05_caaa-by-pietro-catalano/13.webp?v=c1e34759",
+"foto/03_interior/05_caaa-by-pietro-catalano/14.webp?v=e669081f",
+"foto/03_interior/05_caaa-by-pietro-catalano/15.webp?v=59222a49",
+"foto/03_interior/05_caaa-by-pietro-catalano/16.webp?v=faa598e4",
+"foto/03_interior/05_caaa-by-pietro-catalano/17.webp?v=217fb4a7"
 ],
 "x": {
 "title": "CAAA By Pietro Catalano",
