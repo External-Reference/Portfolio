@@ -1217,13 +1217,36 @@ window.ERFOTO = {
 "body": "<p>Alkimia, a Michelin-starred restaurant in Barcelona, resides in a historic modernist building from 1864, unoccupied for four decades. The renovation honors the building’s heritage while aligning with Alkimia’s innovative gastronomy.</p><p>The design is a seamless interplay between past and future, featuring sea life-inspired skins, art installations, and custom furniture that create a dynamic, ever-evolving space. Respect for the existing architecture was key—no structural changes were made, and original wall paintings were preserved, adding historical depth to the modern design.</p><p>This blend of digital fabrication and traditional craftsmanship reflects Alkimia’s ethos, offering a sensory journey where history and innovation coexist. The result is a restaurant that is as rich and layered in design as its culinary creations.</p>"
 },
 "c": [
+{
+"v": "foto/03_interior/02_alkimia/construction/00_video.mp4?v=18188b86",
+"p": "foto/03_interior/02_alkimia/construction/00_video.poster.webp?v=1c188848"
+},
 "foto/03_interior/02_alkimia/construction/01.webp?v=563447cc",
 "foto/03_interior/02_alkimia/construction/02.webp?v=e523b1d0",
 "foto/03_interior/02_alkimia/construction/03.webp?v=6cd3d7f1",
 "foto/03_interior/02_alkimia/construction/04.webp?v=1d55c4ca",
 "foto/03_interior/02_alkimia/construction/05.webp?v=3be03d1d",
 "foto/03_interior/02_alkimia/construction/06.webp?v=6a48a090",
-"foto/03_interior/02_alkimia/construction/07.webp?v=10b1e3f5"
+"foto/03_interior/02_alkimia/construction/07.webp?v=10b1e3f5",
+"foto/03_interior/02_alkimia/construction/08.webp?v=95027cfe",
+"foto/03_interior/02_alkimia/construction/09.webp?v=dd6330e1",
+"foto/03_interior/02_alkimia/construction/10.webp?v=c3180979",
+"foto/03_interior/02_alkimia/construction/11.webp?v=768a023d",
+"foto/03_interior/02_alkimia/construction/12.webp?v=07a8baba",
+"foto/03_interior/02_alkimia/construction/13.webp?v=d4c1c4fd",
+"foto/03_interior/02_alkimia/construction/14.webp?v=f6dcaf3b",
+"foto/03_interior/02_alkimia/construction/15.webp?v=d47ff50d",
+"foto/03_interior/02_alkimia/construction/16.webp?v=1d9d0e7d",
+"foto/03_interior/02_alkimia/construction/17.webp?v=62d61b9d",
+"foto/03_interior/02_alkimia/construction/18.webp?v=40eeb240",
+"foto/03_interior/02_alkimia/construction/19.webp?v=c4b83850",
+"foto/03_interior/02_alkimia/construction/20.webp?v=00099327",
+"foto/03_interior/02_alkimia/construction/21.webp?v=67a4bd10",
+"foto/03_interior/02_alkimia/construction/22.webp?v=e8a8bf64",
+"foto/03_interior/02_alkimia/construction/23.webp?v=cf780e80",
+"foto/03_interior/02_alkimia/construction/24.webp?v=dd321732",
+"foto/03_interior/02_alkimia/construction/25.webp?v=bd2aa2e3",
+"foto/03_interior/02_alkimia/construction/26.webp?v=29d015cd"
 ],
 "t": "miniature/03_interior/02_alkimia.webp?v=b75075f5"
 },
