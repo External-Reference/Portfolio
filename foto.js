@@ -2300,7 +2300,17 @@ window.ERFOTO = {
 "f": [
 "foto/03_interior/33_casa-sayrach-principal-office/01.webp?v=59e487ff",
 "foto/03_interior/33_casa-sayrach-principal-office/02.webp?v=f116c2d4",
-"foto/03_interior/33_casa-sayrach-principal-office/03.webp?v=1391b7a5"
+"foto/03_interior/33_casa-sayrach-principal-office/03.webp?v=1391b7a5",
+"foto/03_interior/33_casa-sayrach-principal-office/04.webp?v=74824f08",
+"foto/03_interior/33_casa-sayrach-principal-office/05.webp?v=7ff7b8aa",
+"foto/03_interior/33_casa-sayrach-principal-office/06.webp?v=75c7c528",
+"foto/03_interior/33_casa-sayrach-principal-office/07.webp?v=b7e7e91d",
+"foto/03_interior/33_casa-sayrach-principal-office/08.webp?v=4ebe6e1c",
+"foto/03_interior/33_casa-sayrach-principal-office/09.webp?v=3ee21d2f",
+"foto/03_interior/33_casa-sayrach-principal-office/10.webp?v=c1dba251",
+"foto/03_interior/33_casa-sayrach-principal-office/11.webp?v=ee5a1f1c",
+"foto/03_interior/33_casa-sayrach-principal-office/12.webp?v=d1de87e3",
+"foto/03_interior/33_casa-sayrach-principal-office/13.webp?v=7f842f93"
 ],
 "x": {
 "title": "Casa Sayrach Principal Office",
