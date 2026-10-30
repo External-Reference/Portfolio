@@ -1940,6 +1940,11 @@ window.ERFOTO = {
 ],
 "body": "<p>La Manso’s Barcelona flagship merges floral modernism with futuristic retail. External Reference reinterprets the brand’s identity through parametric design, 3D printing, and mirrored surfaces, transforming organic ornamentation into illuminated rosettes that frame jewelry and accessories. A refined beige palette and reimagined logo connect craftsmanship, technology, and haute couture, creating an immersive space that bridges digital and physical shopping.</p><p>A sculptural central element contains the cash desk operations, keeping service functions hidden while preserving a fluid shopping area. Light acts as an active layer of display, drawing attention to garments and adding movement to the interior. The ceiling expands the perception of space through an infinity mirror made with reflective surfaces and flexible screens, creating the illusion of endless digital content. The combination of these elements turns the store into a stage where visitors feel part of Pinko’s world.</p>"
 },
+"c": [
+"foto/03_interior/20_la-manso/construction/01.webp?v=fe5dd5e3",
+"foto/03_interior/20_la-manso/construction/02.webp?v=e457da36",
+"foto/03_interior/20_la-manso/construction/03.webp?v=ad0228e1"
+],
 "t": "miniature/03_interior/20_la-manso.webp?v=41a41332"
 },
 "interior/wow-concept-store": {
