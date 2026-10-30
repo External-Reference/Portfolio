@@ -1372,6 +1372,18 @@ window.ERFOTO = {
 ],
 "body": "<p>The restaurant is conceived as an immersive space inspired by the landscapes of the Alps. Developed through artificial intelligence image generation and parametric design tools, the space was later materialized using 3D printing. The interior features organic white forms that evoke snow covered forests, while lighting and projections transform the atmosphere, creating a sensory dining environment where architecture, technology, and gastronomy meet.</p><p>Located in Lucerne, Switzerland, CAAA by Pietro Catalano is an 80 m² restaurant for around 20 diners with an open exhibition kitchen. The space reflects the chef’s identity offering a precise and intimate spatial experience, where each element supports the culinary narrative. The design process moved from AI-based concept images to 3D parametric models, leveraging 3D printing to build it. Sustainability shaped the material choices, with recycled cellulose, glass, wood, and plastic used across the space. All furniture was designed bespoke, including ash wood and steel chairs, and pine wood tables with aluminum-injected legs.</p>"
 },
+"c": [
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/01.webp?v=e0ab6f5b",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/02.webp?v=f261757c",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/03.webp?v=6fff7315",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/04.webp?v=699e7d41",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/05.webp?v=213b19ef",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/06.webp?v=2e0bd257",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/07.webp?v=1592e849",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/08.webp?v=e8843060",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/09.webp?v=a1dbadb4",
+"foto/03_interior/05_caaa-by-pietro-catalano/construction/10.webp?v=d866baeb"
+],
 "t": "miniature/03_interior/05_caaa-by-pietro-catalano.webp?v=cc9c7618"
 },
 "interior/vicio-almagro": {
