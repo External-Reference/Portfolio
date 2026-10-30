@@ -1574,11 +1574,21 @@ window.ERFOTO = {
 },
 "interior/noxe-hotel-w": {
 "f": [
-"foto/03_interior/11_noxe-hotel-w/01.webp?v=99f5cfd6",
-"foto/03_interior/11_noxe-hotel-w/02.webp?v=0efd7bc8",
+"foto/03_interior/11_noxe-hotel-w/01.webp?v=4fef8d62",
+"foto/03_interior/11_noxe-hotel-w/02.webp?v=35657b76",
 "foto/03_interior/11_noxe-hotel-w/03.webp?v=2eb13b35",
-"foto/03_interior/11_noxe-hotel-w/04.webp?v=ddbf2b48",
-"foto/03_interior/11_noxe-hotel-w/05.webp?v=3e647569"
+"foto/03_interior/11_noxe-hotel-w/04.webp?v=27ec83b4",
+"foto/03_interior/11_noxe-hotel-w/05.webp?v=60d0f78b",
+"foto/03_interior/11_noxe-hotel-w/06.webp?v=e1b6463f",
+"foto/03_interior/11_noxe-hotel-w/07.webp?v=78e17031",
+"foto/03_interior/11_noxe-hotel-w/08.webp?v=ca22f739",
+"foto/03_interior/11_noxe-hotel-w/09.webp?v=0a549a35",
+"foto/03_interior/11_noxe-hotel-w/10.webp?v=1d371897",
+"foto/03_interior/11_noxe-hotel-w/11.webp?v=4230fc4d",
+"foto/03_interior/11_noxe-hotel-w/12.webp?v=72e986ab",
+"foto/03_interior/11_noxe-hotel-w/13.webp?v=d585693d",
+"foto/03_interior/11_noxe-hotel-w/14.webp?v=78069234",
+"foto/03_interior/11_noxe-hotel-w/15.webp?v=fbe57b82"
 ],
 "x": {
 "title": "Noxe Hotel W",
@@ -1601,7 +1611,7 @@ window.ERFOTO = {
 ],
 "body": "<p>We collaborated with Blacksheep to design this space. Together, we crafted a digital immersive experience that transcends physical boundaries, transporting users to an imaginary underwater realm. On the 26th floor of the W Hotel in Barcelona, youʻll find breathtaking views of the ocean, city, and mountains. This space is all about embracing natural light and the changing scenery.</p><p>Itʻs here that a well-known night spot is getting a fresh start. Noxe is more than just a place to grab a drink or a bite to eat - itʻs a cocktail bar, Japanese restaurant, and nightclub all rolled into one. From dusk till dawn, it›s alive with the pulse of the city. Every moment is unique, inspiring the branding and design to reflect the raw energy of nature. At Noxe, music, moonlight, and laughter blend seamlessly into an unforgettable experience that never stops.</p>"
 },
-"t": "miniature/03_interior/11_noxe-hotel-w.webp?v=56add56b"
+"t": "miniature/03_interior/11_noxe-hotel-w.webp?v=01f4789f"
 },
 "interior/speakeasy-bar-resort-casino": {
 "f": [
