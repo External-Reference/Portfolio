@@ -1881,6 +1881,10 @@ window.ERFOTO = {
 },
 "interior/presentedby-x-doha-design-district": {
 "f": [
+{
+"v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=0a1249e0",
+"p": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.poster.webp?v=e1bb381c"
+},
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
 "foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
