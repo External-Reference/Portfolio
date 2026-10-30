@@ -1558,6 +1558,10 @@ window.ERFOTO = {
 },
 "interior/onada-terrace-suites": {
 "f": [
+{
+"v": "foto/03_interior/13_onada-terrace-suites/00_video.mp4?v=33af2ea6",
+"p": "foto/03_interior/13_onada-terrace-suites/00_video.poster.webp?v=545da3ee"
+},
 "foto/03_interior/13_onada-terrace-suites/01.webp?v=ab8f6b3d",
 "foto/03_interior/13_onada-terrace-suites/02.webp?v=703248bc",
 "foto/03_interior/13_onada-terrace-suites/02_XR_HotelW_BCN.webp?v=e8702592",
