@@ -1465,12 +1465,9 @@ window.ERFOTO = {
 "v": "foto/03_interior/08_moritz-m-store/00_video.mp4?v=71be3b06",
 "p": "foto/03_interior/08_moritz-m-store/00_video.poster.webp?v=71da8899"
 },
-"foto/03_interior/08_moritz-m-store/01.webp?v=e677c7a1",
+"foto/03_interior/08_moritz-m-store/01.webp?v=1b1880f4",
 "foto/03_interior/08_moritz-m-store/02.webp?v=1346d3ff",
-"foto/03_interior/08_moritz-m-store/03.webp?v=76b36cbd",
 "foto/03_interior/08_moritz-m-store/04.webp?v=00719ed1",
-"foto/03_interior/08_moritz-m-store/05.webp?v=9c5b8a51",
-"foto/03_interior/08_moritz-m-store/_AG_9107-Pano.webp?v=1b1880f4",
 "foto/03_interior/08_moritz-m-store/_AG_9123-Pano.webp?v=4256416b",
 "foto/03_interior/08_moritz-m-store/_AG_9136-Pano.webp?v=23ceb3da",
 "foto/03_interior/08_moritz-m-store/_AG_9145-Pano.webp?v=26360d07"
@@ -1500,7 +1497,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The Moritz factory is one of the first breweries in Barcelona and one of the first to brew craft beer since 1856. Although this factory was closed for 33 years, it was reformed by the Architect Jean Nouvel in 2011, and after this great leap, our client asked us to turn the space around based on this remodeling. Moving the existing bar gave space to the new bar in an L shape of about 6 meters that reaches the window, serving as a manifesto to the outside while simultaneously integrating the interior.</p><p>This bar embodies three tanks in the lower part and three in the upper part that connect directly to the factory tanks located below where the beer is produced. These long tubes deliver the unpasteurized beer from production to consumption. This new bar is characterized by the material and aesthetic qualities of the Jean Nouvel bar. In addition, this bar is filled with limited-edition beers in one-liter bottles. The graphic elements and signage are modified according to the requirements. This second space is characterized by walls that exhibit the brand t-shirts, gadgets, merchandising elements, and books related to the world of beer.</p>"
 },
-"t": "miniature/03_interior/08_moritz-m-store.webp?v=19ce5e3c"
+"t": "miniature/03_interior/08_moritz-m-store.webp?v=661eea46"
 },
 "interior/moritz-rambla-de-catalunya": {
 "f": [
