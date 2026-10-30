@@ -177,6 +177,12 @@ for secdir in sorted(os.listdir(FOTO), key=natkey):
             print('ATTENZIONE: PIN richiesto ma il segreto PORTFOLIO_PIN non c\'è: progetto nascosto:', entity)
             continue
         entry = {'f': lst, 'x': x}
+        # sottocartella "construction": foto di cantiere, mostrate in una sezione a parte della galleria
+        for cname in ('construction', 'cantiere', 'obra'):
+            cdir = os.path.join(folder, cname)
+            if os.path.isdir(cdir) and media(cdir):
+                entry['c'] = media(cdir)
+                break
         data['sec'].setdefault(sec, []).append(entity)
         if photos(folder):  # 2. miniatura
             first = os.path.join(folder, photos(folder)[0])

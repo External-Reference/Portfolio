@@ -195,6 +195,8 @@ img { display: block; }
 .gal-item img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity .4s ease; }
 .gal-item img.is-ready { opacity: 1; }
 .gal-item { position: relative; }
+.gal-sec { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid var(--black); padding-top: 1rem; margin-top: 2.4rem; color: var(--black); }
+.gal-sec span { color: var(--grey); }
 .gal-item video { display: block; width: 100%; height: 100%; object-fit: cover; }
 .gal-item .play { position: absolute; left: 50%; top: 50%; width: 3.4rem; height: 3.4rem; margin: -1.7rem 0 0 -1.7rem; border-radius: 50%; background: rgba(255,255,255,.88); color: #151515; display: flex; align-items: center; justify-content: center; transition: transform .3s ease; pointer-events: none; }
 .gal-item .play svg { width: 1.3rem; height: 1.3rem; margin-left: .15rem; }
@@ -446,9 +448,12 @@ function __erTransform() {
         return;
       }
       const V = window.ERVID = window.ERVID || {};
-      const keys = o.p.f.map((u, j) => { const k = o.ent + '#' + (j + 1); if (u && typeof u === 'object') { V[k] = u.v; if (u.p) E[k] = u.p; } else E[k] = u; return k; });
+      const mk = (u, n) => { const k = o.ent + '#' + n; if (u && typeof u === 'object') { V[k] = u.v; if (u.p) E[k] = u.p; } else E[k] = u; return k; };
+      const main = o.p.f.map((u, j) => mk(u, j + 1));
+      const cons = (o.p.c || []).map((u, j) => mk(u, main.length + j + 1));
+      const keys = main.concat(cons);
       const of = keys.length + 1, base = { section: g.title, sub: o.sub, item: o.x.title, entity: o.ent, of, title: o.x.title };
-      res.push(Object.assign({ id: o.ent + '/1', kind: 'intro', n: 1, num: String(i + 1).padStart(3, '0'), place: o.x.place || '', meta: o.x.meta || [], body: o.x.body || '', tags: o.x.tags || [], img: keys[0] || null, imgs: keys }, base));
+      res.push(Object.assign({ id: o.ent + '/1', kind: 'intro', n: 1, num: String(i + 1).padStart(3, '0'), place: o.x.place || '', meta: o.x.meta || [], body: o.x.body || '', tags: o.x.tags || [], img: keys[0] || null, imgs: main, cimgs: cons }, base));
       keys.forEach((k, j) => res.push(Object.assign({ id: o.ent + '/' + (j + 2), kind: 'image', n: j + 2, img: k }, base)));
     });
     return res;
@@ -561,8 +566,9 @@ function __erMain() {
       case 'intro': {
         // tutte le foto del progetto: la prima grande, le altre in griglia; un clic apre la foto a schermo pieno
         const ent = s.id.replace(/\/\d+$/, '');
-        const all = (s.imgs && s.imgs.length ? s.imgs : [s.img]).filter(Boolean);
-        const gal = `<div class="gal">${all.map((k, j) => { const v = window.ERVID && window.ERVID[k]; return `<button type="button" class="gal-item${j === 0 ? ' is-first' : ''}${v ? ' is-video' : ''}" data-go="${ent}/${j + 2}" data-n="${j + 1}" aria-label="${v ? 'Video' : 'Photo'} ${j + 1}">${window.ERIMG[k] ? im(k, s.title) : (v ? `<video src="${v}#t=2" muted playsinline preload="metadata"></video>` : '')}${v ? '<span class="play" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M7 5 L15 10 L7 15 Z" fill="currentColor"/></svg></span>' : ''}</button>`; }).join('')}</div>`;
+        const all = (s.imgs && s.imgs.length ? s.imgs : [s.img]).filter(Boolean), cons = s.cimgs || [];
+        const galItem = (k, j) => { const v = window.ERVID && window.ERVID[k]; return `<button type="button" class="gal-item${j === 0 ? ' is-first' : ''}${v ? ' is-video' : ''}" data-go="${ent}/${j + 2}" data-n="${j + 1}" aria-label="${v ? 'Video' : 'Photo'} ${j + 1}">${window.ERIMG[k] ? im(k, s.title) : (v ? `<video src="${v}#t=2" muted playsinline preload="metadata"></video>` : '')}${v ? '<span class="play" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M7 5 L15 10 L7 15 Z" fill="currentColor"/></svg></span>' : ''}</button>`; };
+        const gal = `<div class="gal">${all.map(galItem).join('')}${cons.length ? `<div class="gal-sec">Construction<span>${cons.length}</span></div>${cons.map((k, j) => galItem(k, all.length + j)).join('')}` : ''}</div>`;
         const sec = ent.split('/')[0];
         return `<div class="slide"><button class="close-x is-back" type="button" data-go="${sec}" aria-label="Back to all projects" title="All projects (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="intro">${gal}<div class="info"><div class="info-num">${s.num}</div><h2>${esc(s.title)}</h2><div class="info-place">${esc(s.place)}</div><dl>${s.meta.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl><div class="txt">${s.body}</div><p class="info-hint">${(() => { const nv = all.filter(k => window.ERVID && window.ERVID[k]).length, np = all.length - nv; if (all.length < 2) return ''; return (np ? np + (np > 1 ? ' photos' : ' photo') : '') + (np && nv ? ' + ' : '') + (nv ? nv + (nv > 1 ? ' videos' : ' video') : '') + ' — click to view full screen'; })()}</p></div></div></div>`;
       }

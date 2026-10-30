@@ -23,6 +23,11 @@ Il nome decide la posizione, come per le foto: 00_video.mp4 compare prima di tut
 GitHub crea da solo l'anteprima (es. 00_video.poster.webp); per sceglierne un'altra, sostituisci quel file.
 Nella griglia il video ha l'icona play; al clic si apre a schermo pieno con audio. La copertina resta sempre la foto 01.
 
+FOTO DI CANTIERE (sezione "Construction")
+Dentro la cartella del progetto crea una sottocartella "construction" e caricaci le foto (01.jpg, 02.jpg...).
+Su GitHub: Add file > Upload files, e nel nome scrivi construction/01.jpg; oppure trascina l'intera cartella.
+Nella galleria del progetto compaiono sotto le foto principali, con il titolo "Construction".
+
 TOGLIERE UNA FOTO
 Apri il file .webp nella cartella del progetto, menu ... > Delete file > Commit changes.
 
