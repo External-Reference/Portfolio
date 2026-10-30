@@ -1859,6 +1859,12 @@ window.ERFOTO = {
 "foto/03_interior/19_pinko-at-roma-fiumicino/02.webp?v=efcda743",
 "foto/03_interior/19_pinko-at-roma-fiumicino/03.webp?v=a588cfe4",
 "foto/03_interior/19_pinko-at-roma-fiumicino/04.webp?v=825e1db8",
+"foto/03_interior/19_pinko-at-roma-fiumicino/20.webp?v=8e6c00cd",
+"foto/03_interior/19_pinko-at-roma-fiumicino/21.webp?v=ff41b85b",
+"foto/03_interior/19_pinko-at-roma-fiumicino/22.webp?v=5457a835",
+"foto/03_interior/19_pinko-at-roma-fiumicino/23.webp?v=9a624639",
+"foto/03_interior/19_pinko-at-roma-fiumicino/24.webp?v=ae36e548",
+"foto/03_interior/19_pinko-at-roma-fiumicino/25.webp?v=80d20963",
 "foto/03_interior/19_pinko-at-roma-fiumicino/thumbnail_10_BJ6A6188.webp?v=8f505a85",
 "foto/03_interior/19_pinko-at-roma-fiumicino/thumbnail_19_BJ6A6267.webp?v=9e628273"
 ],
@@ -1887,6 +1893,18 @@ window.ERFOTO = {
 ],
 "body": "<p>The flagship store in Rome redefines retail through digital fabrication and immersive design. A 3D-printed skin wraps the space, shifting from monochrome tones to the brand’s iconic pink while evolving from straight lines to soft curves inspired by Pinko’s patterns. Programmable LEDs animate the surface, with mirrors and digital art create an environment where fashion, light, and architecture merge.</p><p>A sculptural central element contains the cash desk operations, keeping service functions hidden while preserving a fluid shopping area. Light acts as an active layer of display, drawing attention to garments and adding movement to the interior. The ceiling expands the perception of space through an infinity mirror made with reflective surfaces and flexible screens, creating the illusion of endless digital content. The combination of these elements turns the store into a stage where visitors feel part of Pinko’s world.</p>"
 },
+"c": [
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/01.webp?v=a3f93a94",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/02.webp?v=3dee7f5f",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/03.webp?v=b3ec5789",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/04.webp?v=88c07f58",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/05.webp?v=08c12390",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/06.webp?v=ffd6e71c",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/07.webp?v=4baee8a0",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/08.webp?v=f0209c93",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/09.webp?v=8042e54f",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/10.webp?v=e6fb1f22"
+],
 "t": "miniature/03_interior/19_pinko-at-roma-fiumicino.webp?v=5b878065"
 },
 "interior/la-manso": {
