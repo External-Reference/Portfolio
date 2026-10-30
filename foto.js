@@ -1378,6 +1378,10 @@ window.ERFOTO = {
 },
 "interior/moritz-m-store": {
 "f": [
+{
+"v": "foto/03_interior/08_moritz-m-store/00_video.mp4?v=71be3b06",
+"p": "foto/03_interior/08_moritz-m-store/00_video.poster.webp?v=71da8899"
+},
 "foto/03_interior/08_moritz-m-store/01.webp?v=e677c7a1",
 "foto/03_interior/08_moritz-m-store/02.webp?v=1346d3ff",
 "foto/03_interior/08_moritz-m-store/03.webp?v=76b36cbd",
