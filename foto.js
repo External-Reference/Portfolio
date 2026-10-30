@@ -2220,6 +2220,10 @@ window.ERFOTO = {
 },
 "interior/jane-winestore": {
 "f": [
+{
+"v": "foto/03_interior/31_jane-winestore/00_video.mp4?v=6528723e",
+"p": "foto/03_interior/31_jane-winestore/00_video.poster.webp?v=fdfa12ac"
+},
 "foto/03_interior/31_jane-winestore/01.webp?v=c2e1c977",
 "foto/03_interior/31_jane-winestore/02.webp?v=3acd42f8"
 ],
