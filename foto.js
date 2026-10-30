@@ -1922,6 +1922,10 @@ window.ERFOTO = {
 },
 "interior/presentedby-x-riyadh": {
 "f": [
+{
+"v": "foto/03_interior/23_presentedby-x-riyadh/00_video.mp4?v=906dbf19",
+"p": "foto/03_interior/23_presentedby-x-riyadh/00_video.poster.webp?v=af7ad643"
+},
 "foto/03_interior/23_presentedby-x-riyadh/01.webp?v=0b57420e",
 "foto/03_interior/23_presentedby-x-riyadh/02.webp?v=e011c928",
 "foto/03_interior/23_presentedby-x-riyadh/03.webp?v=dd5dc878",
