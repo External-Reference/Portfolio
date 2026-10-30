@@ -1216,6 +1216,15 @@ window.ERFOTO = {
 ],
 "body": "<p>Alkimia, a Michelin-starred restaurant in Barcelona, resides in a historic modernist building from 1864, unoccupied for four decades. The renovation honors the building’s heritage while aligning with Alkimia’s innovative gastronomy.</p><p>The design is a seamless interplay between past and future, featuring sea life-inspired skins, art installations, and custom furniture that create a dynamic, ever-evolving space. Respect for the existing architecture was key—no structural changes were made, and original wall paintings were preserved, adding historical depth to the modern design.</p><p>This blend of digital fabrication and traditional craftsmanship reflects Alkimia’s ethos, offering a sensory journey where history and innovation coexist. The result is a restaurant that is as rich and layered in design as its culinary creations.</p>"
 },
+"c": [
+"foto/03_interior/02_alkimia/construction/01.webp?v=563447cc",
+"foto/03_interior/02_alkimia/construction/02.webp?v=e523b1d0",
+"foto/03_interior/02_alkimia/construction/03.webp?v=6cd3d7f1",
+"foto/03_interior/02_alkimia/construction/04.webp?v=1d55c4ca",
+"foto/03_interior/02_alkimia/construction/05.webp?v=3be03d1d",
+"foto/03_interior/02_alkimia/construction/06.webp?v=6a48a090",
+"foto/03_interior/02_alkimia/construction/07.webp?v=10b1e3f5"
+],
 "t": "miniature/03_interior/02_alkimia.webp?v=b75075f5"
 },
 "interior/plaza-mahou": {
