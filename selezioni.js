@@ -5,7 +5,6 @@
 window.ERSEL = {
   "expo-exhibition": {
     "title": "Expo & Exhibition",
-    "cover": "interior/european-union-pavilion#1",
     "projects": [
       "interior/spanish-pavilion-dubai-expo",
       "interior/expo-2020-dubai-menasa-emirati-design-platform",
