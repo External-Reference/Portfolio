@@ -428,6 +428,7 @@ window.__erTryPin = async function (ent, pin) {
   __erPin(pin); location.hash = ent + '/1'; location.reload(); return true;
 };
 // ---------- foto e testi dalle cartelle (foto.js, generato da GitHub) ----------
+function SECOF(e) { return window.__erSecOf ? window.__erSecOf(e) : String(e).split('/')[0]; }
 function __erTransform() {
   const F = window.ERFOTO, E = window.ERIMG = window.ERIMG || {};
   if (!F) return;
@@ -440,10 +441,16 @@ function __erTransform() {
   if (SEL) {
     window.__erSel = SEL;
     const want = (SEL.projects || []).filter(e => F.p[e]);
-    Object.keys(F.sec || {}).forEach(sec => { F.sec[sec] = want.filter(e => e.split('/')[0] === sec); if (!F.sec[sec].length) delete F.sec[sec]; });
+    // una sola sezione con il titolo della selezione; i progetti Urban restano raggruppati come sottocategoria
+    want.forEach(e => { if (e.split('/')[0] !== 'interior') { const p = F.p[e]; p.x = Object.assign({}, p.x, { sub: 'Urban & Architecture' }); } });
+    Object.keys(F.sec || {}).forEach(sec => delete F.sec[sec]);
+    F.sec.interior = want;
+    window.__erSecOf = () => 'interior';
+    const gi = DATA.tree.find(t => t.id === 'interior'); if (gi) gi.title = SEL.title;
+    S.forEach(s => { if (s.kind === 'overview' && s.id === 'interior') { s.item = SEL.title; s.title = SEL.title; s.section = SEL.title; } });
     DATA.tree = DATA.tree.filter(g => F.sec[g.id]);
     DATA.slides = S.filter(s => s.kind === 'cover' || (s.kind === 'overview' && F.sec[s.id]));
-    if (home) { home.title = SEL.title; home.cats = (home.cats || []).filter(c => F.sec[c.go.split('/')[0]]); home.cats.forEach(c => { const cv = (SEL.cover || '').split('#'), pc = F.p[cv[0]], uc = pc && pc.f && pc.f[(+cv[1] || 1) - 1]; const p0 = F.p[F.sec[c.go.split('/')[0]][0]]; const u = (typeof uc === 'string' && uc) || (p0 && p0.f && p0.f.find(x => typeof x === 'string')); if (u) { E['sel' + c.go] = u; c.img = 'sel' + c.go; } }); }
+    if (home) { home.title = SEL.title; home.cats = (home.cats || []).filter(c => F.sec[c.go.split('/')[0]]); home.cats.forEach(c => { c.t = want.length + ' projects'; }); home.cats.forEach(c => { const cv = (SEL.cover || '').split('#'), pc = F.p[cv[0]], uc = pc && pc.f && pc.f[(+cv[1] || 1) - 1]; const p0 = F.p[F.sec[c.go.split('/')[0]][0]]; const u = (typeof uc === 'string' && uc) || (p0 && p0.f && p0.f.find(x => typeof x === 'string')); if (u) { E['sel' + c.go] = u; c.img = 'sel' + c.go; } }); }
     return __erTransform2(F, E, DATA.slides, DATA.tree);
   }
   return __erTransform2(F, E, S, T);
@@ -482,7 +489,7 @@ function __erTransform2(F, E, S, T) {
   }
   const used = {};
   for (const s of S) {
-    const sec = s.entity && s.entity.split('/')[0];
+    const sec = s.entity && SECOF(s.entity);
     if ((s.kind === 'intro' || s.kind === 'image') && secs[sec]) continue;
     if (s.kind === 'overview' && secs[s.id]) {
       s.projects = secs[s.id].list.map(o => { let k = null; if (o.p.t) { k = o.ent + '#t'; E[k] = o.p.t; } return { t: o.x.title, img: k, go: o.ent + '/1', sub: o.sub, locked: !!o.p.lock }; });
@@ -582,7 +589,7 @@ function __erMain() {
         return html + (open ? '</div>' : '') + '</div></div>';
       }
       case 'locked': {
-        const sec = s.entity.split('/')[0];
+        const sec = SECOF(s.entity);
         return `<div class="slide"><button class="close-x is-back" type="button" data-go="${sec}" aria-label="Back to all projects" title="All projects (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="intro lk"><div class="lk-img">${im(s.img, s.title)}<span class="lk-badge lk-big">${ER_LOCK_SVG}Confidential</span></div><div class="info"><div class="info-num">${s.num}</div><h2>${esc(s.title)}</h2><div class="info-place">Confidential project</div><form class="lk-form" data-ent="${s.entity}" autocomplete="off"><p class="lk-txt">This project is shared under a confidentiality agreement. Enter the PIN you received to view it.</p><div class="lk-row"><input class="lk-pin" type="password" inputmode="numeric" placeholder="PIN" aria-label="PIN"><button class="lk-go" type="submit">Enter</button></div><p class="lk-err" aria-live="polite"></p></form></div></div></div>`;
       }
       case 'intro': {
@@ -591,7 +598,7 @@ function __erMain() {
         const all = (s.imgs && s.imgs.length ? s.imgs : [s.img]).filter(Boolean), cons = s.cimgs || [];
         const galItem = (k, j) => { const v = window.ERVID && window.ERVID[k]; return `<button type="button" class="gal-item${j === 0 ? ' is-first' : ''}${v ? ' is-video' : ''}" data-go="${ent}/${j + 2}" data-n="${j + 1}" aria-label="${v ? 'Video' : 'Photo'} ${j + 1}">${window.ERIMG[k] ? im(k, s.title) : (v ? `<video src="${v}#t=2" muted playsinline preload="metadata"></video>` : '')}${v ? '<span class="play" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M7 5 L15 10 L7 15 Z" fill="currentColor"/></svg></span>' : ''}</button>`; };
         const gal = `<div class="gal">${all.map(galItem).join('')}${cons.length ? `<div class="gal-sec">Construction<span>${cons.length}</span></div>${cons.map((k, j) => galItem(k, all.length + j)).join('')}` : ''}</div>`;
-        const sec = ent.split('/')[0];
+        const sec = SECOF(ent);
         return `<div class="slide"><button class="close-x is-back" type="button" data-go="${sec}" aria-label="Back to all projects" title="All projects (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="intro">${gal}<div class="info"><div class="info-num">${s.num}</div><h2>${esc(s.title)}</h2><div class="info-place">${esc(s.place)}</div><dl>${s.meta.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl><div class="txt">${s.body}</div><p class="info-hint">${(() => { const nv = all.filter(k => window.ERVID && window.ERVID[k]).length, np = all.length - nv; if (all.length < 2) return ''; return (np ? np + (np > 1 ? ' photos' : ' photo') : '') + (np && nv ? ' + ' : '') + (nv ? nv + (nv > 1 ? ' videos' : ' video') : '') + ' — click to view full screen'; })()}</p></div></div></div>`;
       }
       case 'image': {
@@ -614,7 +621,7 @@ function __erMain() {
   }).join('');
 
   let idx = 0;
-  function groupOf(s) { return s.id === 'home' ? null : s.id.split('/')[0]; }
+  function groupOf(s) { return s.id === 'home' ? null : SECOF(s.id); }
   function show(i, push) {
     i = Math.max(0, Math.min(S.length - 1, i));
     const s = S[i]; idx = i;
@@ -673,7 +680,7 @@ function __erMain() {
     if (e.key === 'Escape') {
       if (document.body.classList.contains('nav-open')) document.body.classList.remove('nav-open');
       else if (S[idx].kind === 'image') go(S[idx].id.replace(/\/\d+$/, '') + '/1');
-      else if (S[idx].kind === 'intro' || S[idx].kind === 'locked') go(S[idx].entity.split('/')[0]);
+      else if (S[idx].kind === 'intro' || S[idx].kind === 'locked') go(SECOF(S[idx].entity));
       else if (['overview', 'split', 'quote', 'full', 'logos', 'logogrid'].includes(S[idx].kind)) go('home');
     }
   });
