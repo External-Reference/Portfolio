@@ -22,7 +22,8 @@ window.ERSEL = {
       "interior/expo-2020-dubai-india-pavilion-exhibition",
       "urban/jeddah-fashion-island",
       "urban/jeddah-formula-1",
-      "urban/waves-festival"
+      "urban/waves-festival",
+      "urban/street-waves"
     ]
   }
 };
