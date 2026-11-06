@@ -1006,7 +1006,7 @@ window.ERFOTO = {
 "urban/escalera-mirador-vela": {
 "f": [
 {
-"v": "foto/02_urban/31_escalera-mirador-vela/00_video.mp4?v=d75b2c52",
+"v": "foto/02_urban/31_escalera-mirador-vela/00_video.mp4?v=bfb95d2d",
 "p": "foto/02_urban/31_escalera-mirador-vela/00_video.poster.webp?v=8afb6ffa"
 },
 "foto/02_urban/31_escalera-mirador-vela/01.webp?v=c436347f",
@@ -1262,7 +1262,7 @@ window.ERFOTO = {
 "interior/plaza-mahou": {
 "f": [
 {
-"v": "foto/03_interior/03_plaza-mahou/00_video.mp4?v=4bf821ea",
+"v": "foto/03_interior/03_plaza-mahou/00_video.mp4?v=11b5cd30",
 "p": "foto/03_interior/03_plaza-mahou/00_video.poster.webp?v=6d008c79"
 },
 "foto/03_interior/03_plaza-mahou/01.webp?v=0ce9ae5d",
@@ -1957,7 +1957,7 @@ window.ERFOTO = {
 "interior/wow-concept-store": {
 "f": [
 {
-"v": "foto/03_interior/21_wow-concept-store/00_video.mp4?v=08089eed",
+"v": "foto/03_interior/21_wow-concept-store/00_video.mp4?v=61707a6f",
 "p": "foto/03_interior/21_wow-concept-store/00_video.poster.webp?v=dd8870a8"
 },
 "foto/03_interior/21_wow-concept-store/01.webp?v=776c8f77",
@@ -2002,7 +2002,7 @@ window.ERFOTO = {
 "interior/presentedby-x-doha-design-district": {
 "f": [
 {
-"v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=0a1249e0",
+"v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=ee587c08",
 "p": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.poster.webp?v=e1bb381c"
 },
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
@@ -2341,7 +2341,7 @@ window.ERFOTO = {
 "interior/jane-winestore": {
 "f": [
 {
-"v": "foto/03_interior/31_jane-winestore/00_video.mp4?v=6528723e",
+"v": "foto/03_interior/31_jane-winestore/00_video.mp4?v=ba3a22ba",
 "p": "foto/03_interior/31_jane-winestore/00_video.poster.webp?v=fdfa12ac"
 },
 "foto/03_interior/31_jane-winestore/01.webp?v=c2e1c977",
@@ -2541,7 +2541,7 @@ window.ERFOTO = {
 "interior/spanish-pavilion-dubai-expo": {
 "f": [
 {
-"v": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.mp4?v=bde3da9d",
+"v": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.mp4?v=e01f354d",
 "p": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.poster.webp?v=8a313200"
 },
 "foto/03_interior/37_spanish-pavilion-dubai-expo/01.webp?v=ed94e225",
@@ -2583,7 +2583,7 @@ window.ERFOTO = {
 "interior/expo-2020-dubai-menasa-emirati-design-platform": {
 "f": [
 {
-"v": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.mp4?v=c398aa33",
+"v": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.mp4?v=31a3a4be",
 "p": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.poster.webp?v=7dfa9183"
 },
 "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/01.webp?v=73efbeae",
@@ -2851,7 +2851,7 @@ window.ERFOTO = {
 "interior/shenzhen-science-museum-main-installation": {
 "f": [
 {
-"v": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.mp4?v=5cb1ab18",
+"v": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.mp4?v=a99cc084",
 "p": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.poster.webp?v=4486a25d"
 },
 "foto/03_interior/45_shenzhen-science-museum-main-installation/01.webp?v=d3b959cd",
