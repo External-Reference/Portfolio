@@ -2728,7 +2728,17 @@ window.ERFOTO = {
 "foto/03_interior/42_braga-fc-museum/02.webp?v=a51beba8",
 "foto/03_interior/42_braga-fc-museum/03.webp?v=9d625fb5",
 "foto/03_interior/42_braga-fc-museum/04.webp?v=e4373c51",
-"foto/03_interior/42_braga-fc-museum/05.webp?v=1ff0e17f"
+"foto/03_interior/42_braga-fc-museum/05.webp?v=1ff0e17f",
+"foto/03_interior/42_braga-fc-museum/06.webp?v=dc397acc",
+"foto/03_interior/42_braga-fc-museum/07.webp?v=6fcad005",
+"foto/03_interior/42_braga-fc-museum/08.webp?v=4e9c7911",
+"foto/03_interior/42_braga-fc-museum/09.webp?v=49979d22",
+"foto/03_interior/42_braga-fc-museum/10.webp?v=6596dd01",
+"foto/03_interior/42_braga-fc-museum/11.webp?v=e82fe756",
+"foto/03_interior/42_braga-fc-museum/12.webp?v=e1812c00",
+"foto/03_interior/42_braga-fc-museum/13.webp?v=f8c75412",
+"foto/03_interior/42_braga-fc-museum/14.webp?v=b14ffc2e",
+"foto/03_interior/42_braga-fc-museum/15.webp?v=cbd50748"
 ],
 "x": {
 "title": "Braga FC Museum",
