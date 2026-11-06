@@ -2920,7 +2920,15 @@ window.ERFOTO = {
 "interior/expo-2020-dubai-peru-pavilion-exhibition": {
 "f": [
 "foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/01.webp?v=3c3abb5c",
-"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/02.webp?v=73207e28"
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/02.webp?v=73207e28",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/03.webp?v=8798a6bd",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/04.webp?v=afd092db",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/05.webp?v=ff79c1ae",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/06.webp?v=be8b7fa7",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/07.webp?v=85d931ae",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/08.webp?v=af6daed8",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/09.webp?v=bcae7120",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/10.webp?v=01c1ad65"
 ],
 "x": {
 "title": "Expo 2020 Dubai Peru Pavilion Exhibition",
