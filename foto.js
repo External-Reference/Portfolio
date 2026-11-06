@@ -2573,6 +2573,10 @@ window.ERFOTO = {
 },
 "interior/expo-2020-dubai-menasa-emirati-design-platform": {
 "f": [
+{
+"v": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.mp4?v=c398aa33",
+"p": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.poster.webp?v=7dfa9183"
+},
 "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/01.webp?v=73efbeae",
 "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/02.webp?v=e5f0a82d",
 "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/03.webp?v=db93cce9"
@@ -2606,6 +2610,10 @@ window.ERFOTO = {
 },
 "interior/spanish-pavilion-yeosu-expo": {
 "f": [
+{
+"v": "foto/03_interior/39_spanish-pavilion-yeosu-expo/00_video.mp4?v=a0c7d7b1",
+"p": "foto/03_interior/39_spanish-pavilion-yeosu-expo/00_video.poster.webp?v=745fdd88"
+},
 "foto/03_interior/39_spanish-pavilion-yeosu-expo/01.webp?v=f380217b",
 "foto/03_interior/39_spanish-pavilion-yeosu-expo/02.webp?v=e2e5911a",
 "foto/03_interior/39_spanish-pavilion-yeosu-expo/03.webp?v=d70e2b29",
