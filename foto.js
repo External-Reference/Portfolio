@@ -2683,7 +2683,9 @@ window.ERFOTO = {
 "f": [
 "foto/03_interior/41_european-union-pavilion/01.webp?v=e932ed58",
 "foto/03_interior/41_european-union-pavilion/02.webp?v=2256552f",
-"foto/03_interior/41_european-union-pavilion/03.webp?v=0f9bc418"
+"foto/03_interior/41_european-union-pavilion/03.webp?v=0f9bc418",
+"foto/03_interior/41_european-union-pavilion/04.webp?v=4f5a6c36",
+"foto/03_interior/41_european-union-pavilion/05.webp?v=62c272cb"
 ],
 "x": {
 "title": "European Union Pavilion",
