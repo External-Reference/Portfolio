@@ -85,14 +85,11 @@ window.ERFOTO = {
 },
 "urban/al-layali-villa": {
 "f": [
-"foto/02_urban/03_al-layali-villa/01.webp?v=2a610cc0",
 "foto/02_urban/03_al-layali-villa/02.webp?v=cb353a17",
 "foto/02_urban/03_al-layali-villa/03.webp?v=5d75e682",
 "foto/02_urban/03_al-layali-villa/04.webp?v=2148a425",
 "foto/02_urban/03_al-layali-villa/70.webp?v=1862209f",
 "foto/02_urban/03_al-layali-villa/71.webp?v=9040f526",
-"foto/02_urban/03_al-layali-villa/image50.webp?v=6fb5a360",
-"foto/02_urban/03_al-layali-villa/image52.webp?v=52335528",
 "foto/02_urban/03_al-layali-villa/image56.webp?v=3dd3faa1",
 "foto/02_urban/03_al-layali-villa/image57.webp?v=2753f4f7",
 "foto/02_urban/03_al-layali-villa/image59.webp?v=d8aa6d7c",
@@ -119,7 +116,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The house is conceived as a composition of four cubic volumes connected by a triple-height space that becomes the central core of the project. Within this space, an organic sculptural staircase acts as the focal element, connecting the different levels of the house.</p><p>Inspired by Arab architecture and the spatial qualities of mosques, the design reinterprets the traditional arch as a contemporary architectural element. The façade arcades transform the classical arch into a three-dimensional sculpted feature, creating a dialogue between heritage and modern expression.</p>"
 },
-"t": "miniature/02_urban/03_al-layali-villa.webp?v=2f5398e5"
+"t": "miniature/02_urban/03_al-layali-villa.webp?v=e0f4cd26"
 },
 "urban/al-jouri-villa": {
 "f": [
