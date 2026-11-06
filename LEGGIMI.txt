@@ -84,3 +84,10 @@ Per togliere la protezione cancella la riga PIN: yes.
 Se il segreto PORTFOLIO_PIN non c'è, il progetto con PIN viene nascosto per sicurezza.
 Per cambiare il PIN: modifica il segreto, poi Actions > Aggiorna foto del portfolio > Run workflow.
 Nota: il PIN protegge il sito; le foto restano comunque nel repository pubblico.
+
+SELEZIONI DI PROGETTI (link a parte)
+Il file selezioni.js contiene le selezioni, ognuna con titolo e progetti in ordine
+(scritti come sezione/nome-cartella-senza-numero, es. interior/spanish-pavilion-dubai-expo).
+Link: index.html?sel=NOME, oppure la pagina dedicata (es. expo-exhibition.html).
+Foto e testi vengono dal portfolio principale: se aggiorni un progetto, si aggiorna anche nella selezione.
+Per creare una selezione nuova chiedi a Claude.
