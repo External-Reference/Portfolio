@@ -2919,6 +2919,36 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition.webp?v=6c38513b"
 },
+"interior/expo-2020-dubai-india-pavilion-exhibition": {
+"f": [
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/01.webp?v=26117164",
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/02.webp?v=a04e8381",
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/03.webp?v=1935f7fb",
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/04.webp?v=4364bfee"
+],
+"x": {
+"title": "Expo 2020 Dubai India Pavilion Exhibition",
+"place": "Dubai, UAE, 2021",
+"sub": "Expo & Pavilions",
+"tags": [],
+"meta": [
+[
+"Location",
+"Dubai, UAE"
+],
+[
+"Typology",
+"EXPO Exhibition"
+],
+[
+"Status",
+"Concept Design Proposal"
+]
+],
+"body": "<p>The project's mission is to showcase India's future, innovation and research by turning a didactic exhibit into a sensory experience that goes to the heart of the visitor.</p><p>The exhibition is defined by a continuous, curved surface that identifies the different topics addressed in the space. Its organic shape produces a fluid connection from one space to the next, carrying the visitor towards an unexpected dimension. To achieve this, the floor is lifted 70 cm with a glass technical pavement floating over a stepped topography, a nod to India's topographic diversity and to its architectural step wells.</p><p>Visitors float over this topography, against a background screen that changes to create dramatic experiences coherent with the topic of each space.</p>"
+},
+"t": "miniature/03_interior/48_expo-2020-dubai-india-pavilion-exhibition.webp?v=651b6bb8"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3383,7 +3413,8 @@ window.ERFOTO = {
 "interior/real-madrid-museum",
 "interior/shenzhen-science-museum-main-installation",
 "interior/yota-pavilion-ii",
-"interior/expo-2020-dubai-peru-pavilion-exhibition"
+"interior/expo-2020-dubai-peru-pavilion-exhibition",
+"interior/expo-2020-dubai-india-pavilion-exhibition"
 ],
 "art": [
 "art/pure-plants",
