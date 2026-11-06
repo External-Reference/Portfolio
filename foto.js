@@ -2722,6 +2722,203 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/41_european-union-pavilion.webp?v=9ac2a979"
 },
+"interior/braga-fc-museum": {
+"f": [
+"foto/03_interior/42_braga-fc-museum/01.webp?v=459e4952",
+"foto/03_interior/42_braga-fc-museum/02.webp?v=a51beba8",
+"foto/03_interior/42_braga-fc-museum/03.webp?v=9d625fb5",
+"foto/03_interior/42_braga-fc-museum/04.webp?v=e4373c51",
+"foto/03_interior/42_braga-fc-museum/05.webp?v=1ff0e17f"
+],
+"x": {
+"title": "Braga FC Museum",
+"place": "Braga, Portugal, 2023",
+"sub": "Museum & Exhibition",
+"tags": [],
+"meta": [
+[
+"Location",
+"Braga, Portugal"
+],
+[
+"Typology",
+"Exhibition"
+],
+[
+"Area",
+"2600 m2"
+],
+[
+"Status",
+"Under Construction"
+]
+],
+"body": "<p>The Municipal Stadium of Braga connects nature and city, offering spectators views of the monumental quarry on one side and Braga's cityscape on the other. This fusion of football, nature and urban life sets the stage for the S.C. Braga Museum, which bridges the city's history with the club's legacy.</p><p>The museum invites fans to explore new ways to connect with their team while discovering Braga's evolution. Using the quarry as a central theme, the exhibition intertwines the team's achievements with the city's heritage, creating a unified narrative.</p><p>A standout feature is an immersive experience simulating match-day excitement. Through advanced audiovisual technology, fans can feel the stadium's energy, hearing chants, cheers and even vibrations, deepening their emotional bond with S.C. Braga. This holistic approach unites stadium, city and team in a single fan experience.</p>"
+},
+"t": "miniature/03_interior/42_braga-fc-museum.webp?v=1b5a6b3d"
+},
+"interior/liga-portugal": {
+"f": [
+"foto/03_interior/43_liga-portugal/01.webp?v=b87201ce",
+"foto/03_interior/43_liga-portugal/02.webp?v=2e7df6bf",
+"foto/03_interior/43_liga-portugal/03.webp?v=e9de446b",
+"foto/03_interior/43_liga-portugal/04.webp?v=dd82a0ed"
+],
+"x": {
+"title": "Liga Portugal",
+"place": "Porto, Portugal, 2024",
+"sub": "Museum & Exhibition",
+"tags": [],
+"meta": [
+[
+"Location",
+"Porto, Portugal"
+],
+[
+"Typology",
+"Exhibition"
+],
+[
+"Area",
+"270 m2"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>The concept for the Liga Portugal museum in Porto offers visitors an immersive journey that mirrors a player's experience during a football match. As visitors enter the first space, they are greeted by a tunnel reminiscent of a stadium entrance, where the distant sound of cheering fans fills the air. This builds anticipation as they move towards the main exhibition area, designed to resemble the grandeur of a football stadium itself.</p><p>The next section takes visitors into a locker room setting, where they can explore the history and timeline of the league along with a display of trophies, continuing the feeling of being inside the stadium. Finally, visitors return through a tunnel-like space, symbolising the exit after the match, creating a full-circle experience that captures the essence of a player's journey before, during and after the game.</p>"
+},
+"t": "miniature/03_interior/43_liga-portugal.webp?v=077df171"
+},
+"interior/real-madrid-museum": {
+"f": [
+"foto/03_interior/44_real-madrid-museum/01.webp?v=5674fd82",
+"foto/03_interior/44_real-madrid-museum/02.webp?v=f6cd9a32"
+],
+"x": {
+"title": "Real Madrid Museum",
+"place": "Madrid, Spain, 2021",
+"sub": "Museum & Exhibition",
+"tags": [],
+"meta": [
+[
+"Location",
+"Madrid, Spain"
+],
+[
+"Typology",
+"Museum & Exhibition"
+],
+[
+"Area",
+"5000 m2"
+],
+[
+"Status",
+"Concept Design Proposal"
+]
+],
+"body": "<p>The project for the exhibition of the new museum is based on the celebration of Real Madrid Football Club, its iconic players and its history.</p><p>The main concept was to transform a didactic journey into a fully interactive experience, where the digital is mixed with the physical through the latest technologies: digital fabrication, projection mapping, inflatable skins, dynamic mechanical displays, kinetic art installations, holograms, immersive rooms and interactive gaming rooms.</p>"
+},
+"t": "miniature/03_interior/44_real-madrid-museum.webp?v=301de0b1"
+},
+"interior/shenzhen-science-museum-main-installation": {
+"f": [
+"foto/03_interior/45_shenzhen-science-museum-main-installation/01.webp?v=d3b959cd",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/02.webp?v=c3f2e8ca"
+],
+"x": {
+"title": "Shenzhen Science Museum Main Installation",
+"place": "Shenzhen, China, 2020",
+"sub": "Museum & Exhibition",
+"tags": [],
+"meta": [
+[
+"Location",
+"Shenzhen, China"
+],
+[
+"Typology",
+"Museum & Exhibition"
+],
+[
+"Area",
+"6600 m2"
+],
+[
+"Status",
+"Concept Design Proposal"
+]
+],
+"body": "<p>Fractal science reveals a universal geometric matrix that is self-evident throughout nature. We live in a universe of electromagnetic fractal waves: every branch of energy in the universe is fractal, and since everything is energy, everything is self-similar.</p><p>The branching organism is the symbol of the whole of nature, human beings and technology, and of the interconnection between living and artificial elements in the world. Located in the central part of the museum hall, it draws people in and involves visitors in an immersive, interactive experience.</p>"
+},
+"t": "miniature/03_interior/45_shenzhen-science-museum-main-installation.webp?v=e1949c5e"
+},
+"interior/yota-pavilion-ii": {
+"f": [
+"foto/03_interior/46_yota-pavilion-ii/01.webp?v=fa97fbd7",
+"foto/03_interior/46_yota-pavilion-ii/02.webp?v=ce14ed3b"
+],
+"x": {
+"title": "Yota Pavilion II",
+"place": "Barcelona, Spain, 2014",
+"sub": "Expo & Pavilions",
+"tags": [],
+"meta": [
+[
+"Location",
+"Barcelona, Spain"
+],
+[
+"Typology",
+"Trade-fair Pavilion"
+],
+[
+"Area",
+"200 m2"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>Designed for Yota at the 2014 Mobile World Congress in Barcelona, this booth created a sensory experience through light, music and projections. A topographic ceiling, paired with rhythmic music, captured attention, while an eroded technological landscape below mirrored its design.</p><p>Inside, smooth ribbon-like forms served functional purposes, expanding to showcase devices or contracting for projection areas. The design integrated technical spaces and meeting rooms seamlessly within the flowing structure. The exterior featured a dark, perforated surface that revealed the glowing interior, creating a welcoming plaza where visitors could explore Yota's latest products.</p>"
+},
+"t": "miniature/03_interior/46_yota-pavilion-ii.webp?v=1fa8fc57"
+},
+"interior/expo-2020-dubai-peru-pavilion-exhibition": {
+"f": [
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/01.webp?v=3c3abb5c",
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/02.webp?v=73207e28"
+],
+"x": {
+"title": "Expo 2020 Dubai Peru Pavilion Exhibition",
+"place": "Dubai, UAE, 2021",
+"sub": "Expo & Pavilions",
+"tags": [],
+"meta": [
+[
+"Location",
+"Dubai, UAE"
+],
+[
+"Typology",
+"EXPO Exhibition"
+],
+[
+"Area",
+"1600 m2"
+],
+[
+"Status",
+"Concept Design Proposal"
+]
+],
+"body": "<p>From the mountains to the coast, from tradition to the present, from Peru to the world. The pavilion is conceived as a holistic learning experience of Peruvian wisdom, formed by partial experiences lived in each room and structured as a journey across the three theme axes of Expo 2020 Dubai.</p><p>Mobility, through the Peruvian people: from the cradle of the Inca civilisation in the mountains to the coast, cradle of the oldest civilisations, and today from Peru to the world, through superfoods and gastronomy. Sustainability, as part of a Peruvian wisdom based on living in harmony with nature. Opportunity, through the promotion of innovation projects, and especially superfoods.</p>"
+},
+"t": "miniature/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition.webp?v=6c38513b"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3180,7 +3377,13 @@ window.ERFOTO = {
 "interior/expo-2020-dubai-menasa-emirati-design-platform",
 "interior/spanish-pavilion-yeosu-expo",
 "interior/bershka-x-lollapalooza",
-"interior/european-union-pavilion"
+"interior/european-union-pavilion",
+"interior/braga-fc-museum",
+"interior/liga-portugal",
+"interior/real-madrid-museum",
+"interior/shenzhen-science-museum-main-installation",
+"interior/yota-pavilion-ii",
+"interior/expo-2020-dubai-peru-pavilion-exhibition"
 ],
 "art": [
 "art/pure-plants",
