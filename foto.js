@@ -3066,6 +3066,39 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/50_spanish-pavilion-expo-osaka-2025.webp?v=27d1f57b"
 },
+"interior/earlier-mona-lisa-exhibition": {
+"f": [
+"foto/03_interior/51_earlier-mona-lisa-exhibition/01.webp?v=4001bfa5",
+"foto/03_interior/51_earlier-mona-lisa-exhibition/02.webp?v=e44fdfd6",
+"foto/03_interior/51_earlier-mona-lisa-exhibition/03.webp?v=d8daada1"
+],
+"x": {
+"title": "'Earlier Mona Lisa' Exhibition",
+"place": "Florence, Italy, 2019",
+"sub": "Museum & Exhibition",
+"tags": [],
+"meta": [
+[
+"Location",
+"Palazzo Bastogi, Florence, Italy"
+],
+[
+"Typology",
+"Exhibition"
+],
+[
+"Client",
+"The Mona Lisa Foundation"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>Designed for The Mona Lisa Foundation in Palazzo Bastogi, the exhibition marked the return of the \"Earlier Mona Lisa\" to Florence, the city where it was painted, five hundred years after the death of Leonardo da Vinci. It was also the first time the painting could be seen by the public in Europe.</p><p>The route is tablet-led and unfolds room by room, presenting the discovery of the painting together with the historical, scientific, mathematical and comparative evidence behind its attribution. At its heart, the painting sits in a custom-designed case with fluctuating light that reveals Leonardo's mastery of light and shadow. A dedicated Kids Tour opens the story to younger visitors, while tactile reproductions of both the Louvre \"Mona Lisa\" and the \"Earlier Mona Lisa\", developed with the Italian Union of the Blind and Partially Sighted and the University of Florence, accompany the audio tour and make the exhibition accessible to all.</p>"
+},
+"t": "miniature/03_interior/51_earlier-mona-lisa-exhibition.webp?v=b9c253ed"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3533,7 +3566,8 @@ window.ERFOTO = {
 "interior/expo-2020-dubai-peru-pavilion-exhibition",
 "interior/expo-2020-dubai-india-pavilion-exhibition",
 "interior/spanish-pavilion-expo-2027-belgrade",
-"interior/spanish-pavilion-expo-osaka-2025"
+"interior/spanish-pavilion-expo-osaka-2025",
+"interior/earlier-mona-lisa-exhibition"
 ],
 "art": [
 "art/pure-plants",
