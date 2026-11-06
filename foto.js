@@ -3069,11 +3069,10 @@ window.ERFOTO = {
 "interior/earlier-mona-lisa-exhibition": {
 "f": [
 "foto/03_interior/51_earlier-mona-lisa-exhibition/01.webp?v=4001bfa5",
-"foto/03_interior/51_earlier-mona-lisa-exhibition/02.webp?v=e44fdfd6",
-"foto/03_interior/51_earlier-mona-lisa-exhibition/03.webp?v=d8daada1"
+"foto/03_interior/51_earlier-mona-lisa-exhibition/02.webp?v=250d5bf3"
 ],
 "x": {
-"title": "'Earlier Mona Lisa' Exhibition",
+"title": "Earlier Mona Lisa Exhibition",
 "place": "Florence, Italy, 2019",
 "sub": "Museum & Exhibition",
 "tags": [],
