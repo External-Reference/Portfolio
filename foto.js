@@ -2535,7 +2535,7 @@ window.ERFOTO = {
 "v": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.mp4?v=bde3da9d",
 "p": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.poster.webp?v=8a313200"
 },
-"foto/03_interior/37_spanish-pavilion-dubai-expo/01.webp?v=81708cdb",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/01.webp?v=ed94e225",
 "foto/03_interior/37_spanish-pavilion-dubai-expo/02.webp?v=281e233c",
 "foto/03_interior/37_spanish-pavilion-dubai-expo/03.webp?v=1feccd19",
 "foto/03_interior/37_spanish-pavilion-dubai-expo/04.webp?v=160e78db",
@@ -2569,7 +2569,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The Spanish Pavilion at Expo Dubai 2020 presented Spain’s vision for sustainability through an immersive forest-like environment. Organized around biodiversity, resource balance, and collective intelligence, the pavilion combined interactive installations and educational displays to highlight innovation in ecology, food systems, and renewable technologies.</p><p>The visitor journey began in the lower gallery, where sustainability became a sequence of spatial experiences. Marine landscapes, microalgae incubators, recreated forests, smart agriculture, renewable energy models, and connected territories showed Spain’s research and applied solutions. Interactive floors, caustic projections, holograms, and audiovisual content created a playful way to engage with complex topics. The “Tree of Balance” formed the emotional core of the route, responding to each visitor’s answers and making sustainable behaviour visible through a living, changing symbol.</p>"
 },
-"t": "miniature/03_interior/37_spanish-pavilion-dubai-expo.webp?v=56b8c8c4"
+"t": "miniature/03_interior/37_spanish-pavilion-dubai-expo.webp?v=3b7caf47"
 },
 "interior/expo-2020-dubai-menasa-emirati-design-platform": {
 "f": [
