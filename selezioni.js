@@ -9,6 +9,7 @@ window.ERSEL = {
       "interior/spanish-pavilion-dubai-expo",
       "interior/expo-2020-dubai-menasa-emirati-design-platform",
       "interior/spanish-pavilion-yeosu-expo",
+      "interior/spanish-pavilion-expo-2027-belgrade",
       "interior/european-union-pavilion",
       "interior/bershka-x-lollapalooza",
       "interior/braga-fc-museum",
