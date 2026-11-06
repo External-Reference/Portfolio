@@ -17,7 +17,10 @@ window.ERSEL = {
       "interior/shenzhen-science-museum-main-installation",
       "interior/yota-pavilion-ii",
       "interior/expo-2020-dubai-peru-pavilion-exhibition",
-      "interior/expo-2020-dubai-india-pavilion-exhibition"
+      "interior/expo-2020-dubai-india-pavilion-exhibition",
+      "urban/jeddah-fashion-island",
+      "urban/jeddah-formula-1",
+      "urban/waves-festival"
     ]
   }
 };
