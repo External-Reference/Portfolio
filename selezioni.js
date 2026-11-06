@@ -17,6 +17,7 @@ window.ERSEL = {
       "interior/liga-portugal",
       "interior/real-madrid-museum",
       "interior/shenzhen-science-museum-main-installation",
+      "interior/earlier-mona-lisa-exhibition",
       "interior/yota-pavilion-ii",
       "interior/expo-2020-dubai-peru-pavilion-exhibition",
       "interior/expo-2020-dubai-india-pavilion-exhibition",
