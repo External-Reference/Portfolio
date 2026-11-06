@@ -3042,10 +3042,10 @@ window.ERFOTO = {
 },
 "interior/spanish-pavilion-expo-osaka-2025": {
 "f": [
-"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/01.webp?v=68f2f09a",
-"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/02.webp?v=2593617a",
-"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/03.webp?v=91cb5150",
-"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/04.webp?v=c1df7caf"
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/01.webp?v=c1df7caf",
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/02.webp?v=68f2f09a",
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/03.webp?v=2593617a",
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/04.webp?v=91cb5150"
 ],
 "x": {
 "title": "Spanish Pavilion, Expo Osaka 2025",
@@ -3064,7 +3064,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The Spanish Pavilion at Expo Osaka 2025 presents Spain's vision for ocean sustainability and maritime heritage through an immersive, multi-sensory environment. Organized around geological history, naval exploration, and the blue economy, the pavilion seamlessly combines advanced technologies, such as interactive LED tables, programmable water walls, and holographic displays, with sustainable materials, including recycled Mediterranean plastics used to recreate authentic Posidonia seagrass meadows.</p><p>The overall visitor experience guides guests through a narrative journey that merges past navigational milestones, like the first circumnavigation, with cutting-edge solutions in marine biotechnology, renewable energy, and sustainable tourism. By engaging the public in interactive challenges where their collective decisions directly shape the digital marine ecosystems, the pavilion fosters a deep, conscious commitment to global ocean preservation and a sustainable future for coming generations.</p>"
 },
-"t": "miniature/03_interior/50_spanish-pavilion-expo-osaka-2025.webp?v=294f87b6"
+"t": "miniature/03_interior/50_spanish-pavilion-expo-osaka-2025.webp?v=27d1f57b"
 },
 "art/pure-plants": {
 "f": [
