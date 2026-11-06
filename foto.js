@@ -2830,7 +2830,14 @@ window.ERFOTO = {
 "p": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.poster.webp?v=4486a25d"
 },
 "foto/03_interior/45_shenzhen-science-museum-main-installation/01.webp?v=d3b959cd",
-"foto/03_interior/45_shenzhen-science-museum-main-installation/02.webp?v=c3f2e8ca"
+"foto/03_interior/45_shenzhen-science-museum-main-installation/02.webp?v=c3f2e8ca",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/03.webp?v=879744c0",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/04.webp?v=31af1b8f",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/05.webp?v=c0b11803",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/06.webp?v=a2421441",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/07.webp?v=3ae2773c",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/08.webp?v=519e9902",
+"foto/03_interior/45_shenzhen-science-museum-main-installation/09.webp?v=bb1ff3ba"
 ],
 "x": {
 "title": "Shenzhen Science Museum Main Installation",
