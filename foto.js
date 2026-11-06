@@ -3044,6 +3044,32 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/49_spanish-pavilion-expo-2027-belgrade.webp?v=2147cc5f"
 },
+"interior/spanish-pavilion-expo-osaka-2025": {
+"f": [
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/01.webp?v=68f2f09a",
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/02.webp?v=2593617a",
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/03.webp?v=91cb5150",
+"foto/03_interior/50_spanish-pavilion-expo-osaka-2025/04.webp?v=c1df7caf"
+],
+"x": {
+"title": "Spanish Pavilion, Expo Osaka 2025",
+"place": "Osaka, Japan, 2025",
+"sub": "Expo & Pavilions",
+"tags": [],
+"meta": [
+[
+"Location",
+"Osaka, Japan"
+],
+[
+"Typology",
+"National Pavilion"
+]
+],
+"body": "<p>The Spanish Pavilion at Expo Osaka 2025 presents Spain's vision for ocean sustainability and maritime heritage through an immersive, multi-sensory environment. Organized around geological history, naval exploration, and the blue economy, the pavilion seamlessly combines advanced technologies, such as interactive LED tables, programmable water walls, and holographic displays, with sustainable materials, including recycled Mediterranean plastics used to recreate authentic Posidonia seagrass meadows.</p><p>The overall visitor experience guides guests through a narrative journey that merges past navigational milestones, like the first circumnavigation, with cutting-edge solutions in marine biotechnology, renewable energy, and sustainable tourism. By engaging the public in interactive challenges where their collective decisions directly shape the digital marine ecosystems, the pavilion fosters a deep, conscious commitment to global ocean preservation and a sustainable future for coming generations.</p>"
+},
+"t": "miniature/03_interior/50_spanish-pavilion-expo-osaka-2025.webp?v=294f87b6"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3510,7 +3536,8 @@ window.ERFOTO = {
 "interior/yota-pavilion-ii",
 "interior/expo-2020-dubai-peru-pavilion-exhibition",
 "interior/expo-2020-dubai-india-pavilion-exhibition",
-"interior/spanish-pavilion-expo-2027-belgrade"
+"interior/spanish-pavilion-expo-2027-belgrade",
+"interior/spanish-pavilion-expo-osaka-2025"
 ],
 "art": [
 "art/pure-plants",
