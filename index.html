@@ -450,7 +450,7 @@ function __erTransform() {
     S.forEach(s => { if (s.kind === 'overview' && s.id === 'interior') { s.item = SEL.title; s.title = SEL.title; s.section = SEL.title; } });
     DATA.tree = DATA.tree.filter(g => g.id === 'studio' || F.sec[g.id]);
     DATA.slides = S.filter(s => s.kind === 'cover' || (s.kind === 'overview' && F.sec[s.id]) || String(s.id).split('/')[0] === 'studio');
-    if (home) { home.title = SEL.title; home.cats = (home.cats || []).filter(c => c.go.split('/')[0] === 'studio' || F.sec[c.go.split('/')[0]]); home.cats.forEach(c => { if (c.go.split('/')[0] !== 'studio') c.t = SEL.title; }); home.cats.forEach(c => { if (c.go.split('/')[0] === 'studio') return; const cv = (SEL.cover || '').split('#'), pc = F.p[cv[0]], uc = pc && pc.f && pc.f[(+cv[1] || 1) - 1]; const p0 = F.p[F.sec[c.go.split('/')[0]][0]]; const u = (typeof uc === 'string' && uc) || (p0 && p0.f && p0.f.find(x => typeof x === 'string')); if (u) { E['sel' + c.go] = u; c.img = 'sel' + c.go; } }); }
+    if (home) { home.cats = (home.cats || []).filter(c => c.go.split('/')[0] === 'studio' || F.sec[c.go.split('/')[0]]); home.cats.forEach(c => { if (c.go.split('/')[0] !== 'studio') c.t = SEL.title; }); home.cats.forEach(c => { if (c.go.split('/')[0] === 'studio') return; const cv = (SEL.cover || '').split('#'), pc = F.p[cv[0]], uc = pc && pc.f && pc.f[(+cv[1] || 1) - 1]; const p0 = F.p[F.sec[c.go.split('/')[0]][0]]; const u = (typeof uc === 'string' && uc) || (p0 && p0.f && p0.f.find(x => typeof x === 'string')); if (u) { E['sel' + c.go] = u; c.img = 'sel' + c.go; } }); }
     return __erTransform2(F, E, DATA.slides, DATA.tree);
   }
   return __erTransform2(F, E, S, T);
@@ -567,7 +567,7 @@ function __erMain() {
   }
   function render0(s) {
     switch (s.kind) {
-      case 'cover': return `<div class="slide cover${window.__erSel ? ' is-sel' : ''}"><h1>${esc(s.title)}</h1><div class="cover-row">${s.cats.map(c => `<button class="cover-card" data-go="${c.go}" type="button">${im(c.img, c.t)}<span>${esc(c.t)}</span></button>`).join('')}</div></div>`;
+      case 'cover': return `<div class="slide cover"><h1>${esc(s.title)}</h1><div class="cover-row">${s.cats.map(c => `<button class="cover-card" data-go="${c.go}" type="button">${im(c.img, c.t)}<span>${esc(c.t)}</span></button>`).join('')}</div></div>`;
       case 'split': return `<div class="slide"><div class="split${s.wide ? ' is-wide' : ''}"><div class="col-txt"><h2 class="h${s.title ? '' : ' is-spacer'}" ${s.title ? '' : 'aria-hidden="true"'}>${esc(s.title || s.item || '')}</h2><div class="txt${(s.body || '').length > 1400 && !s.wide && !/team2|steps|aw-year/.test(s.body) ? ' cols' : ''}">${s.body}</div></div>${fig(s.img, s.cap, s.item, s.capHtml)}</div></div>`;
       case 'quote': return `<div class="slide"><div class="quote"><p>${s.quote}</p>${fig(s.img, s.cap)}</div></div>`;
       case 'full': return `<div class="slide"><div class="full"><div class="txt"><h2 class="h">${esc(s.title)}</h2>${s.body}</div></div></div>`;
