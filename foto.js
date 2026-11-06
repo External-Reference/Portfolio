@@ -870,7 +870,17 @@ window.ERFOTO = {
 "f": [
 "foto/02_urban/27_waves-festival/01.webp?v=30801eb4",
 "foto/02_urban/27_waves-festival/02.webp?v=3c8e8893",
-"foto/02_urban/27_waves-festival/03.webp?v=27f9aa4b"
+"foto/02_urban/27_waves-festival/03.webp?v=27f9aa4b",
+"foto/02_urban/27_waves-festival/04.webp?v=3dee360c",
+"foto/02_urban/27_waves-festival/05.webp?v=320dda3e",
+"foto/02_urban/27_waves-festival/06.webp?v=4900f565",
+"foto/02_urban/27_waves-festival/07.webp?v=dfbac82f",
+"foto/02_urban/27_waves-festival/08.webp?v=14729fd7",
+"foto/02_urban/27_waves-festival/09.webp?v=6f87a4e3",
+"foto/02_urban/27_waves-festival/10.webp?v=15f865c8",
+"foto/02_urban/27_waves-festival/11.webp?v=8493506d",
+"foto/02_urban/27_waves-festival/12.webp?v=ec5e93c3",
+"foto/02_urban/27_waves-festival/13.webp?v=1b021e47"
 ],
 "x": {
 "title": "Waves Festival",
