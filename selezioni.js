@@ -10,7 +10,13 @@ window.ERSEL = {
       "interior/expo-2020-dubai-menasa-emirati-design-platform",
       "interior/spanish-pavilion-yeosu-expo",
       "interior/european-union-pavilion",
-      "interior/bershka-x-lollapalooza"
+      "interior/bershka-x-lollapalooza",
+      "interior/braga-fc-museum",
+      "interior/liga-portugal",
+      "interior/real-madrid-museum",
+      "interior/shenzhen-science-museum-main-installation",
+      "interior/yota-pavilion-ii",
+      "interior/expo-2020-dubai-peru-pavilion-exhibition"
     ]
   }
 };
