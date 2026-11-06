@@ -3004,6 +3004,46 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/48_expo-2020-dubai-india-pavilion-exhibition.webp?v=651b6bb8"
 },
+"interior/spanish-pavilion-expo-2027-belgrade": {
+"f": [
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/01.webp?v=2bfd74ba",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/02.webp?v=07b90da1",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/03.webp?v=202db90a",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/04.webp?v=b90f0611",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/05.webp?v=692551b2",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/06.webp?v=d9e262a6",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/07.webp?v=bd331753",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/08.webp?v=63b87a1e",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/09.webp?v=aa3e597b",
+"foto/03_interior/49_spanish-pavilion-expo-2027-belgrade/10.webp?v=f643fe5b"
+],
+"x": {
+"title": "Spanish Pavilion, Expo 2027 Belgrade",
+"place": "Belgrade, Serbia, 2027",
+"sub": "Expo & Pavilions",
+"tags": [],
+"meta": [
+[
+"Location",
+"Belgrade, Serbia"
+],
+[
+"Typology",
+"National Pavilion"
+],
+[
+"Area",
+"972 m2"
+],
+[
+"Status",
+"Competition Proposal"
+]
+],
+"body": "<p>For Expo 2027 Belgrade, themed \"Play for Humanity: Sport and Music for All\", the Spanish Pavilion shifts the motto from play for to play as: play is not a tool for humanity, but the way we first learn to live together. The project takes the Spanish plaza as its model, nocturnal, multigenerational and festive, where there is no line between those who watch and those who join in, and reinterprets it as an open exhibition space where visitors move freely and decide whether to observe or take part.</p><p>The route unfolds in two phases. The Awakening, a low, dense threshold lined with backlit phrases, slows the rhythm of the street before opening onto the Plaza: a space of crossed plywood ribs whose oversized arcades recall the world seen through a child's eyes. At its centre, a 16.5 × 9 m walkable LED floor becomes the game board, while the light shifts towards night and a soundtrack by Niño de Elche moves from flamenco to electronic. The arcades are clad in 3,567 recycled-plastic tiles, 3D-printed from drawings of plazas made by children in Spanish and Serbian schools. When the Expo closes, each tile is given to a visitor: the pavilion disappears, the children's gaze remains.</p>"
+},
+"t": "miniature/03_interior/49_spanish-pavilion-expo-2027-belgrade.webp?v=2147cc5f"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3469,7 +3509,8 @@ window.ERFOTO = {
 "interior/shenzhen-science-museum-main-installation",
 "interior/yota-pavilion-ii",
 "interior/expo-2020-dubai-peru-pavilion-exhibition",
-"interior/expo-2020-dubai-india-pavilion-exhibition"
+"interior/expo-2020-dubai-india-pavilion-exhibition",
+"interior/spanish-pavilion-expo-2027-belgrade"
 ],
 "art": [
 "art/pure-plants",
