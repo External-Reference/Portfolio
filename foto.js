@@ -2962,7 +2962,10 @@ window.ERFOTO = {
 "foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/01.webp?v=26117164",
 "foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/02.webp?v=a04e8381",
 "foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/03.webp?v=1935f7fb",
-"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/04.webp?v=4364bfee"
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/04.webp?v=4364bfee",
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/05.webp?v=06956368",
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/06.webp?v=0172d991",
+"foto/03_interior/48_expo-2020-dubai-india-pavilion-exhibition/07.webp?v=e94db4d3"
 ],
 "x": {
 "title": "Expo 2020 Dubai India Pavilion Exhibition",
