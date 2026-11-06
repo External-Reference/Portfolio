@@ -2617,7 +2617,12 @@ window.ERFOTO = {
 "foto/03_interior/39_spanish-pavilion-yeosu-expo/01.webp?v=f380217b",
 "foto/03_interior/39_spanish-pavilion-yeosu-expo/02.webp?v=e2e5911a",
 "foto/03_interior/39_spanish-pavilion-yeosu-expo/03.webp?v=d70e2b29",
-"foto/03_interior/39_spanish-pavilion-yeosu-expo/04.webp?v=c184d2fa"
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/04.webp?v=c184d2fa",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/05.webp?v=a9e67362",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/06.webp?v=94a2d794",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/07.webp?v=d48fbc71",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/08.webp?v=41dd49ec",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/09.webp?v=8b8a8d7f"
 ],
 "x": {
 "title": "Spanish Pavilion, Yeosu Expo",
