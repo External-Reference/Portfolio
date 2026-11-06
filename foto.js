@@ -2888,7 +2888,11 @@ window.ERFOTO = {
 "interior/yota-pavilion-ii": {
 "f": [
 "foto/03_interior/46_yota-pavilion-ii/01.webp?v=fa97fbd7",
-"foto/03_interior/46_yota-pavilion-ii/02.webp?v=ce14ed3b"
+"foto/03_interior/46_yota-pavilion-ii/02.webp?v=ce14ed3b",
+"foto/03_interior/46_yota-pavilion-ii/03.webp?v=c5675e53",
+"foto/03_interior/46_yota-pavilion-ii/04.webp?v=73456a88",
+"foto/03_interior/46_yota-pavilion-ii/05.webp?v=1d4629fd",
+"foto/03_interior/46_yota-pavilion-ii/06.webp?v=fdcbe5b7"
 ],
 "x": {
 "title": "Yota Pavilion II",
