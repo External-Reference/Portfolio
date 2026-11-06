@@ -442,7 +442,7 @@ function __erTransform() {
     window.__erSel = SEL;
     const want = (SEL.projects || []).filter(e => F.p[e]);
     // una sola sezione con il titolo della selezione; i progetti Urban restano raggruppati come sottocategoria
-    want.forEach(e => { if (e.split('/')[0] !== 'interior') { const p = F.p[e]; p.x = Object.assign({}, p.x, { sub: 'Urban & Architecture' }); } });
+    want.forEach(e => { if (e.split('/')[0] !== 'interior') { const p = F.p[e]; p.x = Object.assign({}, p.x, { sub: 'Festival & Events' }); } });
     Object.keys(F.sec || {}).forEach(sec => delete F.sec[sec]);
     F.sec.interior = want;
     window.__erSecOf = () => 'interior';
