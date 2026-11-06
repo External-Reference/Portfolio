@@ -2605,6 +2605,10 @@ window.ERFOTO = {
 "Art installation for exhibition"
 ],
 [
+"Curated By",
+"Samer Yamani"
+],
+[
 "Area",
 "13 m2"
 ],
@@ -2613,7 +2617,7 @@ window.ERFOTO = {
 "Built"
 ]
 ],
-"body": "<p>MENASA is a design platform showcasing over 40 local and international designers, telling stories from the UAE through exclusive collections. A result of the collaboration between Rami Al-Ali and External Reference, the 13-meter installation next to Al Wasl Plaza features organic lines of sound that capture visitors attention.</p><p>The sculpture integrates digital fabri- Expo Dubai 2020, running from Octocation with traditional Emirati crafts- ber 2021 to March 2022. manship. Made from PLA, a biopolymer derived from renewable sources, it is partially covered with natural palm fibers, Talli (traditional embroidery), Sadu (Bedouin weaving), and hand-worked cotton fishing nets, crafted to haute couture standards. The installation serves as the manifesto of the projects selected by MENASA for</p>"
+"body": "<p>MENASA is a design platform showcasing over 40 local and international designers, telling stories from the UAE through exclusive collections. A result of the collaboration between Rami Al-Ali and External Reference, the 13-meter installation next to Al Wasl Plaza features organic lines of sound that capture visitors attention.</p><p>The sculpture integrates digital fabrication with traditional Emirati craftsmanship. Made from PLA, a biopolymer derived from renewable sources, it is partially covered with natural palm fibers, Talli (traditional embroidery), Sadu (Bedouin weaving) and hand-worked cotton fishing nets, crafted to haute couture standards. The installation serves as the manifesto of the projects selected by MENASA for Expo Dubai 2020, running from October 2021 to March 2022.</p>"
 },
 "t": "miniature/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform.webp?v=71c6b041"
 },
