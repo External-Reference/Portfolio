@@ -2794,7 +2794,16 @@ window.ERFOTO = {
 "interior/real-madrid-museum": {
 "f": [
 "foto/03_interior/44_real-madrid-museum/01.webp?v=5674fd82",
-"foto/03_interior/44_real-madrid-museum/02.webp?v=f6cd9a32"
+"foto/03_interior/44_real-madrid-museum/02.webp?v=f6cd9a32",
+"foto/03_interior/44_real-madrid-museum/03.webp?v=7f5a9e73",
+"foto/03_interior/44_real-madrid-museum/04.webp?v=fc22d538",
+"foto/03_interior/44_real-madrid-museum/05.webp?v=80119bd0",
+"foto/03_interior/44_real-madrid-museum/06.webp?v=ab083004",
+"foto/03_interior/44_real-madrid-museum/07.webp?v=5296959c",
+"foto/03_interior/44_real-madrid-museum/08.webp?v=d70a2011",
+"foto/03_interior/44_real-madrid-museum/09.webp?v=dc543109",
+"foto/03_interior/44_real-madrid-museum/10.webp?v=6b2f777d",
+"foto/03_interior/44_real-madrid-museum/11.webp?v=a8281d8d"
 ],
 "x": {
 "title": "Real Madrid Museum",
