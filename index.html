@@ -445,12 +445,12 @@ function __erTransform() {
     want.forEach(e => { if (e.split('/')[0] !== 'interior') { const p = F.p[e]; p.x = Object.assign({}, p.x, { sub: 'Festival & Events' }); } });
     Object.keys(F.sec || {}).forEach(sec => delete F.sec[sec]);
     F.sec.interior = want;
-    window.__erSecOf = () => 'interior';
+    window.__erSecOf = e => String(e).split('/')[0] === 'studio' ? 'studio' : 'interior';
     const gi = DATA.tree.find(t => t.id === 'interior'); if (gi) gi.title = SEL.title;
     S.forEach(s => { if (s.kind === 'overview' && s.id === 'interior') { s.item = SEL.title; s.title = SEL.title; s.section = SEL.title; } });
-    DATA.tree = DATA.tree.filter(g => F.sec[g.id]);
-    DATA.slides = S.filter(s => s.kind === 'cover' || (s.kind === 'overview' && F.sec[s.id]));
-    if (home) { home.title = SEL.title; home.cats = (home.cats || []).filter(c => F.sec[c.go.split('/')[0]]); home.cats.forEach(c => { c.t = want.length + ' projects'; }); home.cats.forEach(c => { const cv = (SEL.cover || '').split('#'), pc = F.p[cv[0]], uc = pc && pc.f && pc.f[(+cv[1] || 1) - 1]; const p0 = F.p[F.sec[c.go.split('/')[0]][0]]; const u = (typeof uc === 'string' && uc) || (p0 && p0.f && p0.f.find(x => typeof x === 'string')); if (u) { E['sel' + c.go] = u; c.img = 'sel' + c.go; } }); }
+    DATA.tree = DATA.tree.filter(g => g.id === 'studio' || F.sec[g.id]);
+    DATA.slides = S.filter(s => s.kind === 'cover' || (s.kind === 'overview' && F.sec[s.id]) || String(s.id).split('/')[0] === 'studio');
+    if (home) { home.title = SEL.title; home.cats = (home.cats || []).filter(c => c.go.split('/')[0] === 'studio' || F.sec[c.go.split('/')[0]]); home.cats.forEach(c => { if (c.go.split('/')[0] !== 'studio') c.t = SEL.title; }); home.cats.forEach(c => { if (c.go.split('/')[0] === 'studio') return; const cv = (SEL.cover || '').split('#'), pc = F.p[cv[0]], uc = pc && pc.f && pc.f[(+cv[1] || 1) - 1]; const p0 = F.p[F.sec[c.go.split('/')[0]][0]]; const u = (typeof uc === 'string' && uc) || (p0 && p0.f && p0.f.find(x => typeof x === 'string')); if (u) { E['sel' + c.go] = u; c.img = 'sel' + c.go; } }); }
     return __erTransform2(F, E, DATA.slides, DATA.tree);
   }
   return __erTransform2(F, E, S, T);
