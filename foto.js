@@ -2825,6 +2825,10 @@ window.ERFOTO = {
 },
 "interior/shenzhen-science-museum-main-installation": {
 "f": [
+{
+"v": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.mp4?v=5cb1ab18",
+"p": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.poster.webp?v=4486a25d"
+},
 "foto/03_interior/45_shenzhen-science-museum-main-installation/01.webp?v=d3b959cd",
 "foto/03_interior/45_shenzhen-science-museum-main-installation/02.webp?v=c3f2e8ca"
 ],
