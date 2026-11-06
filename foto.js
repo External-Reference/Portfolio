@@ -2531,6 +2531,10 @@ window.ERFOTO = {
 },
 "interior/spanish-pavilion-dubai-expo": {
 "f": [
+{
+"v": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.mp4?v=bde3da9d",
+"p": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.poster.webp?v=8a313200"
+},
 "foto/03_interior/37_spanish-pavilion-dubai-expo/01.webp?v=81708cdb",
 "foto/03_interior/37_spanish-pavilion-dubai-expo/02.webp?v=281e233c",
 "foto/03_interior/37_spanish-pavilion-dubai-expo/03.webp?v=1feccd19",
