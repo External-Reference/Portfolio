@@ -2653,6 +2653,10 @@ window.ERFOTO = {
 },
 "interior/bershka-x-lollapalooza": {
 "f": [
+{
+"v": "foto/03_interior/40_bershka-x-lollapalooza/00_video.mp4?v=1f07f81d",
+"p": "foto/03_interior/40_bershka-x-lollapalooza/00_video.poster.webp?v=5f1bd24e"
+},
 "foto/03_interior/40_bershka-x-lollapalooza/01.webp?v=c9bd3611",
 "foto/03_interior/40_bershka-x-lollapalooza/02.webp?v=1e695c6b",
 "foto/03_interior/40_bershka-x-lollapalooza/03.webp?v=36a5daf0"
