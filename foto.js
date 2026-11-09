@@ -2079,6 +2079,13 @@ window.ERFOTO = {
 ],
 "body": "<p>SBID International Design Awards - First Place - Retail Design OVERALL Category</p><p>Inspired by desert oases, the store explores the physical and symbolic presence of water. You enter through a programmable water curtain before reaching a space shaped by flowing forms and cascading displays. 3D-printed walls, digital waterfalls, and interactive projections create an immersive environment where technology, sound, and movement transform the retail experience.</p><p>At the centre of the store, a bespoke water printer turns digital images into animated sculptures made from falling water, refreshing the atmosphere while creating a strong visual focus. Along the sides, product displays reinterpret cascades frozen in time, forming sculptural walls made with PLA and</p><p>CO₂-capturing PureTech material. Pebble flooring strengthens the link with the oasis concept, while projected water reacts to each step. A mirrored corridor leads to a private VIP lounge, where screens and a reflective ceiling surround clients with liquid imagery for a more intimate experience.</p>"
 },
+"c": [
+"foto/03_interior/23_presentedby-x-riyadh/construction/01.webp?v=95222556",
+"foto/03_interior/23_presentedby-x-riyadh/construction/02.webp?v=d05db040",
+"foto/03_interior/23_presentedby-x-riyadh/construction/03.webp?v=a0f79e33",
+"foto/03_interior/23_presentedby-x-riyadh/construction/04.webp?v=6aa38920",
+"foto/03_interior/23_presentedby-x-riyadh/construction/05.webp?v=03de439f"
+],
 "t": "miniature/03_interior/23_presentedby-x-riyadh.webp?v=d33b36a8"
 },
 "interior/deportienda": {
