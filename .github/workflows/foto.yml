@@ -23,6 +23,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install pillow cryptography
+      - name: Installa ffmpeg (video e anteprime)
+        run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - run: python .github/scripts/build_foto.py
         env:
           PORTFOLIO_PIN: ${{ secrets.PORTFOLIO_PIN }}
@@ -35,9 +37,6 @@ jobs:
           git commit -m "Foto aggiornate automaticamente"
           git pull --rebase origin main
           git push
-          echo "PUBLISH=1" >> "$GITHUB_ENV"
-      - name: Ripubblica il sito
-        if: env.PUBLISH == '1'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+          # Nessuna ripubblicazione forzata: il push qui sopra fa già partire
+          # la pubblicazione di GitHub Pages. Forzarne un'altra creava deploy
+          # doppi che si annullavano a vicenda e andavano in timeout.

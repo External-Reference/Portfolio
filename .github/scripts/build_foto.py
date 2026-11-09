@@ -51,6 +51,20 @@ for dp, _, files in os.walk(FOTO):
             os.remove(src)
         print('foto pronta:', dst)
 
+def too_heavy(path):
+    """True se il video supera 1080p o ~3 Mbit/s: va ricompresso per il web."""
+    try:
+        out = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0',
+                              '-show_entries', 'stream=width,height:format=bit_rate', '-of', 'json', path],
+                             capture_output=True, text=True, check=True).stdout
+        info = json.loads(out)
+        st = info['streams'][0]
+        rate = int(info['format'].get('bit_rate') or 0)
+        return max(st['width'], st['height']) > 1920 or rate > 3_000_000
+    except Exception as e:
+        print('ffprobe non riuscito su', path, e)
+        return False
+
 # 1b. video: .mov -> .mp4 (H.264, 1080p) e immagine di anteprima <nome>.poster.webp
 FF = shutil.which('ffmpeg')
 for dp, _, files in os.walk(FOTO):
@@ -61,13 +75,21 @@ for dp, _, files in os.walk(FOTO):
         if ext in VID_RAW and FF:
             dst = os.path.join(dp, stem + '.mp4')
             subprocess.run([FF, '-v', 'error', '-y', '-i', src, '-map', '0:v:0', '-map', '0:a:0?',
-                            '-vf', "scale='min(1920,iw)':-2", '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22',
-                            '-maxrate', '3.5M', '-bufsize', '7M', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
+                            '-vf', "scale='min(1920,iw)':-2", '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '26',
+                            '-maxrate', '2M', '-bufsize', '4M', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
                             '-movflags', '+faststart', dst + '.tmp.mp4'], check=True)
             os.replace(dst + '.tmp.mp4', dst)
             os.remove(src)
             print('video pronto:', dst)
             ext, src = '.mp4', dst
+        if ext == '.mp4' and FF and too_heavy(src):
+            # video caricato senza compressione: H.264 max 1080p, ~2 Mbit/s
+            subprocess.run([FF, '-v', 'error', '-y', '-i', src, '-map', '0:v:0', '-map', '0:a:0?',
+                            '-vf', "scale='min(1920,iw)':-2", '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '26',
+                            '-maxrate', '2M', '-bufsize', '4M', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '112k',
+                            '-movflags', '+faststart', src + '.tmp.mp4'], check=True)
+            os.replace(src + '.tmp.mp4', src)
+            print('video compresso:', src)
         if ext in VID and FF:
             poster = os.path.join(dp, stem + '.poster.webp')
             if not os.path.exists(poster):
