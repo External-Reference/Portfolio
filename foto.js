@@ -1006,7 +1006,7 @@ window.ERFOTO = {
 "urban/escalera-mirador-vela": {
 "f": [
 {
-"v": "foto/02_urban/31_escalera-mirador-vela/00_video.mp4?v=bfb95d2d",
+"v": "foto/02_urban/31_escalera-mirador-vela/00_video.mp4?v=5a4103ea",
 "p": "foto/02_urban/31_escalera-mirador-vela/00_video.poster.webp?v=8afb6ffa"
 },
 "foto/02_urban/31_escalera-mirador-vela/01.webp?v=c436347f",
@@ -1189,7 +1189,7 @@ window.ERFOTO = {
 "interior/alkimia": {
 "f": [
 {
-"v": "foto/03_interior/02_alkimia/00_video.mp4?v=9a91c232",
+"v": "foto/03_interior/02_alkimia/00_video.mp4?v=ff83f6f0",
 "p": "foto/03_interior/02_alkimia/00_video.poster.webp?v=cbdc8ac5"
 },
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
@@ -1227,7 +1227,7 @@ window.ERFOTO = {
 },
 "c": [
 {
-"v": "foto/03_interior/02_alkimia/construction/00_video.mp4?v=18188b86",
+"v": "foto/03_interior/02_alkimia/construction/00_video.mp4?v=cc7d3e2c",
 "p": "foto/03_interior/02_alkimia/construction/00_video.poster.webp?v=1c188848"
 },
 "foto/03_interior/02_alkimia/construction/01.webp?v=563447cc",
@@ -1471,7 +1471,7 @@ window.ERFOTO = {
 "interior/moritz-m-store": {
 "f": [
 {
-"v": "foto/03_interior/08_moritz-m-store/00_video.mp4?v=71be3b06",
+"v": "foto/03_interior/08_moritz-m-store/00_video.mp4?v=d1e2459b",
 "p": "foto/03_interior/08_moritz-m-store/00_video.poster.webp?v=71da8899"
 },
 "foto/03_interior/08_moritz-m-store/01.webp?v=1b1880f4",
@@ -1656,7 +1656,7 @@ window.ERFOTO = {
 "interior/onada-terrace-suites": {
 "f": [
 {
-"v": "foto/03_interior/13_onada-terrace-suites/00_video.mp4?v=33af2ea6",
+"v": "foto/03_interior/13_onada-terrace-suites/00_video.mp4?v=5174f5d9",
 "p": "foto/03_interior/13_onada-terrace-suites/00_video.poster.webp?v=545da3ee"
 },
 "foto/03_interior/13_onada-terrace-suites/01.webp?v=ab8f6b3d",
@@ -2015,7 +2015,7 @@ window.ERFOTO = {
 "interior/presentedby-x-doha-design-district": {
 "f": [
 {
-"v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=ee587c08",
+"v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=daadd5f8",
 "p": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.poster.webp?v=e1bb381c"
 },
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
@@ -2064,7 +2064,7 @@ window.ERFOTO = {
 "interior/presentedby-x-riyadh": {
 "f": [
 {
-"v": "foto/03_interior/23_presentedby-x-riyadh/00_video.mp4?v=906dbf19",
+"v": "foto/03_interior/23_presentedby-x-riyadh/00_video.mp4?v=5358b473",
 "p": "foto/03_interior/23_presentedby-x-riyadh/00_video.poster.webp?v=af7ad643"
 },
 "foto/03_interior/23_presentedby-x-riyadh/01.webp?v=0b57420e",
@@ -2179,7 +2179,7 @@ window.ERFOTO = {
 "interior/24-kilates-the-vault": {
 "f": [
 {
-"v": "foto/03_interior/26_24-kilates-the-vault/00_video.mp4?v=2115bd0b",
+"v": "foto/03_interior/26_24-kilates-the-vault/00_video.mp4?v=11a2aab5",
 "p": "foto/03_interior/26_24-kilates-the-vault/00_video.poster.webp?v=8fb1a1dd"
 },
 "foto/03_interior/26_24-kilates-the-vault/01.webp?v=4dd6d97b",
@@ -2218,7 +2218,7 @@ window.ERFOTO = {
 "interior/24-kilates-the-clockwork": {
 "f": [
 {
-"v": "foto/03_interior/27_24-kilates-the-clockwork/00_video.mp4?v=60a17db2",
+"v": "foto/03_interior/27_24-kilates-the-clockwork/00_video.mp4?v=698f9984",
 "p": "foto/03_interior/27_24-kilates-the-clockwork/00_video.poster.webp?v=9abffd3e"
 },
 "foto/03_interior/27_24-kilates-the-clockwork/01.webp?v=474a9637",
@@ -2258,7 +2258,7 @@ window.ERFOTO = {
 "interior/24-kilates-the-mine": {
 "f": [
 {
-"v": "foto/03_interior/28_24-kilates-the-mine/00_video.mp4?v=df5d7ec9",
+"v": "foto/03_interior/28_24-kilates-the-mine/00_video.mp4?v=817ea34e",
 "p": "foto/03_interior/28_24-kilates-the-mine/00_video.poster.webp?v=5e45023f"
 },
 "foto/03_interior/28_24-kilates-the-mine/01.webp?v=f152d4f2",
@@ -2369,7 +2369,7 @@ window.ERFOTO = {
 "interior/jane-winestore": {
 "f": [
 {
-"v": "foto/03_interior/31_jane-winestore/00_video.mp4?v=ba3a22ba",
+"v": "foto/03_interior/31_jane-winestore/00_video.mp4?v=1b9f3fbd",
 "p": "foto/03_interior/31_jane-winestore/00_video.poster.webp?v=fdfa12ac"
 },
 "foto/03_interior/31_jane-winestore/01.webp?v=c2e1c977",
@@ -2586,7 +2586,7 @@ window.ERFOTO = {
 "interior/spanish-pavilion-dubai-expo": {
 "f": [
 {
-"v": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.mp4?v=e01f354d",
+"v": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.mp4?v=71079116",
 "p": "foto/03_interior/37_spanish-pavilion-dubai-expo/00_video.poster.webp?v=8a313200"
 },
 "foto/03_interior/37_spanish-pavilion-dubai-expo/01.webp?v=ed94e225",
@@ -2647,7 +2647,7 @@ window.ERFOTO = {
 "interior/expo-2020-dubai-menasa-emirati-design-platform": {
 "f": [
 {
-"v": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.mp4?v=31a3a4be",
+"v": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.mp4?v=6429384d",
 "p": "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/00_video.poster.webp?v=7dfa9183"
 },
 "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/01.webp?v=73efbeae",
@@ -2688,7 +2688,7 @@ window.ERFOTO = {
 "interior/spanish-pavilion-yeosu-expo": {
 "f": [
 {
-"v": "foto/03_interior/39_spanish-pavilion-yeosu-expo/00_video.mp4?v=a0c7d7b1",
+"v": "foto/03_interior/39_spanish-pavilion-yeosu-expo/00_video.mp4?v=5233e2ec",
 "p": "foto/03_interior/39_spanish-pavilion-yeosu-expo/00_video.poster.webp?v=745fdd88"
 },
 "foto/03_interior/39_spanish-pavilion-yeosu-expo/01.webp?v=f380217b",
