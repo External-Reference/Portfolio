@@ -2038,6 +2038,14 @@ window.ERFOTO = {
 ],
 "body": "<p>Presentedby Doha redefines sneaker retail through an immersive environment inspired by Qatar’s dunes and urban streetwear culture. Dynamic LED screens, algorithmic metal forms, interactive lighting, and holographic displays create a constantly evolving experience. The flagship blends technology, digital art, and customization, transforming shopping into a personalized journey for sneaker and streetwear enthusiasts.</p><p>The experience starts before entering, as the façade becomes a digital landscape that captures attention and supports content creation. Inspired by Qatar’s shifting sand dunes, the interior works like an exhibition space showcasing rare trainers, collaborations, and collector pieces. Algorithmically cut metal blades wrap the space, forming a fluid tech landscape where products appear embedded in motion. Light, mapping, and responsive surfaces create a changing atmosphere, while a dedicated immersive room uses holographic fans to present selected sneakers as coveted icons.</p>"
 },
+"c": [
+"foto/03_interior/22_presentedby-x-doha-design-district/construction/01.webp?v=c8c5ac44",
+"foto/03_interior/22_presentedby-x-doha-design-district/construction/02.webp?v=a5c0c93e",
+"foto/03_interior/22_presentedby-x-doha-design-district/construction/03.webp?v=c6a1f719",
+"foto/03_interior/22_presentedby-x-doha-design-district/construction/04.webp?v=4885d04e",
+"foto/03_interior/22_presentedby-x-doha-design-district/construction/05.webp?v=444af556",
+"foto/03_interior/22_presentedby-x-doha-design-district/construction/06.webp?v=4e1ea11f"
+],
 "t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
 },
 "interior/presentedby-x-riyadh": {
@@ -2585,6 +2593,25 @@ window.ERFOTO = {
 ],
 "body": "<p>The Spanish Pavilion at Expo Dubai 2020 presented Spain’s vision for sustainability through an immersive forest-like environment. Organized around biodiversity, resource balance, and collective intelligence, the pavilion combined interactive installations and educational displays to highlight innovation in ecology, food systems, and renewable technologies.</p><p>The visitor journey began in the lower gallery, where sustainability became a sequence of spatial experiences. Marine landscapes, microalgae incubators, recreated forests, smart agriculture, renewable energy models, and connected territories showed Spain’s research and applied solutions. Interactive floors, caustic projections, holograms, and audiovisual content created a playful way to engage with complex topics. The “Tree of Balance” formed the emotional core of the route, responding to each visitor’s answers and making sustainable behaviour visible through a living, changing symbol.</p>"
 },
+"c": [
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/01.webp?v=6e97d1f6",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/02.webp?v=b5bd689e",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/03.webp?v=7d931f09",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/04.webp?v=ff9a2ad8",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/05.webp?v=20cadda0",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/06.webp?v=790cca6e",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/07.webp?v=3f3939cc",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/08.webp?v=ce1248dd",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/09.webp?v=401b1cee",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/10.webp?v=cb067429",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/11.webp?v=d1b04787",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/12.webp?v=f1949a88",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/13.webp?v=ec747b0b",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/14.webp?v=9926e22f",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/15.webp?v=192cdac1",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/16.webp?v=48605ad5",
+"foto/03_interior/37_spanish-pavilion-dubai-expo/construction/17.webp?v=a61ed42e"
+],
 "t": "miniature/03_interior/37_spanish-pavilion-dubai-expo.webp?v=3b7caf47"
 },
 "interior/expo-2020-dubai-menasa-emirati-design-platform": {
@@ -2669,6 +2696,15 @@ window.ERFOTO = {
 ],
 "body": "<p>At Expo Yeosu 2012, Spain presented “Spain Explores,” an exhibition celebrating its maritime exploration and scientific research. Through a sequence of immersive spaces, from historic sea routes to a deep ocean installation, the pavilion transformed nautical discoveries into a sensory experience while highlighting Spain’s commitment to ocean research and sustainability.</p><p>The exhibition unfolds in four stages, guiding visitors from cartographic routes to the depths of the ocean. The central narrative links Columbus, Malaspina, and the Malaspina 2010 expedition, showing how exploration evolved from navigation to scientific research. In the Deep Ocean space, water samples collected at 5,000 meters become the core material of the installation. Their forms recall laboratory tubes and amphorae, creating a glowing abyssal landscape activated by projected water movement. The journey ends with a Dymaxion map that turns scientific data into a visual field of discovery, linking knowledge, memory, and the future of the seas.</p>"
 },
+"c": [
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/construction/01.webp?v=04325b26",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/construction/02.webp?v=df042e21",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/construction/03.webp?v=b5e58599",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/construction/04.webp?v=767edfe6",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/construction/05.webp?v=336744d9",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/construction/06.webp?v=726ef8ca",
+"foto/03_interior/39_spanish-pavilion-yeosu-expo/construction/07.webp?v=f0f3853d"
+],
 "t": "miniature/03_interior/39_spanish-pavilion-yeosu-expo.webp?v=97bb1745"
 },
 "interior/bershka-x-lollapalooza": {
