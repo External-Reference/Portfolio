@@ -1910,7 +1910,10 @@ window.ERFOTO = {
 "foto/03_interior/19_pinko-at-roma-fiumicino/construction/07.webp?v=4baee8a0",
 "foto/03_interior/19_pinko-at-roma-fiumicino/construction/08.webp?v=f0209c93",
 "foto/03_interior/19_pinko-at-roma-fiumicino/construction/09.webp?v=8042e54f",
-"foto/03_interior/19_pinko-at-roma-fiumicino/construction/10.webp?v=e6fb1f22"
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/10.webp?v=e6fb1f22",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/11.webp?v=b67948a6",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/12.webp?v=84f88bf4",
+"foto/03_interior/19_pinko-at-roma-fiumicino/construction/13.webp?v=f3e17470"
 ],
 "t": "miniature/03_interior/19_pinko-at-roma-fiumicino.webp?v=5b878065"
 },
