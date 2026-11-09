@@ -1334,6 +1334,16 @@ window.ERFOTO = {
 ],
 "body": "<p>Located in Madrid’s historic Gran Vía 18, WOW Restaurant transforms the penthouse of the former Hotel Roma into an immersive dining experience inspired by “The Spanish King,” a fictional influencer. Each room, from the living room to the recording studio, becomes a theatrical gastronomic setting. Blending storytelling, history, and cuisine, the restaurant creates a playful and unforgettable culinary journey.</p><p>The design gives the atmosphere of a private apartment, where furniture, objects, and unexpected details reveal the imagined life of its inhabitant. Guests move through the penthouse as if entering an intimate world, discovering fragments of character in each space. The dining experience becomes a sequence of scenes, shifting between domestic comfort, staged excess, and cultural references, each denoted by a diverse colour palette. This layered approach turns the restaurant into a living narrative, where every corner adds meaning to the meal and the historic setting becomes part of the fiction.</p>"
 },
+"c": [
+"foto/03_interior/04_the-penthouse-by-wow/construction/01.webp?v=8ed16462",
+"foto/03_interior/04_the-penthouse-by-wow/construction/02.webp?v=d7896381",
+"foto/03_interior/04_the-penthouse-by-wow/construction/03.webp?v=c9f59178",
+"foto/03_interior/04_the-penthouse-by-wow/construction/04.webp?v=08828df6",
+"foto/03_interior/04_the-penthouse-by-wow/construction/05.webp?v=130afc09",
+"foto/03_interior/04_the-penthouse-by-wow/construction/06.webp?v=276a6683",
+"foto/03_interior/04_the-penthouse-by-wow/construction/07.webp?v=b527ce7c",
+"foto/03_interior/04_the-penthouse-by-wow/construction/08.webp?v=7627045e"
+],
 "t": "miniature/03_interior/04_the-penthouse-by-wow.webp?v=b65e1c0e"
 },
 "interior/caaa-by-pietro-catalano": {
