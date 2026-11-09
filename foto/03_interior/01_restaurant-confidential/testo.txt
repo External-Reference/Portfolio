@@ -1,7 +1,7 @@
 Title: Restaurant - Confidential
 Place: Undisclosed, 2022
 Category: Restaurant
-Tags: 
+Tags:
 Location: Undisclosed
 Typology: Private Restaurant
 Area: 200 m 2

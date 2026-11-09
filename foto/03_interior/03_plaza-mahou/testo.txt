@@ -1,7 +1,7 @@
 Title: Plaza Mahou
 Place: Madrid, Spain, 2025
 Category: Restaurant
-Tags: 
+Tags:
 Location: Madrid, Spain
 Typology: Restaurant
 Area: 1000 m2

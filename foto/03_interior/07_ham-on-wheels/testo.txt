@@ -1,7 +1,7 @@
 Title: Ham On Wheels
 Place: Barcelona, Spain, 2015
 Category: Restaurant
-Tags: 
+Tags:
 Location: Barcelona, Spain
 Typology: Restaurant
 Area: 40 m2

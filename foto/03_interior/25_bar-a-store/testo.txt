@@ -1,7 +1,7 @@
 Title: Barça Store
 Place: Camp Nou, Barcelona, Spain, 2023
 Category: Retail
-Tags: 
+Tags:
 Location: Camp Nou, Barcelona, Spain
 Typology: Experiential Retail
 Area: 1650 m2

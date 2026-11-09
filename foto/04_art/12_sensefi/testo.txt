@@ -1,6 +1,6 @@
 Title: Sensefi
 Place: Barcelona, Spain, 2024
-Tags: 
+Tags:
 Location: Barcelona, Spain
 Status: Built
 

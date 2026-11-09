@@ -1,8 +1,8 @@
 Title: Pure Plants
 Place: Barcelona, Spain, 2022
-Tags: 
+Tags:
 Location: Barcelona, Spain
 
 A family of 3D-printed sculptures made with PURE.TECH, a mineral-based material that absorbs CO₂ and purifies the air. Inspired by natural phyllotaxis patterns, the designs reinterpret plant geometries through parametric tools, combining biomimicry, sustainable materials, and digital fabrication to bring environmental awareness and air purification into architectural and interior spaces.
 
-Each piece is conceived as a stylized plant form, where nature is not copied but translated into a sculptural language. The geometries draw from phyllotaxis, the spiral growth pattern found in leaves, seeds, and flowers, and reinterpret it through parametric tools. This creates intricate surfaces that increase visual depth and air- purifying area. Across the collection, different species, sizes, and silhouettes offer varied expressions of the same natural logic. Produced through lowenergy FDM 3D printing, the plants avoid mould waste and can be recycled into new filament, extending their life cycle beyond a single use.
+Each piece is conceived as a stylized plant form, where nature is not copied but translated into a sculptural language. The geometries draw from phyllotaxis, the spiral growth pattern found in leaves, seeds, and flowers, and reinterpret it through parametric tools. This creates intricate surfaces that increase visual depth and airpurifying area. Across the collection, different species, sizes, and silhouettes offer varied expressions of the same natural logic. Produced through lowenergy FDM 3D printing, the plants avoid mould waste and can be recycled into new filament, extending their life cycle beyond a single use.

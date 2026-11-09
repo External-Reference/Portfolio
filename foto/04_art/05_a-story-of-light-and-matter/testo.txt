@@ -1,12 +1,10 @@
 Title: A Story of Light and Matter
 Place: Barcelona, Spain, 2024
-Tags: 
+Tags:
 Location: Barcelona, Spain
 
 “A Story of Light and Matter” explores contemporary city dynamics by translating empirical light data into artistic installations, reflecting the unique ambiance of each place. The project starts with a survey of light intensities across cityscapes, using Barcelona as a case study. Data points from the city, spanning from mountains to the sea, form the basis for a reinterpretation of light through a luminescent installation.
 
-Combining digital fabrication and traditional craftsmanship, the 3D printed metal sculpture encases a glass capsule filled with pulsing light. The stainless-steel structure symbolizes the material world, while the glowing gas within represents light’s intangible presence. Collaborating with Artisans
+Combining digital fabrication and traditional craftsmanship, the 3D printed metal sculpture encases a glass capsule filled with pulsing light. The stainless-steel structure symbolizes the material world, while the glowing gas within represents light’s intangible presence. Created in collaboration with Artisans Loving Robots and Ferran Collado, the installation emits an ethereal glow.
 
-Loving Robots and Ferran Collado, the installation emits an ethereal glow.
-
-The project is a manifesto to deepen appreciation for urban landscapes, transforming the intangible into the tangible and highlighting each city›s unique lighting qualities.
+The project is a manifesto to deepen appreciation for urban landscapes, transforming the intangible into the tangible and highlighting each city’s unique lighting qualities.

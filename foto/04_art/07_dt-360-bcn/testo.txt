@@ -1,12 +1,12 @@
 Title: DT-360-BCN
 Place: Barcelona, Spain, 2023
-Tags: 
+Tags:
 Location: Barcelona, Spain
 
-The DT-360-BCN series translates invisible urban data into pattern
+The DT-360-BCN series translates invisible urban data into patterns.
 
-DT-360-BCN-PS renders public safety data as waveforms — frequency marks recurrence, amplitude marks severity
+DT-360-BCN-PS renders public safety data as waveforms — frequency marks recurrence, amplitude marks severity.
 
-DT-360-BCN-AP maps electromagnetic, thermal, and atmospheric fields as vectors, generating the pattern’s lines from each point in space
+DT-360-BCN-AP maps electromagnetic, thermal, and atmospheric fields as vectors, generating the pattern’s lines from each point in space.
 
-DT-360-BCN-DC visualizes the city’s daily commuter flows through particle and reactiondiffusion systems
+DT-360-BCN-DC visualizes the city’s daily commuter flows through particle and reaction-diffusion systems.

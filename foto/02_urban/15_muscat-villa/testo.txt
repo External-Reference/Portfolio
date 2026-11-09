@@ -1,7 +1,7 @@
 Title: Muscat Villa
 Place: Muscat, Oman, 2022
 Category: Residential
-Tags: 
+Tags:
 Location: Muscat, Oman
 Typology: Private villa
 Area: 2,000 m²

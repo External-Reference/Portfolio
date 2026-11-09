@@ -1,7 +1,7 @@
 Title: Onada Terrace Suites
 Place: Barcelona, Spain, 2025
 Category: Hotel
-Tags: 
+Tags:
 Location: Barcelona, Spain
 Typology: Hotel suite
 Area: 390.000 m2

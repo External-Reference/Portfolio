@@ -1,7 +1,7 @@
 Title: Jeddah Formula 1
 Place: Jeddah, Saudi Arabia, 2023
 Category: Mixed Use
-Tags: 
+Tags:
 Location: Jeddah, Saudi Arabia
 Typology: Formula 1 track masterplan
 Area: 200,000 m²

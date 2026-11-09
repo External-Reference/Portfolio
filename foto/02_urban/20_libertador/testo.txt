@@ -1,7 +1,7 @@
 Title: Libertador
 Place: Buenos Aires, Argentina, 2024
 Category: Residential
-Tags: 
+Tags:
 Location: Buenos Aires, Argentina
 Typology: Residential building
 Area: 5,000 m²
