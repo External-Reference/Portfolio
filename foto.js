@@ -2475,6 +2475,16 @@ window.ERFOTO = {
 ],
 "body": "<p>Casa Sayrach, modernist icon in Barcelona designed by Manuel Sayrach in 1918, inspired the Sayrach Principal Office Club by External Reference. The project transforms the main floor into a collaborative workspace, blending organic architecture, parametric furniture, sustainability, artisanship, and advanced technology, creating a contemporary environment that celebrates creativity, innovation, history, and design.</p><p>While the renovation preserves the original structure and restores the historic fabric, it also introduces a contemporary architectural language. New elements enter into dialogue with the existing architecture, producing a careful tension between proximity and contrast. The project is an exploration of the relationship between organic forms, digital processes, and fabrication. Drawing on the study of natural structures, parametric design was used as a way of translating certain biological logics into architectural and furniture elements. The project offers a platform to leverage digital tools as a space to explore forms, material, and spatial atmosphere.</p>"
 },
+"c": [
+"foto/03_interior/33_casa-sayrach-principal-office/construction/01.webp?v=c560fec5",
+"foto/03_interior/33_casa-sayrach-principal-office/construction/02.webp?v=75b6f6e9",
+"foto/03_interior/33_casa-sayrach-principal-office/construction/03.webp?v=623bd287",
+"foto/03_interior/33_casa-sayrach-principal-office/construction/04.webp?v=de2a1b39",
+"foto/03_interior/33_casa-sayrach-principal-office/construction/05.webp?v=81a3fd2f",
+"foto/03_interior/33_casa-sayrach-principal-office/construction/06.webp?v=82ae6f2f",
+"foto/03_interior/33_casa-sayrach-principal-office/construction/07.webp?v=112fbe3d",
+"foto/03_interior/33_casa-sayrach-principal-office/construction/08.webp?v=16679128"
+],
 "t": "miniature/03_interior/33_casa-sayrach-principal-office.webp?v=e2777c82"
 },
 "interior/corporate-office-spaces-confidential": {
