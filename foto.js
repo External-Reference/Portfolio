@@ -1299,6 +1299,13 @@ window.ERFOTO = {
 ],
 "body": "<p>The Mahou restaurant at Santiago Bernabéu celebrates Madrid’s culture uniting football, the city, and Mahou. Inspired by the social life of Madrid’s plazas, the space is organized around a central bar and a visible microbrewery. Sculptural ceilings, cobblestoneinspired floors, and panoramic views toward the stadium create a vibrant setting to gather and celebrate football culture.</p><p>The experience unfolds as a contemporary Madrid plaza inside the stadium. Visitors enter through an immersive tunnel inspired by the world of beer, before reaching a central bar that anchors the space as its social heart. Around it, the microbrewery becomes part of the scene, showing the brewing process as a live ritual.</p><p>Cobblestone-style flooring, embedded beer cans, steel tube ceilings, and 3D-printed panels translate the language of the city and the brand into material form. A panoramic window opens the restaurant to the pitch, while the terrace creates a relaxed place to meet, drink, and celebrate before and after the match.</p>"
 },
+"c": [
+"foto/03_interior/03_plaza-mahou/construction/01.webp?v=9ed63039",
+"foto/03_interior/03_plaza-mahou/construction/02.webp?v=86c421a1",
+"foto/03_interior/03_plaza-mahou/construction/03.webp?v=7f545e8f",
+"foto/03_interior/03_plaza-mahou/construction/04.webp?v=f3f8481c",
+"foto/03_interior/03_plaza-mahou/construction/05.webp?v=44bca3c5"
+],
 "t": "miniature/03_interior/03_plaza-mahou.webp?v=d13a01c7"
 },
 "interior/the-penthouse-by-wow": {
