@@ -1558,7 +1558,7 @@ window.ERFOTO = {
 "Built"
 ]
 ],
-"body": "<p>The Moritz factory, a historic brewery in Barcelona since 1856, underwent a transformation after its 2011 renovation by Jean Nouvel. Preserving the original shell, bar, and entrance shelves, the redesign embraced a brewer aesthetic aligned with hipster craftsmanship, reflecting Moritz’s craft beer identity. A new L-shaped bar, stretching six meters, was introduced, connecting the interior to the street through the window. This bar integrates six beer tanks three below and three above directly linked to the factory’s production tanks. Unpasteurized beer flows through long tubes, symbolizing the journey from production to consumption.</p><p>The design echoes Jean Nouvel’s material and aesthetic values while featuring limited-edition beers in one-liter bottles. The second part of the space, the M-store, showcases brand merchan- dise, gadgets, and books, with walls colonized for displays. Unique furniture crafted from tank sections completes the innovative, beer-focused experience.</p>"
+"body": "<p>The Moritz factory, a historic brewery in Barcelona since 1856, underwent a transformation after its 2011 renovation by Jean Nouvel. Preserving the original shell, bar, and entrance shelves, the redesign embraced a brewer aesthetic aligned with hipster craftsmanship, reflecting Moritz’s craft beer identity. A new L-shaped bar, stretching six meters, was introduced, connecting the interior to the street through the window. This bar integrates six beer tanks three below and three above directly linked to the factory’s production tanks. Unpasteurized beer flows through long tubes, symbolizing the journey from production to consumption.</p><p>The design echoes Jean Nouvel’s material and aesthetic values while featuring limited-edition beers in one-liter bottles. The second part of the space, the M-store, showcases brand merchandise, gadgets, and books, with walls colonized for displays. Unique furniture crafted from tank sections completes the innovative, beer-focused experience.</p>"
 },
 "t": "miniature/03_interior/09_moritz-rambla-de-catalunya.webp?v=33abaa26"
 },
@@ -1633,7 +1633,7 @@ window.ERFOTO = {
 "Built"
 ]
 ],
-"body": "<p>We collaborated with Blacksheep to design this space. Together, we crafted a digital immersive experience that transcends physical boundaries, transporting users to an imaginary underwater realm. On the 26th floor of the W Hotel in Barcelona, youʻll find breathtaking views of the ocean, city, and mountains. This space is all about embracing natural light and the changing scenery.</p><p>Itʻs here that a well-known night spot is getting a fresh start. Noxe is more than just a place to grab a drink or a bite to eat - itʻs a cocktail bar, Japanese restaurant, and nightclub all rolled into one. From dusk till dawn, it›s alive with the pulse of the city. Every moment is unique, inspiring the branding and design to reflect the raw energy of nature. At Noxe, music, moonlight, and laughter blend seamlessly into an unforgettable experience that never stops.</p>"
+"body": "<p>We collaborated with Blacksheep to design this space. Together, we crafted a digital immersive experience that transcends physical boundaries, transporting users to an imaginary underwater realm. On the 26th floor of the W Hotel in Barcelona, you’ll find breathtaking views of the ocean, city, and mountains. This space is all about embracing natural light and the changing scenery.</p><p>It’s here that a well-known night spot is getting a fresh start. Noxe is more than just a place to grab a drink or a bite to eat - it’s a cocktail bar, Japanese restaurant, and nightclub all rolled into one. From dusk till dawn, it’s alive with the pulse of the city. Every moment is unique, inspiring the branding and design to reflect the raw energy of nature. At Noxe, music, moonlight, and laughter blend seamlessly into an unforgettable experience that never stops.</p>"
 },
 "t": "miniature/03_interior/11_noxe-hotel-w.webp?v=01f4789f"
 },
@@ -1666,7 +1666,7 @@ window.ERFOTO = {
 "Under construction"
 ]
 ],
-"body": "<p>The Speakeasy Bar at ARIA Resort &amp; Casino in Las Vegas offers a hidden, immersive experience, accessible through the Presentedby store’s 3D-printed Nevada desert landscape and UFO, via an unmarked door. Inspired by art nouveau and parametric design, the bar’s intimate, organic forms and lush interiors in moody hues of brown and green create an atmosphere of awe. Central design elements include a dynamic bronze bar, organic tables, and green suede seating.</p><p>Proposal 1 features a ceiling with a graphic sky roof, bronze oval windows with graphic screens, and fabric-covered metal mesh walls. Seating includes velvet chairs and single-person booths, while organic shell patterns adorn the bronze tables and bar. Proposal 2 introduces carved wooden walls with ripple detailing and a centra- lized seating plan. The ceiling mirrors the graphic screens with metal mesh, blending fluidity and warmth. Proposal 3 highlights curved wooden strips extending to the ceiling, framing a central hallway. Behind the wood, layers of curtains, metal mesh, and lightboxes add depth and texture, uniting functionality with elegance.</p>"
+"body": "<p>The Speakeasy Bar at ARIA Resort &amp; Casino in Las Vegas offers a hidden, immersive experience, accessible through the Presentedby store’s 3D-printed Nevada desert landscape and UFO, via an unmarked door. Inspired by art nouveau and parametric design, the bar’s intimate, organic forms and lush interiors in moody hues of brown and green create an atmosphere of awe. Central design elements include a dynamic bronze bar, organic tables, and green suede seating.</p><p>Proposal 1 features a ceiling with a graphic sky roof, bronze oval windows with graphic screens, and fabric-covered metal mesh walls. Seating includes velvet chairs and single-person booths, while organic shell patterns adorn the bronze tables and bar. Proposal 2 introduces carved wooden walls with ripple detailing and a centralized seating plan. The ceiling mirrors the graphic screens with metal mesh, blending fluidity and warmth. Proposal 3 highlights curved wooden strips extending to the ceiling, framing a central hallway. Behind the wood, layers of curtains, metal mesh, and lightboxes add depth and texture, uniting functionality with elegance.</p>"
 },
 "t": "miniature/03_interior/12_speakeasy-bar-resort-casino.webp?v=4aaed7a7"
 },
@@ -1756,7 +1756,7 @@ window.ERFOTO = {
 "Concept design proposal"
 ]
 ],
-"body": "<p>The hotel is a vertical journey through a mountain›s natural layers. Each floor reflects a biome — from the rocky base (Lobby) to the snowy summit (Spa). Materials, light, and temperature shift with each level, offering a multisensory experience. The architecture mirrors altitude, blending nature and design.</p>"
+"body": "<p>The hotel is a vertical journey through a mountain’s natural layers. Each floor reflects a biome — from the rocky base (Lobby) to the snowy summit (Spa). Materials, light, and temperature shift with each level, offering a multisensory experience. The architecture mirrors altitude, blending nature and design.</p>"
 },
 "t": "miniature/03_interior/14_mestia-hotel.webp?v=70f27ee0"
 },
@@ -1787,7 +1787,7 @@ window.ERFOTO = {
 "Concept design proposal"
 ]
 ],
-"body": "<p>A space built for versatility and comfort. It begins as a cozy living room, welcoming the guest with warmth and relaxation. However, the true innovation lies in the room›s ability to shift between various modes: from living room to bedroom, work space, or entertainment area. This is perfect for guests who want a home-like feel but also value customization.</p>"
+"body": "<p>A space built for versatility and comfort. It begins as a cozy living room, welcoming the guest with warmth and relaxation. However, the true innovation lies in the room’s ability to shift between various modes: from living room to bedroom, work space, or entertainment area. This is perfect for guests who want a home-like feel but also value customization.</p>"
 },
 "t": "miniature/03_interior/15_hotel-room-of-the-future-the-stripe.webp?v=8c858ee7"
 },
@@ -1849,7 +1849,7 @@ window.ERFOTO = {
 "Concept design proposal"
 ]
 ],
-"body": "<p>The combined version brings together all the functionalities from the previous concepts, utilizing the ceiling and various spatial movements to seamlessly integrate each function. Like ‹The Shell,› it incorporates warm colors and materials, making it especially suited for the older generation, while maintaining a cozy and inviting atmosphere.</p>"
+"body": "<p>The combined version brings together all the functionalities from the previous concepts, utilizing the ceiling and various spatial movements to seamlessly integrate each function. Like “The Shell,” it incorporates warm colors and materials, making it especially suited for the older generation, while maintaining a cozy and inviting atmosphere.</p>"
 },
 "t": "miniature/03_interior/17_hotel-room-of-the-future-the-combine.webp?v=20f7ecec"
 },
@@ -2126,9 +2126,13 @@ window.ERFOTO = {
 [
 "Status",
 "Built"
+],
+[
+"Award",
+"SBID International Design Awards 2023 – First Place, Retail Design Overall"
 ]
 ],
-"body": "<p>SBID International Design Awards - First Place - Retail Design OVERALL Category</p><p>Inspired by desert oases, the store explores the physical and symbolic presence of water. You enter through a programmable water curtain before reaching a space shaped by flowing forms and cascading displays. 3D-printed walls, digital waterfalls, and interactive projections create an immersive environment where technology, sound, and movement transform the retail experience.</p><p>At the centre of the store, a bespoke water printer turns digital images into animated sculptures made from falling water, refreshing the atmosphere while creating a strong visual focus. Along the sides, product displays reinterpret cascades frozen in time, forming sculptural walls made with PLA and</p><p>CO₂-capturing PureTech material. Pebble flooring strengthens the link with the oasis concept, while projected water reacts to each step. A mirrored corridor leads to a private VIP lounge, where screens and a reflective ceiling surround clients with liquid imagery for a more intimate experience.</p>"
+"body": "<p>Inspired by desert oases, the store explores the physical and symbolic presence of water. You enter through a programmable water curtain before reaching a space shaped by flowing forms and cascading displays. 3D-printed walls, digital waterfalls, and interactive projections create an immersive environment where technology, sound, and movement transform the retail experience.</p><p>At the centre of the store, a bespoke water printer turns digital images into animated sculptures made from falling water, refreshing the atmosphere while creating a strong visual focus. Along the sides, product displays reinterpret cascades frozen in time, forming sculptural walls made with PLA and CO₂-capturing PureTech material. Pebble flooring strengthens the link with the oasis concept, while projected water reacts to each step. A mirrored corridor leads to a private VIP lounge, where screens and a reflective ceiling surround clients with liquid imagery for a more intimate experience.</p>"
 },
 "c": [
 "foto/03_interior/23_presentedby-x-riyadh/construction/01.webp?v=95222556",
@@ -2546,8 +2550,8 @@ window.ERFOTO = {
 },
 "lock": {
 "s": "ZCaHnih31SOtW0J9dHp7dw==",
-"i": "FtDl0qao0CKkXsX9",
-"d": "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"
+"i": "9a7ixHPTV3xzfky4",
+"d": "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"
 },
 "t": "miniature/03_interior/34_corporate-office-spaces-confidential__locked.webp?v=7e4a2a20"
 },
@@ -2685,7 +2689,7 @@ window.ERFOTO = {
 "foto/03_interior/38_expo-2020-dubai-menasa-emirati-design-platform/03.webp?v=db93cce9"
 ],
 "x": {
-"title": "Expo 2020 Dubai Menasa,Emirati Design Platform",
+"title": "Expo 2020 Dubai Menasa, Emirati Design Platform",
 "place": "Dubai, UAE, 2021",
 "sub": "Expo & Pavilions",
 "tags": [],
@@ -3228,7 +3232,7 @@ window.ERFOTO = {
 "Barcelona, Spain"
 ]
 ],
-"body": "<p>A family of 3D-printed sculptures made with PURE.TECH, a mineral-based material that absorbs CO₂ and purifies the air. Inspired by natural phyllotaxis patterns, the designs reinterpret plant geometries through parametric tools, combining biomimicry, sustainable materials, and digital fabrication to bring environmental awareness and air purification into architectural and interior spaces.</p><p>Each piece is conceived as a stylized plant form, where nature is not copied but translated into a sculptural language. The geometries draw from phyllotaxis, the spiral growth pattern found in leaves, seeds, and flowers, and reinterpret it through parametric tools. This creates intricate surfaces that increase visual depth and air- purifying area. Across the collection, different species, sizes, and silhouettes offer varied expressions of the same natural logic. Produced through lowenergy FDM 3D printing, the plants avoid mould waste and can be recycled into new filament, extending their life cycle beyond a single use.</p>"
+"body": "<p>A family of 3D-printed sculptures made with PURE.TECH, a mineral-based material that absorbs CO₂ and purifies the air. Inspired by natural phyllotaxis patterns, the designs reinterpret plant geometries through parametric tools, combining biomimicry, sustainable materials, and digital fabrication to bring environmental awareness and air purification into architectural and interior spaces.</p><p>Each piece is conceived as a stylized plant form, where nature is not copied but translated into a sculptural language. The geometries draw from phyllotaxis, the spiral growth pattern found in leaves, seeds, and flowers, and reinterpret it through parametric tools. This creates intricate surfaces that increase visual depth and airpurifying area. Across the collection, different species, sizes, and silhouettes offer varied expressions of the same natural logic. Produced through lowenergy FDM 3D printing, the plants avoid mould waste and can be recycled into new filament, extending their life cycle beyond a single use.</p>"
 },
 "t": "miniature/04_art/01_pure-plants.webp?v=79e98a89"
 },
@@ -3249,7 +3253,7 @@ window.ERFOTO = {
 "Barcelona, Spain"
 ]
 ],
-"body": "<p>VAS is a pair of vases that explores the act of containing as a gesture to protect and to hold. They reinterpret Mediterranean archetypes through a contemporary lens, where function and meaning coexist. The dialogue between a warm, porous exterior made from recycled cork and a precise 3D-printed ceramic interior, with its process left visible, transforms waste into value and imperfection into language.</p><p>Their dual structure creates a dialogue allowing technology to become part between earth and craft, softness and of the object’s expression. The pieces precision. The cork exterior gives each speak of reuse, care, and memory. vase a tactile presence. Visible ceramic printing lines reveal the making process,</p>"
+"body": "<p>VAS is a pair of vases that explores the act of containing as a gesture to protect and to hold. They reinterpret Mediterranean archetypes through a contemporary lens, where function and meaning coexist. The dialogue between a warm, porous exterior made from recycled cork and a precise 3D-printed ceramic interior, with its process left visible, transforms waste into value and imperfection into language.</p><p>Their dual structure creates a dialogue between earth and craft, softness and precision. The cork exterior gives each vase a tactile presence, while the visible ceramic printing lines reveal the making process, allowing technology to become part of the object’s expression. The pieces speak of reuse, care and memory.</p>"
 },
 "t": "miniature/04_art/02_vas.webp?v=2c450050"
 },
@@ -3315,7 +3319,7 @@ window.ERFOTO = {
 "Barcelona, Spain"
 ]
 ],
-"body": "<p>“A Story of Light and Matter” explores contemporary city dynamics by translating empirical light data into artistic installations, reflecting the unique ambiance of each place. The project starts with a survey of light intensities across cityscapes, using Barcelona as a case study. Data points from the city, spanning from mountains to the sea, form the basis for a reinterpretation of light through a luminescent installation.</p><p>Combining digital fabrication and traditional craftsmanship, the 3D printed metal sculpture encases a glass capsule filled with pulsing light. The stainless-steel structure symbolizes the material world, while the glowing gas within represents light’s intangible presence. Collaborating with Artisans</p><p>Loving Robots and Ferran Collado, the installation emits an ethereal glow.</p><p>The project is a manifesto to deepen appreciation for urban landscapes, transforming the intangible into the tangible and highlighting each city›s unique lighting qualities.</p>"
+"body": "<p>“A Story of Light and Matter” explores contemporary city dynamics by translating empirical light data into artistic installations, reflecting the unique ambiance of each place. The project starts with a survey of light intensities across cityscapes, using Barcelona as a case study. Data points from the city, spanning from mountains to the sea, form the basis for a reinterpretation of light through a luminescent installation.</p><p>Combining digital fabrication and traditional craftsmanship, the 3D printed metal sculpture encases a glass capsule filled with pulsing light. The stainless-steel structure symbolizes the material world, while the glowing gas within represents light’s intangible presence. Created in collaboration with Artisans Loving Robots and Ferran Collado, the installation emits an ethereal glow.</p><p>The project is a manifesto to deepen appreciation for urban landscapes, transforming the intangible into the tangible and highlighting each city’s unique lighting qualities.</p>"
 },
 "t": "miniature/04_art/05_a-story-of-light-and-matter.webp?v=3742c96c"
 },
@@ -3361,7 +3365,7 @@ window.ERFOTO = {
 "Barcelona, Spain"
 ]
 ],
-"body": "<p>The DT-360-BCN series translates invisible urban data into pattern</p><p>DT-360-BCN-PS renders public safety data as waveforms — frequency marks recurrence, amplitude marks severity</p><p>DT-360-BCN-AP maps electromagnetic, thermal, and atmospheric fields as vectors, generating the pattern’s lines from each point in space</p><p>DT-360-BCN-DC visualizes the city’s daily commuter flows through particle and reactiondiffusion systems</p>"
+"body": "<p>The DT-360-BCN series translates invisible urban data into patterns.</p><p>DT-360-BCN-PS renders public safety data as waveforms — frequency marks recurrence, amplitude marks severity.</p><p>DT-360-BCN-AP maps electromagnetic, thermal, and atmospheric fields as vectors, generating the pattern’s lines from each point in space.</p><p>DT-360-BCN-DC visualizes the city’s daily commuter flows through particle and reaction-diffusion systems.</p>"
 },
 "t": "miniature/04_art/07_dt-360-bcn.webp?v=a6785fb4"
 },
@@ -3495,7 +3499,7 @@ window.ERFOTO = {
 "Built"
 ]
 ],
-"body": "<p>system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
+"body": "<p>A modular furniture system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
 },
 "t": "miniature/04_art/13_modular-furniture-one.webp?v=aed7dd48"
 },
@@ -3521,7 +3525,7 @@ window.ERFOTO = {
 "Built"
 ]
 ],
-"body": "<p>system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
+"body": "<p>A modular furniture system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
 },
 "t": "miniature/04_art/14_modular-furniture-two.webp?v=fea383ad"
 },
@@ -3547,7 +3551,7 @@ window.ERFOTO = {
 "Built"
 ]
 ],
-"body": "<p>system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
+"body": "<p>A modular furniture system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
 },
 "t": "miniature/04_art/15_modular-furniture-three.webp?v=671933fb"
 }
