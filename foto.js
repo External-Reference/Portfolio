@@ -2027,6 +2027,19 @@ window.ERFOTO = {
 ],
 "body": "<p>WOW Madrid transforms the historic Hotel Roma on Gran Vía into an immersive retail destination where each floor offers a distinct spatial experience. Cosmetics, technology, fashion, and home are presented through sculptural installations, digital environments, and changing scenographies. The project creates a dialogue between contemporary design and the building’s historic architecture.</p><p>The design treats retail as a changing show, where products, brands, and digital natives appear through sensory formats that evolve over time. Some areas are renewed seasonally, while others become stages for events, product launches, or fashion shows. Classical references are distorted through pixelation, marine corals are 3D printed with CO₂-capturing material, and Metaverse-inspired rooms blur domestic space with digital fantasy. Every intervention is conceived as removable, from skins to furniture, allowing the protected building to remain intact while hosting a playful, flexible, and provocative shopping experience.</p>"
 },
+"c": [
+"foto/03_interior/21_wow-concept-store/construction/01.webp?v=fbd7f5db",
+"foto/03_interior/21_wow-concept-store/construction/02.webp?v=b82fbe3a",
+"foto/03_interior/21_wow-concept-store/construction/03.webp?v=8db67664",
+"foto/03_interior/21_wow-concept-store/construction/04.webp?v=4b984653",
+"foto/03_interior/21_wow-concept-store/construction/05.webp?v=6fca5631",
+"foto/03_interior/21_wow-concept-store/construction/06.webp?v=8a9d2943",
+"foto/03_interior/21_wow-concept-store/construction/07.webp?v=ac0dabde",
+"foto/03_interior/21_wow-concept-store/construction/08.webp?v=2f29adcd",
+"foto/03_interior/21_wow-concept-store/construction/09.webp?v=f3eba143",
+"foto/03_interior/21_wow-concept-store/construction/10.webp?v=739bea17",
+"foto/03_interior/21_wow-concept-store/construction/11.webp?v=d2bc2578"
+],
 "t": "miniature/03_interior/21_wow-concept-store.webp?v=abffdf34"
 },
 "interior/presentedby-x-doha-design-district": {
