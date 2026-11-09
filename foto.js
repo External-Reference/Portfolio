@@ -1699,6 +1699,16 @@ window.ERFOTO = {
 ],
 "body": "<p>The Spectacular Suites are a fusion of modern Mediterranean luxury and Gaudí-inspired design, offering an unforgettable experience. Featuring flowing, sculptural lines and custom-made furnishings. With cutting-edge technology and spacious interiors, these suites embody a perfect harmony of art, design, and comfort, delivering a unique, immersive space in one of Barcelona’s most iconic locations.</p><p>By building elements layer by layer, additive manufacturing allows the creation of sinuous surfaces, curved panels, and soft transitions that would be difficult to achieve through standard construction. This technology gives precision to the organic language inspired by Gaudí and Catalan modernism, turning walls, furniture, and spatial details into continuous sculptural forms. Instead of rigid partitions, the interiors flow through printed geometries that adapt to the body and create a calm, tactile, and immersive atmosphere.</p>"
 },
+"c": [
+"foto/03_interior/13_onada-terrace-suites/construction/01.webp?v=6134adfc",
+"foto/03_interior/13_onada-terrace-suites/construction/02.webp?v=fdfd2674",
+"foto/03_interior/13_onada-terrace-suites/construction/03.webp?v=5dfe375b",
+"foto/03_interior/13_onada-terrace-suites/construction/04.webp?v=23b0098c",
+"foto/03_interior/13_onada-terrace-suites/construction/05.webp?v=5f25a867",
+"foto/03_interior/13_onada-terrace-suites/construction/06.webp?v=b5619b40",
+"foto/03_interior/13_onada-terrace-suites/construction/07.webp?v=a2d40566",
+"foto/03_interior/13_onada-terrace-suites/construction/08.webp?v=443ba95d"
+],
 "t": "miniature/03_interior/13_onada-terrace-suites.webp?v=fda8ced3"
 },
 "interior/mestia-hotel": {
