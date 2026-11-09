@@ -2432,6 +2432,13 @@ window.ERFOTO = {
 ],
 "body": "<p>The executive office for Undercover Brothers reimagines the workspace as a fluid sculptural environment. A continuous monochromatic interior features curved ceiling forms that integrate lighting and flow into the floor, framing a built-in digital screen. This uninterrupted spatial gesture creates a dynamic yet refined atmosphere that enhances focus and presence.</p><p>The material palette, subtle yet sophisticated, ensures a cohesive aesthetic that accentuates the play of light and form. Enclosed offices feature floor-to-ceiling glazing, maximizing views of the Dubai skyline while maintaining transparency and connectivity. Every element is crafted to balance functionality and elegance, creating a workspace that feels both contemporary and serene, embodying a sense of fluidity and precision.</p>"
 },
+"c": [
+"foto/03_interior/32_undercover-brothers-offices/construction/01.webp?v=a513aaec",
+"foto/03_interior/32_undercover-brothers-offices/construction/02.webp?v=a92675af",
+"foto/03_interior/32_undercover-brothers-offices/construction/03.webp?v=cee45fac",
+"foto/03_interior/32_undercover-brothers-offices/construction/04.webp?v=ee68b039",
+"foto/03_interior/32_undercover-brothers-offices/construction/05.webp?v=693bfa4b"
+],
 "t": "miniature/03_interior/32_undercover-brothers-offices.webp?v=cfb50d80"
 },
 "interior/casa-sayrach-principal-office": {
