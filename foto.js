@@ -9,19 +9,35 @@ window.ERFOTO = {
 "p": {
 "urban/aurom": {
 "f": [
-"foto/02_urban/01_aurom/01.webp?v=d41eba39",
-"foto/02_urban/01_aurom/02.webp?v=5b7a544e",
-"foto/02_urban/01_aurom/03.webp?v=297652e5",
-"foto/02_urban/01_aurom/04.webp?v=5aaf42af",
-"foto/02_urban/01_aurom/D11_EJ_01-1.webp?v=d19c5925",
-"foto/02_urban/01_aurom/D11_EJ_02-A-1.webp?v=55deefdf",
-"foto/02_urban/01_aurom/D11_EJ_03-1.webp?v=b6d68590",
-"foto/02_urban/01_aurom/D11_EJ_04.webp?v=ca7b2f42",
-"foto/02_urban/01_aurom/D11_Premium_Entertainment_00.webp?v=f788c7e4",
-"foto/02_urban/01_aurom/D11_Premium_Family_00.webp?v=1a655003",
-"foto/02_urban/01_aurom/D11_Premium_Family_01.webp?v=aa6f9e82",
-"foto/02_urban/01_aurom/D11_Premium_Living_00.webp?v=e5d10183",
-"foto/02_urban/01_aurom/D11_Premium_Living_01.webp?v=2f0e0b49"
+"foto/02_urban/01_aurom/01.webp?v=54d7337d",
+"foto/02_urban/01_aurom/02.webp?v=09a04a43",
+"foto/02_urban/01_aurom/03.webp?v=6f3b513d",
+"foto/02_urban/01_aurom/04.webp?v=295c8a27",
+"foto/02_urban/01_aurom/05.webp?v=5066f425",
+"foto/02_urban/01_aurom/06.webp?v=698c4bd0",
+"foto/02_urban/01_aurom/07.webp?v=19862e89",
+"foto/02_urban/01_aurom/08.webp?v=442a7af8",
+"foto/02_urban/01_aurom/09.webp?v=2595d20f",
+"foto/02_urban/01_aurom/10.webp?v=f0580222",
+"foto/02_urban/01_aurom/11.webp?v=7638183f",
+"foto/02_urban/01_aurom/12.webp?v=73b4b020",
+"foto/02_urban/01_aurom/13.webp?v=0ded4122",
+"foto/02_urban/01_aurom/14.webp?v=a7302bba",
+"foto/02_urban/01_aurom/15.webp?v=fa9b55c8",
+"foto/02_urban/01_aurom/16.webp?v=648ab9bd",
+"foto/02_urban/01_aurom/17.webp?v=acbbd61d",
+"foto/02_urban/01_aurom/18.webp?v=faac1224",
+"foto/02_urban/01_aurom/19.webp?v=49f78af5",
+"foto/02_urban/01_aurom/20.webp?v=70f68e75",
+"foto/02_urban/01_aurom/21.webp?v=a64cc628",
+"foto/02_urban/01_aurom/22.webp?v=f00c7534",
+"foto/02_urban/01_aurom/23.webp?v=c9ddff61",
+"foto/02_urban/01_aurom/24.webp?v=b0b0fea7",
+"foto/02_urban/01_aurom/25.webp?v=27b5df53",
+"foto/02_urban/01_aurom/26.webp?v=27e6d9b9",
+"foto/02_urban/01_aurom/27.webp?v=05174449",
+"foto/02_urban/01_aurom/28.webp?v=86531458",
+"foto/02_urban/01_aurom/29.webp?v=620b3b17"
 ],
 "x": {
 "title": "Aurom Residences, D11",
@@ -44,7 +60,7 @@ window.ERFOTO = {
 ],
 "body": "<p>District 11 at Mohammed Bin Rashid Al Maktoum City is a carefully planned master community that embraces the rhythm of nature at the heart of Dubai. Designed for families and individuals seeking balance and wellbeing, it redefines premium living through a closer connection with the landscape. A new expression of luxury shaped by design and nature.</p><p>Within this context, Aurom is designed as a sanctuary where water, greenery, and luxury architecture coexist in perfect harmony. Its expansive villas create a landscape of privacy, light, and space. Each residence opens onto private gardens and outdoor living areas, encouraging a daily connection with nature.</p><p>The central feature of the Aurom Villas is the water landscape, a space where water shapes the atmosphere and experience, enhancing the aesthetic and sensory quality of the community by bringing movement, reflection, and sound.</p>"
 },
-"t": "miniature/02_urban/01_aurom.webp?v=9c4b55c9"
+"t": "miniature/02_urban/01_aurom.webp?v=af92ee18"
 },
 "urban/al-khawaneej-villa": {
 "f": [
@@ -1193,12 +1209,12 @@ window.ERFOTO = {
 "p": "foto/03_interior/02_alkimia/00_video.poster.webp?v=cbdc8ac5"
 },
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
-"foto/03_interior/02_alkimia/2.webp?v=a1983d74",
 "foto/03_interior/02_alkimia/02.webp?v=d253546f",
+"foto/03_interior/02_alkimia/2.webp?v=a1983d74",
 "foto/03_interior/02_alkimia/03.webp?v=a00ae0ea",
 "foto/03_interior/02_alkimia/04.webp?v=76707a7a",
-"foto/03_interior/02_alkimia/05.webp?v=079f2ae7",
-"foto/03_interior/02_alkimia/5.webp?v=e6098661"
+"foto/03_interior/02_alkimia/5.webp?v=e6098661",
+"foto/03_interior/02_alkimia/05.webp?v=079f2ae7"
 ],
 "x": {
 "title": "Alkimia",
@@ -2048,10 +2064,10 @@ window.ERFOTO = {
 "v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=daadd5f8",
 "p": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.poster.webp?v=e1bb381c"
 },
-"foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
 "foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
-"foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
+"foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
 "foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
+"foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
 "foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93",
 "foto/03_interior/22_presentedby-x-doha-design-district/10.webp?v=9c6dd30c"
@@ -2089,7 +2105,7 @@ window.ERFOTO = {
 "foto/03_interior/22_presentedby-x-doha-design-district/construction/05.webp?v=444af556",
 "foto/03_interior/22_presentedby-x-doha-design-district/construction/06.webp?v=4e1ea11f"
 ],
-"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
+"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=d59984ba"
 },
 "interior/presentedby-x-riyadh": {
 "f": [
