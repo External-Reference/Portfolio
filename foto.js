@@ -3354,6 +3354,41 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/54_presentedby-x-harvey-nichols-london.webp?v=3cf42754"
 },
+"interior/crep-protect-x-level-shoes": {
+"f": [
+"foto/03_interior/55_crep-protect-x-level-shoes/01.webp?v=7f2926bd",
+"foto/03_interior/55_crep-protect-x-level-shoes/02.webp?v=4c670bf5",
+"foto/03_interior/55_crep-protect-x-level-shoes/03.webp?v=3b1977ab",
+"foto/03_interior/55_crep-protect-x-level-shoes/04.webp?v=f4ca137d",
+"foto/03_interior/55_crep-protect-x-level-shoes/05.webp?v=78a2b128"
+],
+"x": {
+"title": "Crep Protect X Level Shoes",
+"place": "Dubai, UAE, 2021",
+"sub": "Retail",
+"tags": [],
+"meta": [
+[
+"Location",
+"Level Shoes, Dubai Mall, UAE"
+],
+[
+"Typology",
+"Retail"
+],
+[
+"Client",
+"Crep Protect"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>The futuristic store welcomes visitors into a distinctive three-dimensional structure, hosting a range of exclusive activations for Dubai’s sneakerhead community. At its heart is the signature Crep Protect waterfall, a backdrop conceived for social media content, alongside glass display cases presenting some of the most sought-after sneaker drops and in-store touch screens where visitors play the brand’s Sneaker Ninja game to compete for monthly releases.</p><p>The experience continues with the first-ever Sneaker Crate Screen Wall, an interactive visual installation with screens fitted inside Crep Protect’s Sneaker Crates to showcase the latest product content. Developed together with the Crep Protect team, the design brings every element of the customer journey into a single space that immerses visitors in the brand’s DNA, right next door to the premium sneaker and streetwear consignment boutique Presentedby.</p>"
+},
+"t": "miniature/03_interior/55_crep-protect-x-level-shoes.webp?v=be516aa1"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3825,7 +3860,8 @@ window.ERFOTO = {
 "interior/earlier-mona-lisa-exhibition",
 "interior/crep-pop-up-store",
 "interior/presentedby-x-abu-dhabi",
-"interior/presentedby-x-harvey-nichols-london"
+"interior/presentedby-x-harvey-nichols-london",
+"interior/crep-protect-x-level-shoes"
 ],
 "art": [
 "art/pure-plants",
