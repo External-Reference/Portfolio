@@ -3315,6 +3315,45 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/53_presentedby-x-abu-dhabi.webp?v=e8105fe7"
 },
+"interior/presentedby-x-harvey-nichols-london": {
+"f": [
+{
+"v": "foto/03_interior/54_presentedby-x-harvey-nichols-london/00_video.mp4?v=24ab6084",
+"p": "foto/03_interior/54_presentedby-x-harvey-nichols-london/00_video.poster.webp?v=b8b86836"
+},
+"foto/03_interior/54_presentedby-x-harvey-nichols-london/01.webp?v=d9c99ddb",
+"foto/03_interior/54_presentedby-x-harvey-nichols-london/02.webp?v=65d7a02f",
+"foto/03_interior/54_presentedby-x-harvey-nichols-london/03.webp?v=7139b2cc",
+"foto/03_interior/54_presentedby-x-harvey-nichols-london/04.webp?v=45e87670",
+"foto/03_interior/54_presentedby-x-harvey-nichols-london/05.webp?v=4be92673"
+],
+"x": {
+"title": "PresentedBy X Harvey Nichols London",
+"place": "London, UK, 2019",
+"sub": "Retail",
+"tags": [],
+"meta": [
+[
+"Location",
+"London, UK"
+],
+[
+"Typology",
+"Retail"
+],
+[
+"Area",
+"100 m2"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>For the concession launch of the Presented by brand at the Harvey Nichols department stores across the UK, we sought to maintain and further develop the characteristic brand identity created years earlier in our first collaboration with them, for their flagship store in London. The brick waves created for the first Presented by store have become an integral part of the brand’s identity and image, but for this collaboration with Harvey Nichols we had to take the idea much further.</p><p>The new programmable Techno Brick Wave represents the leap the brand has made over the years to become one of the country’s references in sneaker and urban hype culture. The programmable wall maintains the brand’s signature image while allowing it to renew itself constantly, simply by updating the visual content displayed on the wall, keeping the fresh feel that has come to represent it.</p><p>The fitting, originally created for the Harvey Nichols flagship store in Knightsbridge, had to allow rapid replication for the brand’s expansion across multiple Harvey Nichols stores in the UK. Even though each brick is a unique piece, algorithmic design combined with industrial laser cutting and a bespoke joining mechanism allows the fitting to be adapted to different stores throughout the UK, going from the design stage to being assembled and working in less than a month.</p>"
+},
+"t": "miniature/03_interior/54_presentedby-x-harvey-nichols-london.webp?v=3cf42754"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3785,7 +3824,8 @@ window.ERFOTO = {
 "interior/spanish-pavilion-expo-osaka-2025",
 "interior/earlier-mona-lisa-exhibition",
 "interior/crep-pop-up-store",
-"interior/presentedby-x-abu-dhabi"
+"interior/presentedby-x-abu-dhabi",
+"interior/presentedby-x-harvey-nichols-london"
 ],
 "art": [
 "art/pure-plants",
