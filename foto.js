@@ -3225,6 +3225,44 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/51_earlier-mona-lisa-exhibition.webp?v=b9c253ed"
 },
+"interior/crep-pop-up-store": {
+"f": [
+"foto/03_interior/52_crep-pop-up-store/01.webp?v=32a38514",
+"foto/03_interior/52_crep-pop-up-store/02.webp?v=119b3aff",
+"foto/03_interior/52_crep-pop-up-store/03.webp?v=9331eb20",
+"foto/03_interior/52_crep-pop-up-store/04.webp?v=1bed3e1a",
+"foto/03_interior/52_crep-pop-up-store/05.webp?v=3703ba28",
+"foto/03_interior/52_crep-pop-up-store/06.webp?v=cd7ad942",
+"foto/03_interior/52_crep-pop-up-store/07.webp?v=6fb755c0",
+"foto/03_interior/52_crep-pop-up-store/08.webp?v=d8b5fa26"
+],
+"x": {
+"title": "CREP Pop Up Store",
+"place": "Manchester, United Kingdom, 2025",
+"sub": "Retail",
+"tags": [],
+"meta": [
+[
+"Location",
+"Manchester, United Kingdom"
+],
+[
+"Typology",
+"Retail"
+],
+[
+"Client",
+"CREP Protect"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>Designed by External Reference for CREP Protect, this Pop Up Store is located inside JD Sports’ global flagship in Manchester, the world’s largest. Far from a conventional retail unit, the store reimagines the urban kiosk as a compact, self-sufficient module. Inspired by the functionality of supermarkets, the layout elevates sneaker care products to daily essentials. A sculptural ping-pong table echoes the brand’s iconic spray bottles and invites spontaneous interaction.</p><p>Inside, a central island organizes the visitor flow around display units, service counters, and a gamified Cop or Flow experience. The design merges physicality and utility, using padded volumes, yellow wired glass, and custom furniture to project CREP’s identity into space. The store’s modularity and recognizable form allow it to operate across diverse urban environments, reinforcing sneaker care as a part of everyday culture.</p>"
+},
+"t": "miniature/03_interior/52_crep-pop-up-store.webp?v=004d5c78"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3693,7 +3731,8 @@ window.ERFOTO = {
 "interior/expo-2020-dubai-india-pavilion-exhibition",
 "interior/spanish-pavilion-expo-2027-belgrade",
 "interior/spanish-pavilion-expo-osaka-2025",
-"interior/earlier-mona-lisa-exhibition"
+"interior/earlier-mona-lisa-exhibition",
+"interior/crep-pop-up-store"
 ],
 "art": [
 "art/pure-plants",
