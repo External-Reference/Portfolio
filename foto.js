@@ -3389,6 +3389,42 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/55_crep-protect-x-level-shoes.webp?v=be516aa1"
 },
+"interior/presentedby-x-le-bon-marche": {
+"f": [
+"foto/03_interior/56_presentedby-x-le-bon-marche/01.webp?v=16b16f9b",
+"foto/03_interior/56_presentedby-x-le-bon-marche/02.webp?v=96a8ee8f",
+"foto/03_interior/56_presentedby-x-le-bon-marche/03.webp?v=b491208f",
+"foto/03_interior/56_presentedby-x-le-bon-marche/04.webp?v=d1c8de7d",
+"foto/03_interior/56_presentedby-x-le-bon-marche/05.webp?v=ed037186",
+"foto/03_interior/56_presentedby-x-le-bon-marche/06.webp?v=eb9285fb"
+],
+"x": {
+"title": "PresentedBy X Le Bon Marché",
+"place": "Paris, France, 2020",
+"sub": "Retail",
+"tags": [],
+"meta": [
+[
+"Location",
+"Le Bon Marché, Paris, France"
+],
+[
+"Typology",
+"Retail"
+],
+[
+"Client",
+"Presentedby"
+],
+[
+"Status",
+"Built"
+]
+],
+"body": "<p>For the design of Presentedby at Le Bon Marché, External Reference drew inspiration from the Art Déco building where it is located, in particular from the square patterns of the historic glass canopies and from the iconic escalator. In the project, the square patterns become three-dimensional, arranging the trainers diagonally along two walls.</p><p>The volumetric matrix, fabricated in 3D-milled ash plywood, generates a wavy texture that reveals the layered structure of the wood. The square blocks are framed by brass lines and arranged to optimise the visual perception of the products. This geometric system of wooden blocks establishes a meaningful connection between tradition and future, craftsmanship and digital fabrication, Le Bon Marché and Presentedby.</p>"
+},
+"t": "miniature/03_interior/56_presentedby-x-le-bon-marche.webp?v=a05c3484"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3861,7 +3897,8 @@ window.ERFOTO = {
 "interior/crep-pop-up-store",
 "interior/presentedby-x-abu-dhabi",
 "interior/presentedby-x-harvey-nichols-london",
-"interior/crep-protect-x-level-shoes"
+"interior/crep-protect-x-level-shoes",
+"interior/presentedby-x-le-bon-marche"
 ],
 "art": [
 "art/pure-plants",
