@@ -1209,12 +1209,12 @@ window.ERFOTO = {
 "p": "foto/03_interior/02_alkimia/00_video.poster.webp?v=cbdc8ac5"
 },
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
-"foto/03_interior/02_alkimia/02.webp?v=d253546f",
 "foto/03_interior/02_alkimia/2.webp?v=a1983d74",
+"foto/03_interior/02_alkimia/02.webp?v=d253546f",
 "foto/03_interior/02_alkimia/03.webp?v=a00ae0ea",
 "foto/03_interior/02_alkimia/04.webp?v=76707a7a",
-"foto/03_interior/02_alkimia/5.webp?v=e6098661",
-"foto/03_interior/02_alkimia/05.webp?v=079f2ae7"
+"foto/03_interior/02_alkimia/05.webp?v=079f2ae7",
+"foto/03_interior/02_alkimia/5.webp?v=e6098661"
 ],
 "x": {
 "title": "Alkimia",
@@ -2064,10 +2064,10 @@ window.ERFOTO = {
 "v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=daadd5f8",
 "p": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.poster.webp?v=e1bb381c"
 },
-"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
-"foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
+"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
+"foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
 "foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93",
 "foto/03_interior/22_presentedby-x-doha-design-district/10.webp?v=9c6dd30c"
@@ -2105,7 +2105,7 @@ window.ERFOTO = {
 "foto/03_interior/22_presentedby-x-doha-design-district/construction/05.webp?v=444af556",
 "foto/03_interior/22_presentedby-x-doha-design-district/construction/06.webp?v=4e1ea11f"
 ],
-"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=d59984ba"
+"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
 },
 "interior/presentedby-x-riyadh": {
 "f": [
@@ -3263,6 +3263,58 @@ window.ERFOTO = {
 },
 "t": "miniature/03_interior/52_crep-pop-up-store.webp?v=004d5c78"
 },
+"interior/presentedby-x-abu-dhabi": {
+"f": [
+"foto/03_interior/53_presentedby-x-abu-dhabi/01.webp?v=8fd4ab3f",
+"foto/03_interior/53_presentedby-x-abu-dhabi/02.webp?v=fe684bf5",
+"foto/03_interior/53_presentedby-x-abu-dhabi/03.webp?v=9e18b726",
+"foto/03_interior/53_presentedby-x-abu-dhabi/04.webp?v=bfc66508",
+"foto/03_interior/53_presentedby-x-abu-dhabi/05.webp?v=5d081572",
+"foto/03_interior/53_presentedby-x-abu-dhabi/06.webp?v=a7abc36c"
+],
+"x": {
+"title": "PresentedBy X Abu Dhabi",
+"place": "Abu Dhabi, UAE, 2025",
+"sub": "Retail",
+"tags": [],
+"meta": [
+[
+"Location",
+"Abu Dhabi International Airport, UAE"
+],
+[
+"Typology",
+"Experiential Retail"
+],
+[
+"Client",
+"Avolta / Presentedby"
+],
+[
+"Area",
+"210 m2"
+],
+[
+"Status",
+"Built"
+],
+[
+"Award",
+"Frontier Awards 2025 – Best Travel Retail Shop"
+],
+[
+"Award",
+"SBID International Design Awards 2025 – Regional Winner (Middle East), Interior Retail"
+],
+[
+"Award",
+"London Design Awards 2025 – Platinum, First Place, Interior Retail Design"
+]
+],
+"body": "<p>Presented by debuts in Travel Retail with a new store at Abu Dhabi International Airport, in collaboration with Grupo Avolta. Designed by External Reference, the store offers an immersive shopping experience inspired by water as a symbol of calm in the bustling airport.</p><p>A digital waterfall marks the entrance, while 3D-printed panels mimic cascading water and shape the displays. At the center, a column resembling a fountain features a digital display simulating water particles, adding movement to the space.</p><p>Sustainability is central to the design: the 3D-printed panels use 70% recycled PET-G plastic, minimizing waste. The store also adopts a Design for Disassembly (DfD) approach, allowing materials to be reused. The concept combines a serene oasis with eco-conscious practices, promoting a circular economy.</p>"
+},
+"t": "miniature/03_interior/53_presentedby-x-abu-dhabi.webp?v=e8105fe7"
+},
 "art/pure-plants": {
 "f": [
 "foto/04_art/01_pure-plants/01.webp?v=4a0f9d24",
@@ -3732,7 +3784,8 @@ window.ERFOTO = {
 "interior/spanish-pavilion-expo-2027-belgrade",
 "interior/spanish-pavilion-expo-osaka-2025",
 "interior/earlier-mona-lisa-exhibition",
-"interior/crep-pop-up-store"
+"interior/crep-pop-up-store",
+"interior/presentedby-x-abu-dhabi"
 ],
 "art": [
 "art/pure-plants",
