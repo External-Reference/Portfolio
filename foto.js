@@ -3323,8 +3323,8 @@ window.ERFOTO = {
 },
 "foto/03_interior/54_presentedby-x-harvey-nichols-london/01.webp?v=d9c99ddb",
 "foto/03_interior/54_presentedby-x-harvey-nichols-london/02.webp?v=65d7a02f",
-"foto/03_interior/54_presentedby-x-harvey-nichols-london/03.webp?v=7139b2cc",
-"foto/03_interior/54_presentedby-x-harvey-nichols-london/04.webp?v=45e87670",
+"foto/03_interior/54_presentedby-x-harvey-nichols-london/03.webp?v=45e87670",
+"foto/03_interior/54_presentedby-x-harvey-nichols-london/04.webp?v=7139b2cc",
 "foto/03_interior/54_presentedby-x-harvey-nichols-london/05.webp?v=4be92673"
 ],
 "x": {
