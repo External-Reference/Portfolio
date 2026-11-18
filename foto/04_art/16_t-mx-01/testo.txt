@@ -1,8 +1,9 @@
 Title: T-MX 01
-Place: Furniture, 2025
+Place: Barcelona, Spain, 2025
 Tags:
+Location: Barcelona, Spain
 Typology: Furniture
-Year: 2025
+Status: Built
 
 This table is an exploration of pure forms and the balance between presence and weightlessness. Stripped down to its essence, it features a continuous, fluid top resting on two monolithic supports. These pillars ground the piece, creating a sense of strength and stability while allowing the top to appear almost suspended.
 
