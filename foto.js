@@ -3770,6 +3770,32 @@ window.ERFOTO = {
 "body": "<p>A modular furniture system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
 },
 "t": "miniature/04_art/15_modular-furniture-three.webp?v=671933fb"
+},
+"art/t-mx-01": {
+"f": [
+"foto/04_art/16_t-mx-01/01.webp?v=9a4f7e96",
+"foto/04_art/16_t-mx-01/02.webp?v=f9a0a197",
+"foto/04_art/16_t-mx-01/03.webp?v=eb49bbef",
+"foto/04_art/16_t-mx-01/04.webp?v=75bad1d1"
+],
+"x": {
+"title": "T-MX 01",
+"place": "Furniture, 2025",
+"sub": "",
+"tags": [],
+"meta": [
+[
+"Typology",
+"Furniture"
+],
+[
+"Year",
+"2025"
+]
+],
+"body": "<p>This table is an exploration of pure forms and the balance between presence and weightlessness. Stripped down to its essence, it features a continuous, fluid top resting on two monolithic supports. These pillars ground the piece, creating a sense of strength and stability while allowing the top to appear almost suspended.</p><p>The design embraces simplicity, where geometry and proportion dictate its character without unnecessary embellishments. Transparency plays a key role, amplifying the contrast between the solidity of the base and the lightness of the top, creating a subtle tension between mass and air. The table is not just a functional object: it is an experience of clarity and precision, where form and space interact seamlessly. The result is a timeless piece, refined and intentional, defined by its sculptural yet understated presence.</p>"
+},
+"t": "miniature/04_art/16_t-mx-01.webp?v=6a24b6d6"
 }
 },
 "s": {
@@ -3915,7 +3941,8 @@ window.ERFOTO = {
 "art/sensefi",
 "art/modular-furniture-one",
 "art/modular-furniture-two",
-"art/modular-furniture-three"
+"art/modular-furniture-three",
+"art/t-mx-01"
 ]
 }
 };
