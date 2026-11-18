@@ -3780,17 +3780,21 @@ window.ERFOTO = {
 ],
 "x": {
 "title": "T-MX 01",
-"place": "Furniture, 2025",
+"place": "Barcelona, Spain, 2025",
 "sub": "",
 "tags": [],
 "meta": [
+[
+"Location",
+"Barcelona, Spain"
+],
 [
 "Typology",
 "Furniture"
 ],
 [
-"Year",
-"2025"
+"Status",
+"Built"
 ]
 ],
 "body": "<p>This table is an exploration of pure forms and the balance between presence and weightlessness. Stripped down to its essence, it features a continuous, fluid top resting on two monolithic supports. These pillars ground the piece, creating a sense of strength and stability while allowing the top to appear almost suspended.</p><p>The design embraces simplicity, where geometry and proportion dictate its character without unnecessary embellishments. Transparency plays a key role, amplifying the contrast between the solidity of the base and the lightness of the top, creating a subtle tension between mass and air. The table is not just a functional object: it is an experience of clarity and precision, where form and space interact seamlessly. The result is a timeless piece, refined and intentional, defined by its sculptural yet understated presence.</p>"
