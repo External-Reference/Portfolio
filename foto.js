@@ -3650,7 +3650,7 @@ window.ERFOTO = {
 },
 "art/spine-table": {
 "f": [
-"foto/04_art/11_spine-table/01.webp?v=23f96f0b",
+"foto/04_art/11_spine-table/01.webp?v=c89e79dc",
 "foto/04_art/11_spine-table/02.webp?v=9fa39421",
 "foto/04_art/11_spine-table/03.webp?v=fa97e66a"
 ],
@@ -3667,7 +3667,7 @@ window.ERFOTO = {
 ],
 "body": "<p>Another piece for the Sayrach´s house collection, in Barcelona. If you enter the lobby of this historic monument, you immediately realise that it is an homage to the beauty and morphology of marine world: seashells, jellyfish, water and even a sculpture of a whale’s skeleton. This last one inspired the design of the `Spinal Table`, a piece based on the serial repetition of vertebrae. Designed through the use of parametric tools the table was built milling solid beech.</p>"
 },
-"t": "miniature/04_art/11_spine-table.webp?v=33dfb483"
+"t": "miniature/04_art/11_spine-table.webp?v=9d91fdef"
 },
 "art/sensefi": {
 "f": [
