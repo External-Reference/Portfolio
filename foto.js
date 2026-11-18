@@ -1209,12 +1209,12 @@ window.ERFOTO = {
 "p": "foto/03_interior/02_alkimia/00_video.poster.webp?v=cbdc8ac5"
 },
 "foto/03_interior/02_alkimia/01.webp?v=76c5ec7d",
-"foto/03_interior/02_alkimia/02.webp?v=d253546f",
 "foto/03_interior/02_alkimia/2.webp?v=a1983d74",
+"foto/03_interior/02_alkimia/02.webp?v=d253546f",
 "foto/03_interior/02_alkimia/03.webp?v=a00ae0ea",
 "foto/03_interior/02_alkimia/04.webp?v=76707a7a",
-"foto/03_interior/02_alkimia/5.webp?v=e6098661",
-"foto/03_interior/02_alkimia/05.webp?v=079f2ae7"
+"foto/03_interior/02_alkimia/05.webp?v=079f2ae7",
+"foto/03_interior/02_alkimia/5.webp?v=e6098661"
 ],
 "x": {
 "title": "Alkimia",
@@ -2064,10 +2064,10 @@ window.ERFOTO = {
 "v": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.mp4?v=daadd5f8",
 "p": "foto/03_interior/22_presentedby-x-doha-design-district/00_video.poster.webp?v=e1bb381c"
 },
-"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/01.webp?v=df7cc8e6",
-"foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
+"foto/03_interior/22_presentedby-x-doha-design-district/1.webp?v=fdc5e369",
 "foto/03_interior/22_presentedby-x-doha-design-district/2.webp?v=88954a9e",
+"foto/03_interior/22_presentedby-x-doha-design-district/02.webp?v=e351f956",
 "foto/03_interior/22_presentedby-x-doha-design-district/03.webp?v=78924f52",
 "foto/03_interior/22_presentedby-x-doha-design-district/04.webp?v=ab97eb93",
 "foto/03_interior/22_presentedby-x-doha-design-district/10.webp?v=9c6dd30c"
@@ -2105,7 +2105,7 @@ window.ERFOTO = {
 "foto/03_interior/22_presentedby-x-doha-design-district/construction/05.webp?v=444af556",
 "foto/03_interior/22_presentedby-x-doha-design-district/construction/06.webp?v=4e1ea11f"
 ],
-"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=d59984ba"
+"t": "miniature/03_interior/22_presentedby-x-doha-design-district.webp?v=3e5ffee4"
 },
 "interior/presentedby-x-riyadh": {
 "f": [
@@ -3825,6 +3825,31 @@ window.ERFOTO = {
 "body": "<p>Aura was born in the sea along with other natural forms of life. She comes from the Mediterranean reefs, although she easily adapts to different environments. However, she seeks to be human, as her skeleton was purposefully designed to suit human bodily features. This allows her to foster a new form of comfort.</p><p>Moreover, the chair ergonomically adheres to and supports the lower part of the human back like a sports car seat. Each chair is unique: the aluminium cast used to make it is poured into a sand mould which is destroyed immediately afterwards. This is why each Aura is a unique individual, exhibiting minimal but perceptible variations. The chair’s aluminium pieces are welded together and polished by hand and, once assembled, the chairs are upholstered in natural leather.</p>"
 },
 "t": "miniature/04_art/17_aura-chair.webp?v=0e1b90f8"
+},
+"art/milky-table": {
+"f": [
+"foto/04_art/18_milky-table/01.webp?v=c783e778",
+"foto/04_art/18_milky-table/02.webp?v=8ec45a25",
+"foto/04_art/18_milky-table/03.webp?v=4ecf61f1"
+],
+"x": {
+"title": "Milky Table",
+"place": "Barcelona, Spain, 2018",
+"sub": "",
+"tags": [],
+"meta": [
+[
+"Location",
+"Barcelona, Spain"
+],
+[
+"Typology",
+"Furniture"
+]
+],
+"body": "<p>Milky Table was designed for the meeting room of a renowned dairy company. Milk is an excellent medium for the growth of microorganisms: bacteria are employed to convert milk sugars into lactic acid, a process essential to the production of cheese and yogurt.</p><p>By monitoring bacterial communities in raw milk, we discovered intriguing white formations. These topographical morphologies were digitally simulated, modelled and translated into a Corian cast table.</p>"
+},
+"t": "miniature/04_art/18_milky-table.webp?v=0f43a866"
 }
 },
 "s": {
@@ -3972,7 +3997,8 @@ window.ERFOTO = {
 "art/modular-furniture-two",
 "art/modular-furniture-three",
 "art/t-mx-01",
-"art/aura-chair"
+"art/aura-chair",
+"art/milky-table"
 ]
 }
 };
