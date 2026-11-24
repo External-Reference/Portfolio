@@ -29,6 +29,13 @@ Dentro la cartella del progetto crea una sottocartella "construction" e caricaci
 Su GitHub: Add file > Upload files, e nel nome scrivi construction/01.jpg; oppure trascina l'intera cartella.
 Nella galleria del progetto compaiono sotto le foto principali, con il titolo "Construction".
 
+FOTO DELLA HOME (a rotazione)
+Le foto che ruotano a tutto schermo nella home sono nella cartella "home" (01.webp ... 05.webp).
+- Per sostituirne una: carica nella cartella "home" un file con lo stesso nome (lato lungo 2400 px, WebP o JPG;
+  se usi JPG cambia l'estensione anche in home.js).
+- Nomi, sezione, città/anno e progetto che si apre al clic sono nel file home.js, una riga per foto.
+- Nello stesso file, ERHOME_SECONDS decide quanti secondi resta ogni foto.
+
 TOGLIERE UNA FOTO
 Apri il file .webp nella cartella del progetto, menu ... > Delete file > Commit changes.
 
