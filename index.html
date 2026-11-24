@@ -401,10 +401,8 @@ img { display: block; }
 .ov-card:nth-child(n+7), .gal-item:nth-child(n+7) { animation-delay: .3s; }
 /* cursore con etichetta */
 .er-cursor { position: fixed; left: 0; top: 0; z-index: 100; pointer-events: none; will-change: transform; }
-.er-cursor span { position: absolute; left: -3.6rem; top: -3.6rem; width: 7.2rem; height: 7.2rem; border-radius: 50%; background: rgba(26,26,26,.88); color: var(--bg); display: flex; align-items: center; justify-content: center; font-family: var(--font); font-size: 1.15rem; letter-spacing: .04em; transform: scale(.2); opacity: 0; transition: transform .45s var(--ease), opacity .3s ease; backdrop-filter: blur(4px); }
-.er-cursor.is-on span { transform: scale(1); opacity: 1; }
-.er-cursor.is-on.is-down span { transform: scale(.88); }
-body.has-er-cursor [data-cursor] { cursor: none; }
+.er-cursor span { position: absolute; left: 1.4rem; top: 1.6rem; padding: .3rem .8rem .35rem; background: var(--black); color: var(--bg); font-family: var(--font); font-size: 1.1rem; line-height: 1.3; letter-spacing: .02em; white-space: nowrap; opacity: 0; transition: opacity .15s ease; }
+.er-cursor.is-on span { opacity: 1; }
 @media (max-width: 899px) { .slide:has(> .home-pill) .split > .fig, .slide:has(> .home-pill) .quote > .fig { padding-top: 4.4rem; } }
 @media (prefers-reduced-motion: reduce) { .slide, .ov-card img, .gal-item img, .cc-box img { transform: none !important; } .ov-card, .gal-item, .cover-card { animation: none !important; } }
 </style>
@@ -786,15 +784,14 @@ function __erMain() {
 function __erCursor() {
   if (!matchMedia('(hover: hover) and (pointer: fine)').matches || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const c = document.createElement('div'); c.className = 'er-cursor'; c.setAttribute('aria-hidden', 'true'); c.innerHTML = '<span></span>';
-  document.body.appendChild(c); document.body.classList.add('has-er-cursor');
-  const lab = c.firstChild; let x = 0, y = 0, cx = 0, cy = 0, on = false, raf = 0;
-  const loop = () => { cx += (x - cx) * .22; cy += (y - cy) * .22; c.style.transform = `translate3d(${cx}px, ${cy}px, 0)`; raf = Math.abs(x - cx) + Math.abs(y - cy) > .3 ? requestAnimationFrame(loop) : 0; };
+  document.body.appendChild(c);
+  const lab = c.firstChild; let on = false;
+  // l'etichetta segue il puntatore senza ritardo
   addEventListener('mousemove', e => {
-    x = e.clientX; y = e.clientY; if (!on) { cx = x; cy = y; }
+    c.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
     const t = e.target.closest && e.target.closest('[data-cursor]');
     if (t) { if (lab.textContent !== t.dataset.cursor) lab.textContent = t.dataset.cursor; }
     if (!!t !== on) { on = !!t; c.classList.toggle('is-on', on); }
-    if (!raf) raf = requestAnimationFrame(loop);
   }, { passive: true });
   document.addEventListener('mouseleave', () => { on = false; c.classList.remove('is-on'); });
   addEventListener('mousedown', () => c.classList.add('is-down')); addEventListener('mouseup', () => c.classList.remove('is-down'));
