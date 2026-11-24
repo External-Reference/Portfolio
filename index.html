@@ -358,6 +358,55 @@ img { display: block; }
 .mob-head, .side-close { display: none; }
 @media (max-width: 899px) { .mob-head { display: flex; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ================= Rifiniture (punto 5) ================= */
+/* il pulsante Home non copre più la foto: la foto parte all'altezza del testo */
+.slide:has(> .home-pill) .split > .fig, .slide:has(> .home-pill) .quote > .fig { padding-top: 5.6rem; }
+.split .txt.no-cols, .logos .txt.no-cols { column-count: auto; columns: auto; }
+@media (max-width: 1099px) { .split .txt.cols, .logos .txt { columns: auto; } }
+/* Leadership & Team: sotto i 1280px il Project Lead va sotto le persone, così le voci non vengono tagliate */
+@media (max-width: 1279px) { .team2 { grid-template-columns: 1fr; row-gap: 2.4rem; } .team2-bracket { display: none; } }
+.bar-nav #barCount { letter-spacing: .02em; }
+
+/* ================= Movimento (punto 6) ================= */
+:root { --ease: cubic-bezier(.16, 1, .3, 1); }
+.slide { transform: translateY(.6rem); transition: opacity .6s var(--ease), transform .9s var(--ease); }
+.slide.is-in { transform: none; }
+/* le foto entrano con una leggera messa a fuoco */
+.ov-card img, .gal-item img, .cc-box img { transform: scale(1.035); transition: opacity .7s ease, transform 1.4s var(--ease); }
+.ov-card img.is-ready, .gal-item img.is-ready, .cc-box img.is-ready { transform: none; }
+.fig img { transition: opacity .7s ease; }
+.cover.is-sel .cc-box { flex: 0 1 auto; min-height: 0; display: flex; background: none; }
+.cover.is-sel .cc-box img { max-height: 100%; }
+.cc-box { overflow: hidden; background: var(--light); }
+.cover-card img { transition: opacity .7s ease, transform 1.4s var(--ease); }
+/* zoom lento al passaggio del mouse */
+@media (hover: hover) {
+  .ov-card:hover img.is-ready, .gal-item:hover img.is-ready, .cover-card:hover img.is-ready { transform: scale(1.04); opacity: 1; transition: transform 1.2s var(--ease); }
+  .ov-card span, .cover-card span { transition: color .3s ease; }
+  .side-nav a, .g-items a { transition: color .25s ease, transform .35s var(--ease); }
+  .g-items a:hover { transform: translateX(.3rem); }
+  .arrow svg { transition: transform .35s var(--ease); }
+  #next:not(:disabled):hover svg { transform: translateX(.3rem); }
+  #prev:not(:disabled):hover svg { transform: translateX(-.3rem); }
+}
+/* le card compaiono in sequenza */
+@keyframes er-rise { from { opacity: 0; transform: translateY(1.2rem); } to { opacity: 1; transform: none; } }
+.slide.is-in .ov-card, .slide.is-in .gal-item, .slide.is-in .cover-card { animation: er-rise .8s var(--ease) both; }
+.ov-card:nth-child(2), .gal-item:nth-child(2), .cover-card:nth-child(2) { animation-delay: .05s; }
+.ov-card:nth-child(3), .gal-item:nth-child(3), .cover-card:nth-child(3) { animation-delay: .1s; }
+.ov-card:nth-child(4), .gal-item:nth-child(4), .cover-card:nth-child(4) { animation-delay: .15s; }
+.ov-card:nth-child(5), .gal-item:nth-child(5) { animation-delay: .2s; }
+.ov-card:nth-child(6), .gal-item:nth-child(6) { animation-delay: .25s; }
+.ov-card:nth-child(n+7), .gal-item:nth-child(n+7) { animation-delay: .3s; }
+/* cursore con etichetta */
+.er-cursor { position: fixed; left: 0; top: 0; z-index: 100; pointer-events: none; will-change: transform; }
+.er-cursor span { position: absolute; left: -3.6rem; top: -3.6rem; width: 7.2rem; height: 7.2rem; border-radius: 50%; background: rgba(26,26,26,.88); color: var(--bg); display: flex; align-items: center; justify-content: center; font-family: var(--font); font-size: 1.15rem; letter-spacing: .04em; transform: scale(.2); opacity: 0; transition: transform .45s var(--ease), opacity .3s ease; backdrop-filter: blur(4px); }
+.er-cursor.is-on span { transform: scale(1); opacity: 1; }
+.er-cursor.is-on.is-down span { transform: scale(.88); }
+body.has-er-cursor [data-cursor] { cursor: none; }
+@media (max-width: 899px) { .slide:has(> .home-pill) .split > .fig, .slide:has(> .home-pill) .quote > .fig { padding-top: 4.4rem; } }
+@media (prefers-reduced-motion: reduce) { .slide, .ov-card img, .gal-item img, .cc-box img { transform: none !important; } .ov-card, .gal-item, .cover-card { animation: none !important; } }
 </style>
 </head>
 <body>
@@ -520,6 +569,8 @@ function __erMain() {
   const byId = {}; S.forEach((s, i) => byId[s.id] = i);
   const stage = document.getElementById('stage');
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // superfici: "500 m 2" / "500 m2" / "500 sqm" -> "500 m²"
+  const sqm = s => String(s == null ? '' : s).replace(/(\d[\d.,]*)\s*(?:m\s?2|sqm|mq)(?![\w²])/gi, '$1 m²');
 
   // ---------- caricamento dei pacchetti di immagini su richiesta ----------
   window.ERIMG = window.ERIMG || {};
@@ -580,7 +631,7 @@ function __erMain() {
   }
   function render0(s) {
     switch (s.kind) {
-      case 'cover': return `<div class="slide cover"><h1>${esc(s.title)}</h1><div class="cover-row">${s.cats.map(c => `<button class="cover-card" data-go="${c.go}" type="button">${im(c.img, c.t)}<span>${esc(c.t)}</span></button>`).join('')}</div></div>`;
+      case 'cover': return `<div class="slide cover"><h1>${esc(s.title)}</h1><div class="cover-row">${s.cats.map(c => `<button class="cover-card" data-go="${c.go}" type="button" data-cursor="Explore"><div class="cc-box">${im(c.img, c.t)}</div><span>${esc(c.t)}</span></button>`).join('')}</div></div>`;
       case 'split': return `<div class="slide"><div class="split${s.wide ? ' is-wide' : ''}"><div class="col-txt"><h2 class="h${s.title ? '' : ' is-spacer'}" ${s.title ? '' : 'aria-hidden="true"'}>${esc(s.title || s.item || '')}</h2><div class="txt${(s.body || '').length > 1400 && !s.wide && !/team2|steps|aw-year/.test(s.body) ? ' cols' : ''}">${s.body}</div></div>${fig(s.img, s.cap, s.item, s.capHtml)}</div></div>`;
       case 'quote': return `<div class="slide"><div class="quote"><p>${s.quote}</p>${fig(s.img, s.cap)}</div></div>`;
       case 'full': return `<div class="slide"><div class="full"><div class="txt"><h2 class="h">${esc(s.title)}</h2>${s.body}</div></div></div>`;
@@ -597,7 +648,7 @@ function __erMain() {
         let html = `<div class="slide"><div class="ov"><h2 class="h">${esc(s.item)}</h2>`, cur = null, open = false;
         s.projects.forEach(p => {
           if (p.sub !== cur) { if (open) html += '</div>'; if (p.sub && p.sub !== s.item) { const n = s.projects.filter(x => x.sub === p.sub).length; html += `<div class="ov-sub"><span>${esc(p.sub)}</span><span class="ov-n">${n} ${n === 1 ? 'project' : 'projects'}</span></div>`; } html += '<div class="ov-grid">'; open = true; cur = p.sub; }
-          html += `<button class="ov-card${p.locked ? ' is-locked' : ''}" type="button" data-go="${p.go}"><div class="box">${im(p.img, p.t)}${p.locked ? '<span class="lk-badge">' + ER_LOCK_SVG + 'Confidential</span>' : ''}</div><span>${esc(p.t)}</span></button>`;
+          html += `<button class="ov-card${p.locked ? ' is-locked' : ''}" type="button" data-go="${p.go}" data-cursor="${p.locked ? 'Private' : 'Open'}"><div class="box">${im(p.img, p.t)}${p.locked ? '<span class="lk-badge">' + ER_LOCK_SVG + 'Confidential</span>' : ''}</div><span>${esc(p.t)}</span></button>`;
         });
         return html + (open ? '</div>' : '') + '</div></div>';
       }
@@ -609,10 +660,10 @@ function __erMain() {
         // tutte le foto del progetto: la prima grande, le altre in griglia; un clic apre la foto a schermo pieno
         const ent = s.id.replace(/\/\d+$/, '');
         const all = (s.imgs && s.imgs.length ? s.imgs : [s.img]).filter(Boolean), cons = s.cimgs || [];
-        const galItem = (k, j) => { const v = window.ERVID && window.ERVID[k]; return `<button type="button" class="gal-item${j === 0 ? ' is-first' : ''}${v ? ' is-video' : ''}" data-go="${ent}/${j + 2}" data-n="${j + 1}" aria-label="${v ? 'Video' : 'Photo'} ${j + 1}">${window.ERIMG[k] ? im(k, s.title) : (v ? `<video src="${v}#t=2" muted playsinline preload="metadata"></video>` : '')}${v ? '<span class="play" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M7 5 L15 10 L7 15 Z" fill="currentColor"/></svg></span>' : ''}</button>`; };
+        const galItem = (k, j) => { const v = window.ERVID && window.ERVID[k]; return `<button type="button" class="gal-item${j === 0 ? ' is-first' : ''}${v ? ' is-video' : ''}" data-cursor="${v ? 'Play' : 'View'}" data-go="${ent}/${j + 2}" data-n="${j + 1}" aria-label="${v ? 'Video' : 'Photo'} ${j + 1}">${window.ERIMG[k] ? im(k, s.title) : (v ? `<video src="${v}#t=2" muted playsinline preload="metadata"></video>` : '')}${v ? '<span class="play" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M7 5 L15 10 L7 15 Z" fill="currentColor"/></svg></span>' : ''}</button>`; };
         const gal = `<div class="gal">${all.map(galItem).join('')}${cons.length ? `<div class="gal-sec">Construction<span>${cons.length}</span></div>${cons.map((k, j) => galItem(k, all.length + j)).join('')}` : ''}</div>`;
         const sec = SECOF(ent);
-        return `<div class="slide"><button class="close-x is-back" type="button" data-go="${sec}" aria-label="Back to all projects" title="All projects (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="intro">${gal}<div class="info"><div class="info-num">${s.num}</div><h2>${esc(s.title)}</h2><div class="info-place">${esc(s.place)}</div><dl>${s.meta.filter(([k]) => !/^(awards?|premi|premio|premios)$/i.test(k)).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>${(() => { const aw = s.meta.filter(([k]) => /^(awards?|premi|premio|premios)$/i.test(k)); return aw.length ? `<div class="info-awards"><div class="info-awards-h">Awards</div><ul>${aw.map(([, v]) => `<li>${esc(v)}</li>`).join('')}</ul></div>` : ''; })()}<div class="txt">${s.body}</div><p class="info-hint">${(() => { const nv = all.filter(k => window.ERVID && window.ERVID[k]).length, np = all.length - nv; if (all.length < 2) return ''; return (np ? np + (np > 1 ? ' photos' : ' photo') : '') + (np && nv ? ' + ' : '') + (nv ? nv + (nv > 1 ? ' videos' : ' video') : '') + ' — click to view full screen'; })()}</p></div></div></div>`;
+        return `<div class="slide"><button class="close-x is-back" type="button" data-go="${sec}" aria-label="Back to all projects" title="All projects (Esc)"><svg viewBox="0 0 20 20" fill="none"><path d="M3 3 L17 17 M17 3 L3 17" stroke="currentColor" stroke-width="1.3"/></svg></button><div class="intro">${gal}<div class="info"><div class="info-num">${s.num}</div><h2>${esc(s.title)}</h2><div class="info-place">${esc(s.place)}</div><dl>${s.meta.filter(([k]) => !/^(awards?|premi|premio|premios)$/i.test(k)).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${sqm(esc(v))}</dd>`).join('')}</dl>${(() => { const aw = s.meta.filter(([k]) => /^(awards?|premi|premio|premios)$/i.test(k)); return aw.length ? `<div class="info-awards"><div class="info-awards-h">Awards</div><ul>${aw.map(([, v]) => `<li>${esc(v)}</li>`).join('')}</ul></div>` : ''; })()}<div class="txt">${sqm(s.body)}</div><p class="info-hint">${(() => { const nv = all.filter(k => window.ERVID && window.ERVID[k]).length, np = all.length - nv; if (all.length < 2) return ''; return (np ? np + (np > 1 ? ' photos' : ' photo') : '') + (np && nv ? ' + ' : '') + (nv ? nv + (nv > 1 ? ' videos' : ' video') : '') + ' — click to view full screen'; })()}</p></div></div></div>`;
       }
       case 'image': {
         const ent = s.id.replace(/\/\d+$/, '');
@@ -635,13 +686,29 @@ function __erMain() {
 
   let idx = 0;
   function groupOf(s) { return s.id === 'home' ? null : SECOF(s.id); }
+  const pad2 = n => String(n).padStart(2, '0');
+  function counterOf(s) {
+    if (s.kind === 'cover') return '';
+    const g = T.find(t => t.id === groupOf(s)); if (!g || !g.items) return '';
+    if (s.kind === 'overview') return g.items.length + (g.items.length === 1 ? ' project' : ' projects');
+    const n = g.items.findIndex(it => it.id === s.entity);
+    return n < 0 ? '' : pad2(n + 1) + ' / ' + pad2(g.items.length);
+  }
+  // testo su due colonne solo se ci sta: altrimenti le colonne in più finiscono fuori, con una barra orizzontale
+  function fitCols(root) {
+    root.querySelectorAll('.txt.cols, .logos .txt').forEach(t => {
+      t.classList.remove('no-cols');
+      if (t.scrollWidth > t.clientWidth + 2) t.classList.add('no-cols');
+    });
+  }
+  addEventListener('resize', () => { const el = stage.querySelector('.slide:last-child'); if (el) fitCols(el); });
   function show(i, push) {
     i = Math.max(0, Math.min(S.length - 1, i));
     const s = S[i]; idx = i;
     const old = stage.querySelector('.slide');
     stage.insertAdjacentHTML('beforeend', render(s));
     const el = stage.lastElementChild;
-    hydrate(el);
+    hydrate(el); fitCols(el);
     requestAnimationFrame(() => { el.classList.add('is-in'); if (old) old.remove(); });
     // cosa stiamo guardando
     const sec = s.kind === 'cover' ? '' : (s.section || '') + (s.sub && s.sub !== s.section ? ' — ' + s.sub : '');
@@ -651,7 +718,7 @@ function __erMain() {
     document.getElementById('nowItem').textContent = item;
     document.getElementById('nowCount').textContent = s.of > 1 ? `${s.n} / ${s.of}` : '';
     document.getElementById('barWhere').innerHTML = s.kind === 'cover' ? '<b>External Reference</b> — ' + esc(SUB) : `${esc(sec)} — <b>${esc(item)}</b>`;
-    document.getElementById('barCount').textContent = `${i + 1} / ${S.length}`;
+    document.getElementById('barCount').textContent = counterOf(s);
     document.getElementById('prev').disabled = i === 0;
     document.getElementById('next').disabled = i === S.length - 1;
     // indice: gruppo aperto e voce corrente
@@ -715,9 +782,26 @@ function __erMain() {
   const start = decodeURIComponent(location.hash.slice(1));
   show(start in byId ? byId[start] : 0, false);
 }
+// cursore con etichetta sulle immagini cliccabili (solo mouse, rispettando "riduci movimento")
+function __erCursor() {
+  if (!matchMedia('(hover: hover) and (pointer: fine)').matches || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const c = document.createElement('div'); c.className = 'er-cursor'; c.setAttribute('aria-hidden', 'true'); c.innerHTML = '<span></span>';
+  document.body.appendChild(c); document.body.classList.add('has-er-cursor');
+  const lab = c.firstChild; let x = 0, y = 0, cx = 0, cy = 0, on = false, raf = 0;
+  const loop = () => { cx += (x - cx) * .22; cy += (y - cy) * .22; c.style.transform = `translate3d(${cx}px, ${cy}px, 0)`; raf = Math.abs(x - cx) + Math.abs(y - cy) > .3 ? requestAnimationFrame(loop) : 0; };
+  addEventListener('mousemove', e => {
+    x = e.clientX; y = e.clientY; if (!on) { cx = x; cy = y; }
+    const t = e.target.closest && e.target.closest('[data-cursor]');
+    if (t) { if (lab.textContent !== t.dataset.cursor) lab.textContent = t.dataset.cursor; }
+    if (!!t !== on) { on = !!t; c.classList.toggle('is-on', on); }
+    if (!raf) raf = requestAnimationFrame(loop);
+  }, { passive: true });
+  document.addEventListener('mouseleave', () => { on = false; c.classList.remove('is-on'); });
+  addEventListener('mousedown', () => c.classList.add('is-down')); addEventListener('mouseup', () => c.classList.remove('is-down'));
+}
 (async function () {
   try { await __erUnlock(); } catch (e) {}
-  __erTransform(); __erMain();
+  __erTransform(); __erMain(); __erCursor();
 })();
 </script>
 </body>
