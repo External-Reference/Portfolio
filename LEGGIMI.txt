@@ -99,3 +99,13 @@ Il file selezioni.js contiene le selezioni, ognuna con titolo e progetti in ordi
 Link: index.html?sel=NOME, oppure la pagina dedicata (es. expo-exhibition.html).
 Foto e testi vengono dal portfolio principale: se aggiorni un progetto, si aggiorna anche nella selezione.
 Per creare una selezione nuova chiedi a Claude.
+
+PORTFOLIO OFFLINE (SU COMPUTER, SENZA INTERNET)
+1. Scarica il sito completo (circa 630 MB, è sempre la versione aggiornata):
+   https://github.com/external-reference/Portfolio/archive/refs/heads/main.zip
+2. Fai doppio clic sul file scaricato per decomprimerlo: si crea la cartella "Portfolio-main".
+3. Apri la cartella e fai doppio clic su:
+   - index.html            -> portfolio completo
+   - expo-exhibition.html  -> selezione Expo & Exhibition
+Si apre nel browser e funziona anche senza connessione (foto, video, progetti con PIN).
+È una copia: quando il sito online cambia, scarica di nuovo lo ZIP e sostituisci la cartella.
