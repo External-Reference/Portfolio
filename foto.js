@@ -9,12 +9,12 @@ window.ERFOTO = {
 "p": {
 "urban/aurom": {
 "f": [
+"foto/02_urban/01_aurom/00a_06.webp?v=698c4bd0",
 "foto/02_urban/01_aurom/01.webp?v=54d7337d",
 "foto/02_urban/01_aurom/02.webp?v=09a04a43",
 "foto/02_urban/01_aurom/03.webp?v=6f3b513d",
 "foto/02_urban/01_aurom/04.webp?v=295c8a27",
 "foto/02_urban/01_aurom/05.webp?v=5066f425",
-"foto/02_urban/01_aurom/06.webp?v=698c4bd0",
 "foto/02_urban/01_aurom/07.webp?v=19862e89",
 "foto/02_urban/01_aurom/08.webp?v=442a7af8",
 "foto/02_urban/01_aurom/09.webp?v=2595d20f",
@@ -60,7 +60,7 @@ window.ERFOTO = {
 ],
 "body": "<p>District 11 at Mohammed Bin Rashid Al Maktoum City is a carefully planned master community that embraces the rhythm of nature at the heart of Dubai. Designed for families and individuals seeking balance and wellbeing, it redefines premium living through a closer connection with the landscape. A new expression of luxury shaped by design and nature.</p><p>Within this context, Aurom is designed as a sanctuary where water, greenery, and luxury architecture coexist in perfect harmony. Its expansive villas create a landscape of privacy, light, and space. Each residence opens onto private gardens and outdoor living areas, encouraging a daily connection with nature.</p><p>The central feature of the Aurom Villas is the water landscape, a space where water shapes the atmosphere and experience, enhancing the aesthetic and sensory quality of the community by bringing movement, reflection, and sound.</p>"
 },
-"t": "miniature/02_urban/01_aurom.webp?v=af92ee18"
+"t": "miniature/02_urban/01_aurom.webp?v=7d2dd05d"
 },
 "urban/al-khawaneej-villa": {
 "f": [
@@ -173,8 +173,8 @@ window.ERFOTO = {
 },
 "urban/villa-chiaramonte": {
 "f": [
+"foto/02_urban/05_villa-chiaramonte/00a_02.webp?v=222e50cd",
 "foto/02_urban/05_villa-chiaramonte/01.webp?v=f5261b6c",
-"foto/02_urban/05_villa-chiaramonte/02.webp?v=222e50cd",
 "foto/02_urban/05_villa-chiaramonte/03.webp?v=b38ce547",
 "foto/02_urban/05_villa-chiaramonte/Generated Image April 07, 2026 - 4_54PM.webp?v=5d61354f"
 ],
@@ -199,7 +199,7 @@ window.ERFOTO = {
 ],
 "body": "<p>A contemporary reinterpretation of the traditional Italian tenuta, rooted in the landscape of Chiaramonte. Local stone, terracotta, and timber ground the villa in the language of the countryside, while a more restrained, contemporary geometry reframes the estate for present-day living.</p><p>Courtyards and loggias mediate between built form and open land, extending the interior into orchards, vineyards, and rolling hills beyond. The result is an architecture of continuity, honoring the rural tradition it comes from while speaking, unmistakably, in its own voice.</p>"
 },
-"t": "miniature/02_urban/05_villa-chiaramonte.webp?v=cd957c61"
+"t": "miniature/02_urban/05_villa-chiaramonte.webp?v=6ac318be"
 },
 "urban/costa-do-vizir": {
 "f": [
@@ -656,11 +656,11 @@ window.ERFOTO = {
 },
 "urban/malinska": {
 "f": [
+"foto/02_urban/21_malinska/00a_2020_Malinska Hotel_converted_Página_08_Imagen_0001.webp?v=747637c0",
 "foto/02_urban/21_malinska/01.webp?v=516bf07b",
 "foto/02_urban/21_malinska/02.webp?v=b340f5f6",
 "foto/02_urban/21_malinska/03.webp?v=9969782e",
 "foto/02_urban/21_malinska/04.webp?v=10c7a650",
-"foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_08_Imagen_0001.webp?v=747637c0",
 "foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_11_Imagen_0001.webp?v=db3620ee",
 "foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_14_Imagen_0001.webp?v=6e61f50f",
 "foto/02_urban/21_malinska/2020_Malinska Hotel_converted_Página_16_Imagen_0001.webp?v=70ad802b"
@@ -690,16 +690,16 @@ window.ERFOTO = {
 ],
 "body": "<p>Located in Malinska, the resort is conceived as a vibrant community that brings together leisure, wellness, culture, and nature. The complex includes gardens, sports facilities, retail, food and beverage spaces, and a medical center. Designed as a year-round destination, it combines architecture, landscape, and advanced health services to strengthen Malinska’s position within international tourism.</p><p>The resort serves as an experiential hub, featuring workshops and an amphitheater for performances, music, and events. As Malinska’s first five-star resort, it offers luxury apartments with direct access to shared amenities. By combining hospitality, culture, and infrastructure, it aims to become a new reference point for Croatian tourism while supporting the growth of nearby communities.</p>"
 },
-"t": "miniature/02_urban/21_malinska.webp?v=af0ae346"
+"t": "miniature/02_urban/21_malinska.webp?v=0f5e9820"
 },
 "urban/amar-porto-covo": {
 "f": [
+"foto/02_urban/22_amar-porto-covo/00a_2021_Amar Porto Covo_Página_05_Imagen_0001.webp?v=ea4227c9",
 "foto/02_urban/22_amar-porto-covo/01.webp?v=c19afccb",
 "foto/02_urban/22_amar-porto-covo/02.webp?v=2f3dd67e",
 "foto/02_urban/22_amar-porto-covo/03.webp?v=a75df24a",
 "foto/02_urban/22_amar-porto-covo/04.webp?v=79e70eae",
 "foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_03_Imagen_0001.webp?v=504ce901",
-"foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_05_Imagen_0001.webp?v=ea4227c9",
 "foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_06_Imagen_0001.webp?v=e0c7d362",
 "foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_08_Imagen_0001.webp?v=5f3c0c2d",
 "foto/02_urban/22_amar-porto-covo/2021_Amar Porto Covo_Página_09_Imagen_0001.webp?v=886a9968",
@@ -730,7 +730,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The project envisions an Epicurean boho-chic hotel that reinterprets traditional hospitality. Seamlessly integrated into the landscape, the design maintains strong visual coherence while reducing environmental impact. Efficiency, energy performance, and ecological awareness guide the architecture.</p><p>Materials and construction methods follow sustainable principles and respect the local context. Where possible, the project uses local resources, including cork for finishes and structural elements, and rammed earth for the façade walls. These choices support local industries and help the building blend with its environment, while the landscape design responds to the relief, terrain, and natural character of the site.</p>"
 },
-"t": "miniature/02_urban/22_amar-porto-covo.webp?v=264eaa72"
+"t": "miniature/02_urban/22_amar-porto-covo.webp?v=2ff6a2d8"
 },
 "urban/karakum-hotel": {
 "f": [
@@ -769,10 +769,10 @@ window.ERFOTO = {
 },
 "urban/aerospace-campus": {
 "f": [
+"foto/02_urban/24_aerospace-campus/00a_DIA3-02.webp?v=22389ac5",
 "foto/02_urban/24_aerospace-campus/01.webp?v=154a2265",
 "foto/02_urban/24_aerospace-campus/02.webp?v=a8d0a737",
-"foto/02_urban/24_aerospace-campus/03.webp?v=9c1ea704",
-"foto/02_urban/24_aerospace-campus/DIA3-02.webp?v=22389ac5"
+"foto/02_urban/24_aerospace-campus/03.webp?v=9c1ea704"
 ],
 "x": {
 "title": "Aerospace Campus",
@@ -803,7 +803,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The Aerospace Campus is a redevelopment project for the Montaudran Aerodrome, designed to increase efficiency in the production, education, and research of the European aerospace industry. Located near the Rangueil Scientific Campus and Paul Sabatier University, the development includes office space, research facilities, leisure facilities, and retail.</p><p>Home to the Latécoère factory and the Aéropostale services, the Montaudran Aerodrome is closely associated with Antoine de Saint-Exupéry, one of the great pilots of the twentieth century.</p>"
 },
-"t": "miniature/02_urban/24_aerospace-campus.webp?v=cc216b49"
+"t": "miniature/02_urban/24_aerospace-campus.webp?v=2d11011e"
 },
 "urban/jeddah-fashion-island": {
 "f": [
@@ -2981,8 +2981,8 @@ window.ERFOTO = {
 "v": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.mp4?v=a99cc084",
 "p": "foto/03_interior/45_shenzhen-science-museum-main-installation/00_video.poster.webp?v=4486a25d"
 },
+"foto/03_interior/45_shenzhen-science-museum-main-installation/00a_02.webp?v=c3f2e8ca",
 "foto/03_interior/45_shenzhen-science-museum-main-installation/01.webp?v=d3b959cd",
-"foto/03_interior/45_shenzhen-science-museum-main-installation/02.webp?v=c3f2e8ca",
 "foto/03_interior/45_shenzhen-science-museum-main-installation/03.webp?v=879744c0",
 "foto/03_interior/45_shenzhen-science-museum-main-installation/04.webp?v=31af1b8f",
 "foto/03_interior/45_shenzhen-science-museum-main-installation/05.webp?v=c0b11803",
@@ -3016,7 +3016,7 @@ window.ERFOTO = {
 ],
 "body": "<p>Fractal science reveals a universal geometric matrix that is self-evident throughout nature. We live in a universe of electromagnetic fractal waves: every branch of energy in the universe is fractal, and since everything is energy, everything is self-similar.</p><p>The branching organism is the symbol of the whole of nature, human beings and technology, and of the interconnection between living and artificial elements in the world. Located in the central part of the museum hall, it draws people in and involves visitors in an immersive, interactive experience.</p>"
 },
-"t": "miniature/03_interior/45_shenzhen-science-museum-main-installation.webp?v=e1949c5e"
+"t": "miniature/03_interior/45_shenzhen-science-museum-main-installation.webp?v=e12dec8e"
 },
 "interior/yota-pavilion-ii": {
 "f": [
@@ -3056,8 +3056,8 @@ window.ERFOTO = {
 },
 "interior/expo-2020-dubai-peru-pavilion-exhibition": {
 "f": [
+"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/00a_02.webp?v=73207e28",
 "foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/01.webp?v=3c3abb5c",
-"foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/02.webp?v=73207e28",
 "foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/03.webp?v=8798a6bd",
 "foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/04.webp?v=afd092db",
 "foto/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition/05.webp?v=ff79c1ae",
@@ -3092,7 +3092,7 @@ window.ERFOTO = {
 ],
 "body": "<p>From the mountains to the coast, from tradition to the present, from Peru to the world. The pavilion is conceived as a holistic learning experience of Peruvian wisdom, formed by partial experiences lived in each room and structured as a journey across the three theme axes of Expo 2020 Dubai.</p><p>Mobility, through the Peruvian people: from the cradle of the Inca civilisation in the mountains to the coast, cradle of the oldest civilisations, and today from Peru to the world, through superfoods and gastronomy. Sustainability, as part of a Peruvian wisdom based on living in harmony with nature. Opportunity, through the promotion of innovation projects, and especially superfoods.</p>"
 },
-"t": "miniature/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition.webp?v=6c38513b"
+"t": "miniature/03_interior/47_expo-2020-dubai-peru-pavilion-exhibition.webp?v=1cf2ca1d"
 },
 "interior/expo-2020-dubai-india-pavilion-exhibition": {
 "f": [
@@ -3613,11 +3613,11 @@ window.ERFOTO = {
 },
 "art/dt-360-bcn": {
 "f": [
+"foto/04_art/07_dt-360-bcn/00a_05.webp?v=5386f564",
 "foto/04_art/07_dt-360-bcn/01.webp?v=2508d5ce",
 "foto/04_art/07_dt-360-bcn/02.webp?v=9b4a1bbe",
 "foto/04_art/07_dt-360-bcn/03.webp?v=cee5c70f",
 "foto/04_art/07_dt-360-bcn/04.webp?v=ee2955ee",
-"foto/04_art/07_dt-360-bcn/05.webp?v=5386f564",
 "foto/04_art/07_dt-360-bcn/06.webp?v=a4a4dabe",
 "foto/04_art/07_dt-360-bcn/07.webp?v=84e178cf",
 "foto/04_art/07_dt-360-bcn/08.webp?v=3f5a2199"
@@ -3635,7 +3635,7 @@ window.ERFOTO = {
 ],
 "body": "<p>The DT-360-BCN series translates invisible urban data into patterns.</p><p>DT-360-BCN-PS renders public safety data as waveforms — frequency marks recurrence, amplitude marks severity.</p><p>DT-360-BCN-AP maps electromagnetic, thermal, and atmospheric fields as vectors, generating the pattern’s lines from each point in space.</p><p>DT-360-BCN-DC visualizes the city’s daily commuter flows through particle and reaction-diffusion systems.</p>"
 },
-"t": "miniature/04_art/07_dt-360-bcn.webp?v=a6785fb4"
+"t": "miniature/04_art/07_dt-360-bcn.webp?v=42b41d95"
 },
 "art/lightscape": {
 "f": [
@@ -3748,8 +3748,8 @@ window.ERFOTO = {
 },
 "art/modular-furniture-one": {
 "f": [
+"foto/04_art/13_modular-furniture-one/00a_02.webp?v=628e6cc6",
 "foto/04_art/13_modular-furniture-one/01.webp?v=803710c3",
-"foto/04_art/13_modular-furniture-one/02.webp?v=628e6cc6",
 "foto/04_art/13_modular-furniture-one/03.webp?v=3607c759"
 ],
 "x": {
@@ -3769,7 +3769,7 @@ window.ERFOTO = {
 ],
 "body": "<p>A modular furniture system combining 3D-printed elements with wooden connections, redefining product design and interior architecture. Prioritizing aesthetics, sustainability, and efficiency, 3D printing allows for customized adjustments in each piece. The main materials are concrete for an industrial look and PIPG, a sustainable polymer of 70% recycled plastic and 30% fiberglass, ensuring strength and durability.</p><p>Inspired by textile maquila processes, cyclical patterns in printing enable precise assembly with wooden elements. Each module balances functionality, strength, and geometry for maximum rigidity. This dynamic approach moves beyond static furniture, offering an expandable, adaptable design. By merging technology, creativity, and sustainability, External Reference challenges traditional permanence, demonstrating how design evolves in a changing world.</p>"
 },
-"t": "miniature/04_art/13_modular-furniture-one.webp?v=aed7dd48"
+"t": "miniature/04_art/13_modular-furniture-one.webp?v=6f0b2d68"
 },
 "art/modular-furniture-two": {
 "f": [
