@@ -451,6 +451,9 @@ body.is-home .bar { display: none; }
   body.is-home .mob-head .menu-btn { color: #fff; height: 4.4rem; }
   body.is-home .mob-sub { display: block; position: absolute; left: 1.6rem; top: calc(5.4rem + env(safe-area-inset-top, 0px)); font-size: 1.3rem; line-height: 1.35; color: rgba(255,255,255,.9); }
   .slide.hero { overflow: hidden; }
+  .hero-shade { background: rgba(0,0,0,.28); }
+  body.is-home .mob-head .side-logo svg { filter: drop-shadow(0 0 8px rgba(0,0,0,.35)); }
+  body.is-home .mob-sub, body.is-home .mob-head .menu-btn { text-shadow: 0 0 10px rgba(0,0,0,.4); }
 }
 @media (prefers-reduced-motion: reduce) { .hero-img.on img { animation: none; } }
 </style>
@@ -673,15 +676,19 @@ function __erMain() {
     return TO_HOME.includes(s.kind) ? out.replace('<div class="slide">', '<div class="slide">' + HOME_X) : out;
   }
   // ---------- home: foto a tutto schermo a rotazione (home.js) ----------
+  function heroList() {
+    const H = window.__erSel ? window.__erSel.home : window.ERHOME;
+    return Array.isArray(H) && H.length ? H : null;
+  }
   function heroHtml(s) {
-    const H = window.ERHOME, pad = n => String(n).padStart(2, '0');
+    const H = heroList(), pad = n => String(n).padStart(2, '0');
     return `<div class="slide hero"><div class="hero-media">${H.map((h, j) => `<div class="hero-img${j === 0 ? ' on' : ''}"><img ${j === 0 ? 'src' : 'data-src'}="${esc(h.img)}" alt="${esc(h.title)}"></div>`).join('')}</div><div class="hero-shade" aria-hidden="true"></div><div class="hero-txt"><h1>${esc(s.title)}</h1><div class="hero-cap"><a class="hero-open" href="#${esc(H[0].go)}/1" data-go="${esc(H[0].go)}" data-cursor="Open"><span class="hero-title">${esc(H[0].title)}</span><span aria-hidden="true">→</span></a><div class="hero-meta"><span class="hero-sec">${esc(H[0].section)}</span><span class="hero-place">${esc(H[0].place)}</span></div><div class="hero-ticks"><div class="hero-bars">${H.map((h, j) => `<button type="button" class="hero-tick${j === 0 ? ' on' : ''}" data-hero="${j}" aria-label="${esc(h.title)}"><span></span><i></i></button>`).join('')}</div><span class="hero-n">01 / ${pad(H.length)}</span></div></div></div></div>`;
   }
   let heroT = null;
   function heroStop() { clearInterval(heroT); heroT = null; }
   function heroStart(el) {
     heroStop();
-    const H = window.ERHOME, pad = n => String(n).padStart(2, '0');
+    const H = heroList(), pad = n => String(n).padStart(2, '0');
     const imgs = [...el.querySelectorAll('.hero-img')], ticks = [...el.querySelectorAll('.hero-tick')];
     let cur = 0;
     // le altre foto si caricano dopo la prima
@@ -707,7 +714,7 @@ function __erMain() {
   }
   function render0(s) {
     switch (s.kind) {
-      case 'cover': if (!window.__erSel && window.ERHOME && window.ERHOME.length) return heroHtml(s);
+      case 'cover': if (heroList()) return heroHtml(s);
         return `<div class="slide cover"><h1>${esc(s.title)}</h1><div class="cover-row">${s.cats.map(c => `<button class="cover-card" data-go="${c.go}" type="button" data-cursor="Explore"><div class="cc-box">${im(c.img, c.t)}</div><span>${esc(c.t)}</span></button>`).join('')}</div></div>`;
       case 'split': return `<div class="slide"><div class="split${s.wide ? ' is-wide' : ''}"><div class="col-txt"><h2 class="h${s.title ? '' : ' is-spacer'}" ${s.title ? '' : 'aria-hidden="true"'}>${esc(s.title || s.item || '')}</h2><div class="txt${(s.body || '').length > 1400 && !s.wide && !/team2|steps|aw-year/.test(s.body) ? ' cols' : ''}">${s.body}</div></div>${fig(s.img, s.cap, s.item, s.capHtml)}</div></div>`;
       case 'quote': return `<div class="slide"><div class="quote"><p>${s.quote}</p>${fig(s.img, s.cap)}</div></div>`;
@@ -793,7 +800,8 @@ function __erMain() {
     // cosa stiamo guardando
     const sec = s.kind === 'cover' ? '' : (s.section || '') + (s.sub && s.sub !== s.section ? ' — ' + s.sub : '');
     const SUB = window.__erSel ? window.__erSel.title : 'Practice & Selected Works';
-    const homeLabel = s.kind === 'cover' && !window.__erSel ? 'Portfolio' : '';
+    const homeLabel = s.kind === 'cover' && heroList() ? 'Portfolio' : '';
+    const ms = document.querySelector('.mob-sub'); if (ms) ms.innerHTML = 'Portfolio<br>' + esc(SUB);
     const item = s.kind === 'cover' ? SUB : (s.item || '');
     document.getElementById('nowSection').textContent = homeLabel || sec;
     document.getElementById('nowItem').textContent = item;
